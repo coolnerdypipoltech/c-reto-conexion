@@ -1,0 +1,141 @@
+@keyframes fadeSlideDown {
+  from { opacity: 0; transform: translateY(-30px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeSlideUp {
+  from { opacity: 0; transform: translateY(40px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* 21s cycle: card1 shakes 0-2s, card2 at 7-9s, card3 at 14-16s */
+@keyframes card-shake {
+}
+
+.premios-section {
+  position: relative;
+  
+  background-image: var(--bg-desktop);
+  background-size: 100% 100%;
+  background-position: center;
+  overflow: hidden;
+  min-height: 100vh;
+  max-height: 100vh;
+}
+
+
+
+.premios-section__content {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.premios-section__eyebrow {
+  font-family: var(--font-heading);
+  font-size: 16px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: var(--color-primary);
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.premios-section__title {
+  max-width: 784px;
+  text-align: center;
+  margin-bottom: 0px;
+  width: 90%
+}
+
+/* default hidden state before animation */
+.premios-section__title {
+  opacity: 0;
+}
+
+.premios-section__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  margin-top: 30px;
+}
+
+.premios-card {
+  opacity: 0;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.premios-card__image:hover {
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+}
+
+.premios-card__image {
+    width: 20vw;
+  height: auto;
+  max-width: 250px;
+      transition: all 0.3s ease;
+  object-fit: contain;
+  display: block;
+}
+
+/* ── Entrance animations ── */
+
+.premios-section--visible .premios-section__title {
+  animation: fadeSlideDown 0.6s cubic-bezier(0.22, 0.61, 0.36, 1) 0.1s forwards;
+}
+
+.premios-section--visible .premios-card:nth-child(1) {
+  animation:
+    fadeSlideUp 0.6s cubic-bezier(0.22, 0.61, 0.36, 1) 0.25s forwards,
+    card-shake 21s linear 2s infinite;
+}
+
+.premios-section--visible .premios-card:nth-child(2) {
+  animation:
+    fadeSlideUp 0.6s cubic-bezier(0.22, 0.61, 0.36, 1) 0.4s forwards,
+    card-shake 21s linear 9s infinite;
+}
+
+.premios-section--visible .premios-card:nth-child(3) {
+  animation:
+    fadeSlideUp 0.6s cubic-bezier(0.22, 0.61, 0.36, 1) 0.55s forwards,
+    card-shake 21s linear 16s infinite;
+}
+
+@media (max-width: 720px) {
+  .premios-section {
+    background-image: var(--bg-mobile);
+    background-size: 100% 100%;
+  }
+
+  .premios-card__image {
+    width: 150px;
+    height: 195px;
+    object-fit: contain;
+    display: block;
+  }
+
+  .premios-card {
+    width: 150px;
+    height: 195px;
+  }
+
+  .premios-section__grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 40px;
+    gap: 20px;
+  }
+}

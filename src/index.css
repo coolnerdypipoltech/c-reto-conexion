@@ -1,0 +1,132 @@
+:root {
+  --color-bg: #161616;
+  --color-bg-alt: #1f1f1f;
+  --color-surface: #262626;
+  --color-primary: #ffc700;
+  --color-primary-dark: #e6a800;
+  --color-secondary: #ec1f83;
+  --color-text: #ffffff;
+  --color-text-muted: #c6c6c6;
+  --color-border: rgba(255, 255, 255, 0.12);
+
+  --font-heading: "hitmarker-regular", 'Segoe UI', sans-serif;
+  --font-body: "hitmarker-regular", 'Segoe UI', sans-serif;
+
+  --navbar-height: 76px;
+  --content-max-width: 1200px;
+
+  --shadow-soft: 0 10px 30px rgba(0, 0, 0, 0.35);
+}
+
+@font-face {
+  font-family: "hitmarker-Regular";
+  src: url(assets/fonts/HitmarkerCondensed-Regular.ttf) format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "hitmarkerR-regular";
+  src: url(assets/fonts/HitmarkerText-Regular.ttf) format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: "hitmarker-Bold";
+  src: url('./assets/fonts/HitmarkerCondensed-Bold.ttf') format('truetype');
+
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "hitmarker-Medium";
+  src: url('./assets/fonts/HitmarkerCondensed-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+
+.hitmarker-font-regular {
+  font-family: "hitmarker-regular", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.hitmarker-font-bold {
+  font-family: "hitmarker-Bold", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.hitmarker-font-medium {
+  font-family: "hitmarker-Medium", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+
+* {
+  box-sizing: border-box;
+    font-family: "hitmarker-regular", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-heading);
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font-family: var(--font-body);
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.container {
+  width: 100%;
+  max-width: var(--content-max-width);
+  margin: 0 auto;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
