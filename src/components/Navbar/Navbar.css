@@ -13,6 +13,10 @@
   justify-content: space-around ;
 }
 
+body.prize-hero-open .navbar {
+  z-index: 0;
+}
+
 .navbar__inner {
   height: 100%;
 

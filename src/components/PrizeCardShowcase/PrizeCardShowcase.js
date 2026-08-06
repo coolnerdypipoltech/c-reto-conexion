@@ -57,6 +57,19 @@ const PrizeCardShowcase = ({ cards }) => {
     return () => { document.body.style.overflow = ''; };
   }, [open]);
 
+  useEffect(() => {
+    const bodyClass = 'prize-hero-open';
+    if (open) {
+      document.body.classList.add(bodyClass);
+    } else {
+      document.body.classList.remove(bodyClass);
+    }
+
+    return () => {
+      document.body.classList.remove(bodyClass);
+    };
+  }, [open]);
+
   const tick = useCallback(() => {
     const cv = canvasRef.current;
     if (!cv) { rafRef.current = null; return; }
