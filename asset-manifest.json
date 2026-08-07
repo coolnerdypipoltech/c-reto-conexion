@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/c-reto-conexion/static/css/main.acfd937b.css",
-    "main.js": "/c-reto-conexion/static/js/main.67683d33.js",
+    "main.css": "/c-reto-conexion/static/css/main.e58891d8.css",
+    "main.js": "/c-reto-conexion/static/js/main.744cfe8f.js",
     "static/js/453.9d3514db.chunk.js": "/c-reto-conexion/static/js/453.9d3514db.chunk.js",
     "static/media/reto_bckg.png": "/c-reto-conexion/static/media/reto_bckg.89067777b92375fca7a4.png",
     "static/media/home_bckg.png": "/c-reto-conexion/static/media/home_bckg.7450ab419c6d9393762f.png",
@@ -85,12 +85,12 @@
     "static/media/Gato.png": "/c-reto-conexion/static/media/Gato.97166bc8bd41abf5dfd2.png",
     "static/media/cod-logo.svg": "/c-reto-conexion/static/media/cod-logo.f5a7753cf97061cb45e147e59313038d.svg",
     "index.html": "/c-reto-conexion/index.html",
-    "main.acfd937b.css.map": "/c-reto-conexion/static/css/main.acfd937b.css.map",
-    "main.67683d33.js.map": "/c-reto-conexion/static/js/main.67683d33.js.map",
+    "main.e58891d8.css.map": "/c-reto-conexion/static/css/main.e58891d8.css.map",
+    "main.744cfe8f.js.map": "/c-reto-conexion/static/js/main.744cfe8f.js.map",
     "453.9d3514db.chunk.js.map": "/c-reto-conexion/static/js/453.9d3514db.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.acfd937b.css",
-    "static/js/main.67683d33.js"
+    "static/css/main.e58891d8.css",
+    "static/js/main.744cfe8f.js"
   ]
 }
