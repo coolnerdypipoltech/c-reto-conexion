@@ -1,0 +1,54 @@
+.parallax-stickers {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 400vh;
+
+  z-index: 2;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.parallax-stickers__item {
+  position: absolute;
+  height: auto;
+  opacity: 0.6;
+  filter: drop-shadow(0 4px 10px rgba(0, 0, 0, 0.4));
+  will-change: transform;
+}
+
+.parallax-stickers__item--1 {
+  top: 20%;
+  left: 5%;
+  min-width: clamp(150px, 20vw, 200px);
+  max-width: 200px;
+}
+
+.parallax-stickers__item--2 {
+  top: 20%;
+  right: 7%;
+  min-width: clamp(150px, 20vw, 200px);
+  max-width: 200px;
+}
+
+.parallax-stickers__item--3 {
+  top: 58%;
+  left: 4%;
+  min-width: clamp(150px, 20vw, 200px);
+  max-width: 150px;
+}
+
+.parallax-stickers__item--4 {
+  top: 75%;
+  right: 5%;
+  min-width: clamp(150px, 20vw, 200px);
+  max-width: 200px;
+}
+
+@media (max-width: 720px) {
+  .parallax-stickers__item--1 { width: 38px; }
+  .parallax-stickers__item--2 { width: 46px; }
+  .parallax-stickers__item--3 { width: 34px; }
+  .parallax-stickers__item--4 { width: 40px; }
+}

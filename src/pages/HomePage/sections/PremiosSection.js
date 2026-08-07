@@ -10,6 +10,10 @@ import legendariaImg from "../../../assets/mainPage/premios/desktop/premios-lege
 import miticaImg from "../../../assets/mainPage/premios/desktop/premios-mitica.png";
 import titulos from "../../../assets/mainPage/premios/desktop/premios-titulos.png";
 import image9 from "../../../assets/cod-logo.svg";
+
+import stickerKnife from "../../../assets/mainPage/reto/desktop/sticker-knife.png";
+import stickerBomb from "../../../assets/mainPage/premios/mobil/sticker-bomb.png";
+
 import './PremiosSection.css';
 
 const TIER_IMAGES = {
@@ -49,6 +53,14 @@ const PremiosSection = () => {
         '--bg-mobile': `url(${bgImageM})`,
       }}
     >
+
+
+<div className="premios-section__stickers">
+    <img src={stickerKnife} className="premios-section__sticker--knife" alt="Sticker Knife" />
+    <img src={stickerBomb} className="premios-section__sticker--bomb" alt="Sticker Bomb" />
+
+</div>
+
      
       <div className="premios-section__content container">
         <img className='premios-section__title' src={titulos} alt="Titulo" style={{paddingLeft: "10px", paddingRight: "10px"}} />

@@ -8,6 +8,7 @@ import Footer from '../../components/Footer/Footer';
 import PremiosSection from './sections/PremiosSection';
 
 import DudasSection from './sections/DudasSection';
+import ParallaxStickers from '../../components/ParallaxStickers/ParallaxStickers';
 
 import './HomePage.css';
 
@@ -43,6 +44,7 @@ const HomePage = () => {
 return (
     <>
     <div className="home-page">
+          <ParallaxStickers />
           <InicioSection />
           <RetoSection />
           

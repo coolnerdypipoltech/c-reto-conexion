@@ -8,6 +8,9 @@ import image2 from "../../../assets/mainPage/reto/desktop/Titulo.png";
 import image3 from "../../../assets/mainPage/reto/desktop/reto_footer.png";
 import image3M from "../../../assets/mainPage/reto/mobil/reto_footer.png";
 
+import stickerKnife from "../../../assets/mainPage/reto/desktop/sticker-knife.png";
+import stickerGun from "../../../assets/mainPage/reto/desktop/sticker-gun.png";
+import stcikerCrown from "../../../assets/mainPage/reto/desktop/sticker-crown.png";
 
 import infoImage1 from "../../../assets/mainPage/reto/desktop/reto_info-1.png";
 import infoImage2 from "../../../assets/mainPage/reto/desktop/reto_info-2.png";
@@ -18,6 +21,7 @@ import infoImage2M from "../../../assets/mainPage/reto/mobil/reto-info2.png";
 import infoImage3M from "../../../assets/mainPage/reto/mobil/reto-info3.png";
 
 import control from "../../../assets/mainPage/reto/mobil/premios-flechas.png";
+import control1 from "../../../assets/mainPage/reto/mobil/premios_flecha1.png";
 
 import { useViewport } from '../../../context/ViewportContext';
 
@@ -86,13 +90,18 @@ const RetoSection = () => {
         '--bg-mobile': `url(${image1M})`,
       }}
     >
-     
+
+<div className="reto-section__stickers">
+    <img src={stickerKnife} className=" reto-section__sticker--knife " alt="Sticker Knife" />
+    <img src={stickerGun} className=" reto-section__sticker--gun" alt="Sticker Gun" />
+    <img src={stcikerCrown} className="reto-section__sticker--crown" alt="Sticker Crown" />
+</div>
       <div className="reto-section__content container">
         <img src={image2} className="reto-section__title" alt="Reto Title" />
         {isMobile ? (
           <><div className="reto-section__info-mobil-container">
             <img src={control} onClick={() => goTo((currentInfoIndex - 1 + infoArrays.length) % infoArrays.length, 'right', true)} className="reto-section__control" alt="Reto Control" />
-            <img src={control} onClick={() => goTo((currentInfoIndex + 1) % infoArrays.length, 'left', true)} className="reto-section__control--right" alt="Reto Control" />
+            <img src={control1} onClick={() => goTo((currentInfoIndex + 1) % infoArrays.length, 'left', true)} className="reto-section__control--right" alt="Reto Control" />
             <img
               key={currentInfoIndex}
               src={infoArrays[currentInfoIndex]}
@@ -108,7 +117,9 @@ const RetoSection = () => {
           </div>
         )}
 
-        <img src={isMobile ? image3M : image3} className="reto-section__footer" alt="Reto Footer" />
+        <div className="reto-section__footer-container">
+          <img src={isMobile ? image3M : image3} className="reto-section__footer" alt="Reto Footer" />
+        </div>
       </div>
     </section>
   );

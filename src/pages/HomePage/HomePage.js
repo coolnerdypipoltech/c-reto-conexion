@@ -8,6 +8,7 @@ import RetoSection from './sections/RetoSection';
 import PremiosSection from './sections/PremiosSection';
 
 import DudasSection from './sections/DudasSection';
+import ParallaxStickers from '../../components/ParallaxStickers/ParallaxStickers';
 
 import './HomePage.css';
 
@@ -52,13 +53,14 @@ if(!introDone){
 
 if(introDone && show){
 return (
-  <>
+  <div className="home-page">
+    <ParallaxStickers />
     <InicioSection />
     <RetoSection />
     <PremiosSection />
     <DudasSection />
-    <Footer /> 
-  </>
+    <Footer />
+  </div>
 );
 }
 
