@@ -2,10 +2,7 @@ import { useEffect, useRef } from 'react';
 
 import './ParallaxStickers.css';
 
-import sticker1 from '../../assets/mainPage/stickers/sticker-1.png';
-import sticker2 from '../../assets/mainPage/stickers/sticker-2.png';
-import sticker3 from '../../assets/mainPage/stickers/sticker-3.png';
-import sticker4 from '../../assets/mainPage/stickers/sticker-4.png';
+
 
 const STICKERS = [
 

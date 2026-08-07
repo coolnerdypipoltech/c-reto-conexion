@@ -61,10 +61,14 @@
   
   width: 100%;
   height: auto;
-
+  min-height: 100px;
 }
 
-
+  .faq-item__button{
+    position: relative;
+    right: 68px;
+    height: 50px;
+  }
 
 
 
@@ -130,6 +134,7 @@
   }
   .faq-item__bckg{
     height: 60px;
+    min-height: 60px;
   }
 
   .faq-item__question:hover {
@@ -142,6 +147,7 @@
 
 }
 
+
 @media (max-width: 849px) {
   
 
@@ -152,6 +158,12 @@
 
 
 
+
+
+
+
+
+
 @media (max-width: 500px) {
   .faqs-page__content{
     width: 100%;
@@ -159,6 +171,7 @@
   }
     .faq-item__bckg{
     height: 65px;
+    min-height: 65px;
   }
   .faq-item{
     width: 100%;
@@ -166,7 +179,7 @@
   }
   .faq-item__text{
     margin-left: 13vw;
-    width: 50%;
+    width: calc(100% - 36vw);
     height: auto;
     font-size: clamp(12px, 3.4vw, 18px);
   }
@@ -190,7 +203,7 @@
 
   .faq-item__answer{
     font-size: 14px;
-    padding: 10px 20px 40px;
+    padding: 10px 20px 20px;
     
   }
 

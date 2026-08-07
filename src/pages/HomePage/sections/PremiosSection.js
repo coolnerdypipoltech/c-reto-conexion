@@ -1,4 +1,4 @@
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 
 import { PRIZE_TIER_ORDER } from '../../../utils/prizeTiers';
@@ -6,6 +6,7 @@ import { PRIZE_TIER_ORDER } from '../../../utils/prizeTiers';
 import bgImage from "../../../assets/mainPage/premios/desktop/premios-bckg.png";
 import bgImageM from "../../../assets/mainPage/premios/mobil/premios-bckg.png";
 import epicaImg from "../../../assets/mainPage/premios/desktop/premios-epica.png";
+
 import legendariaImg from "../../../assets/mainPage/premios/desktop/premios-legendaria.png";
 import miticaImg from "../../../assets/mainPage/premios/desktop/premios-mitica.png";
 import titulos from "../../../assets/mainPage/premios/desktop/premios-titulos.png";
@@ -22,9 +23,14 @@ const TIER_IMAGES = {
   epicas: epicaImg,
 };
 
+// Same pacing as the PrizeCardShowcase gallery shake: one card takes its
+// turn every SHAKE_STEP_MS, cycling sequentially through the cards.
+const SHAKE_STEP_MS = 1800;
+
 const PremiosSection = () => {
   const navigate = useNavigate();
   const sectionRef = useRef(null);
+  const [shakeIndex, setShakeIndex] = useState(0);
 
   useEffect(() => {
     const el = sectionRef.current;
@@ -41,6 +47,13 @@ const PremiosSection = () => {
     );
     observer.observe(el);
     return () => observer.disconnect();
+  }, []);
+
+  useEffect(() => {
+    const id = setInterval(() => {
+      setShakeIndex((i) => (i + 1) % PRIZE_TIER_ORDER.length);
+    }, SHAKE_STEP_MS);
+    return () => clearInterval(id);
   }, []);
 
   return (
@@ -66,7 +79,7 @@ const PremiosSection = () => {
         <img className='premios-section__title' src={titulos} alt="Titulo" style={{paddingLeft: "10px", paddingRight: "10px"}} />
 
         <div className="premios-section__grid">
-          {PRIZE_TIER_ORDER.map((slug) => (
+          {PRIZE_TIER_ORDER.map((slug, index) => (
             <button
               type="button"
               key={slug}
@@ -74,11 +87,13 @@ const PremiosSection = () => {
               onClick={() => navigate(`/premios/${slug}`)}
             >
               <div className="premios-card__image-wrapper">
-                <img
-                  src={TIER_IMAGES[slug]}
-                  alt={slug}
-                  className="premios-card__image"
-                />
+                <span className={`premios-card__shakewrap${index === shakeIndex ? ' is-shaking' : ''}`}>
+                  <img
+                    src={TIER_IMAGES[slug]}
+                    alt={slug}
+                    className="premios-card__image"
+                  />
+                </span>
               </div>
             </button>
           ))}

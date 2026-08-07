@@ -28,7 +28,18 @@ const hexToRgba = (hex, alpha) => {
 // loop on the grid, plus a tap-to-inspect morph into a centered hero card with a canvas
 // confetti burst. Adapted here to wrap the project's real prize-card artwork instead of
 // hand-drawn card primitives.
-const PrizeCardShowcase = ({ cards }) => {
+const PrizeCardShowcase = ({ cards, type }) => {
+  let colorHandler = "white"
+  if(type === "miticas"){
+    colorHandler = "#E44968";
+  }
+  if(type === "epicas"){
+    colorHandler = "#8A09E7";
+  }
+  if(type === "legendarias"){
+    colorHandler = "#FF9000"
+  }
+
   const canvasRef = useRef(null);
   const particlesRef = useRef([]);
   const rafRef = useRef(null);
@@ -193,6 +204,7 @@ const PrizeCardShowcase = ({ cards }) => {
                   left: `${p.left}%`,
                   animationDuration: `${p.dur}s`,
                   animationDelay: `${p.delay}s`,
+                  background: colorHandler,
                 }}
               />
             ))}
@@ -228,7 +240,7 @@ const PrizeCardShowcase = ({ cards }) => {
                   : { opacity: phase === 'open' ? 1 : 0 }
               }
             >
-              <button type="button" className="prize-hero__close" onClick={closeHero}>
+              <button type="button" className="prize-hero__close" onClick={closeHero} style={{ background: colorHandler }}>
                 Volver
               </button>
             </div>

@@ -16,9 +16,7 @@ import infoImage1 from "../../../assets/mainPage/reto/desktop/reto_info-1.png";
 import infoImage2 from "../../../assets/mainPage/reto/desktop/reto_info-2.png";
 import infoImage3 from "../../../assets/mainPage/reto/desktop/reto_info-3.png";
 
-import infoImage1M from "../../../assets/mainPage/reto/mobil/reto-info1.png";
-import infoImage2M from "../../../assets/mainPage/reto/mobil/reto-info2.png";
-import infoImage3M from "../../../assets/mainPage/reto/mobil/reto-info3.png";
+
 
 import control from "../../../assets/mainPage/reto/mobil/premios-flechas.png";
 import control1 from "../../../assets/mainPage/reto/mobil/premios_flecha1.png";
@@ -27,7 +25,7 @@ import { useViewport } from '../../../context/ViewportContext';
 
 const RetoSection = () => {
   const { isMobile } = useViewport();
-  const infoArrays = [infoImage1M, infoImage2M, infoImage3M];
+  const infoArrays = [infoImage1, infoImage2, infoImage3];
   const [currentInfoIndex, setCurrentInfoIndex] = React.useState(0);
   const [slideDir, setSlideDir] = React.useState('left');
 

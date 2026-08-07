@@ -12,7 +12,7 @@ import { useViewport } from "../../context/ViewportContext";
 const Footer = () => {
   const { isMobile } = useViewport();
   return (
-    <div className="footer__container">
+    <div className="footer__container"       >
       <img
         src={isMobile ? footerM : footerBox}
         className="footer__background"

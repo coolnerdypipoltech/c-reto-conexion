@@ -13,10 +13,18 @@ import image4 from "../../assets/mainPage/inicio/desktop/img_ghost.png";
 import tituloEpicas from "../../assets/premiosPage/desktop/premios-epicas.png";
 import tituloLegendarias from "../../assets/premiosPage/desktop/premios-legendarias.png";
 import tituloMiticas from "../../assets/premiosPage/desktop/premios-miticas.png";
-
+import bgImageM from '../../assets/faqsPage/mobil/faqs-bckg.png';
 import tituloEpicasM from "../../assets/premiosPage/mobil/premios-epicas.png";
 import tituloLegendariasM from "../../assets/premiosPage/mobil/premios-legendarias.png";
 import tituloMiticasM from "../../assets/premiosPage/mobil/premios-miticas.png";
+
+
+import texture1 from "../../assets/faqsPage/desktop/texture-1.png"
+import texture2 from "../../assets/faqsPage/desktop/texture-2.png"
+import texture3 from "../../assets/faqsPage/desktop/texure-3.png"
+import texture4 from "../../assets/faqsPage/desktop/texture-4.png"
+
+
 import { useViewport } from '../../context/ViewportContext';
 import Footer from '../../components/Footer/Footer';
 
@@ -49,9 +57,21 @@ const PremiosPage = () => {
       style={{
         "--tier-accent": tier.accent,
         "--bg-desktop": `url(${image1})`,
-        "--bg-mobile": `url(${image1})`,
+        "--bg-mobile": `url(${bgImageM})`,
       }}
     >
+
+      <img src={texture1} alt="Texture 1" className="premios-page__texture--1" />
+      <img src={texture2} alt="Texture 2" className=" premios-page__texture--2" />
+      <img src={texture3} alt="Texture 3" className="premios-page__texture--3" />
+      <img src={texture4} alt="Texture 4" className="premios-page__texture--4" />
+
+      <div className="reto-section__stickers" style={{ opacity: 1 }}>
+
+    {isMobile && (<img src={image3} className=" premios-section__sticker--gun" alt="Sticker Gun" />)}
+
+</div>
+
       <div className="premios-section__home-girl-container">
         <img
         src={image3}
@@ -87,6 +107,7 @@ const PremiosPage = () => {
             label: `Carta de premio ${tier.label} ${index + 1}`,
             accent: tier.accent,
           }))}
+          type={tierSlug}
         />
       </div>
       </div>

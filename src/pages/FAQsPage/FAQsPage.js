@@ -3,12 +3,24 @@ import { Link } from 'react-router-dom';
 import Footer from '../../components/Footer/Footer';
 import FAQItem from '../../components/FAQItem/FAQItem';
 import titleImage from '../../assets/faqsPage/desktop/Faqs-title.png';
-
+import titleImageM from '../../assets/faqsPage/mobil/Faqs-title.png';
 import { useSectionNav } from "../../utils/navigation";
-import bgImage from '../../assets/faqsPage/desktop/faqs-bckg.png';
-
+import bgImage from '../../assets/faqsPage/desktop/faqs-bckg2.png';
+import bgImageM from '../../assets/faqsPage/mobil/faqs-bckg2.png';
 import './FAQsPage.css';
 import image2 from "../../assets/premiosPage/desktop/premios-flechas.png";
+
+import { useViewport } from '../../context/ViewportContext';
+
+
+import texture5 from "../../assets/faqsPage/desktop/texture-5.png"
+import texture6 from "../../assets/faqsPage/desktop/texture-6.png"
+import texture7 from "../../assets/faqsPage/desktop/texture-7.png"
+import texture8 from "../../assets/faqsPage/desktop/texture-8.png"
+import texture9 from "../../assets/faqsPage/desktop/texture-9.png"
+
+
+
 
 const faqGroups = [
   
@@ -103,6 +115,7 @@ const faqGroups = [
 
 
 const FAQsPage = () => {
+  const { isMobile } = useViewport();
   const goToSection = useSectionNav();
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -112,8 +125,16 @@ const FAQsPage = () => {
     <>
     <div className="faqs-page" style={{
         '--bg-desktop': `url(${bgImage})`,
-        '--bg-mobile': `url(${bgImage})`,
+        '--bg-mobile': `url(${bgImageM})`,
       }}>
+              <img src={texture5} alt="Texture 3" className="faqs-page__texture--1"/>
+
+              <img src={texture7} alt="Texture 1" className="faqs-page__texture--2" />
+      <img src={texture6} alt="Texture 2" className=" faqs-page__texture--3" />
+      <img src={texture9} alt="Texture 4" className="premios-page__texture--3" />
+      <img src={texture8} alt="Texture 4" className="premios-page__texture--4" />
+
+
         <div className="premios-back-button-container">
         <img
           src={image2}
@@ -124,7 +145,7 @@ const FAQsPage = () => {
       </div>
 
       <div className="faqs-page__hero container">
-        <img src={titleImage} alt="Preguntas Frecuentes" className="faqs-page__hero-image" />
+        <img src={isMobile ? titleImageM : titleImage} alt="Preguntas Frecuentes" className="faqs-page__hero-image" />
 
       </div>
       <div style={{height: "50px"}}></div>

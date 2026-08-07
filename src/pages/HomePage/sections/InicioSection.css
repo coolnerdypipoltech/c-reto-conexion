@@ -105,10 +105,10 @@
   position: absolute;
   top: 50%;
   left: 24%;
-  width:  30%;
+  width:  35%;
   height: auto;
   max-width: 500px;
-  min-width: 160px;
+  min-width: 170px;
   transform: translate(-50%, -50%);
   animation: art-bob  10s ease-in-out infinite;
   -webkit-animation: art-bob  10s ease-in-out infinite;
@@ -324,7 +324,7 @@ top: 75vh;
 
   .inicio-section__home-logo-container{
     top: 20%;
-    left: 10%;
+    left: 5%;
   }
 
   .inicio-section__home-logo-container-2{

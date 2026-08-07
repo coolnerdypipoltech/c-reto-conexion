@@ -227,6 +227,12 @@
     grid-template-columns: repeat(3, minmax(0, 151px));
     gap: 16px;
   }
+  .prize-hero__card{
+    width: 85vw;
+    margin-left: 2vw;
+    
+  }
+
 }
 
 @media (max-width: 640px) {

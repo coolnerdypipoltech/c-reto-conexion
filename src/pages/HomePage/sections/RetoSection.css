@@ -99,7 +99,7 @@
 
 .reto-section__sticker--knife{
     position: relative;
-    top: 30%;
+    top: 20%;
     left: 0%;
     width: 200px;
     z-index: 1;
@@ -108,7 +108,7 @@
 }
 .reto-section__sticker--gun{
     position: relative;
-    top: 55%;
+    top: 50%;
     left: 80%;
     width: 250px;
     z-index: 1;
@@ -349,9 +349,13 @@
     
   }
 
+  .reto-section__info-mobil-container{
+    margin-top: 10px;
+  }
+
   .reto-section__sticker--knife{
 
-    top: 32%;
+    top: 26%;
     left: -10%;
     width: 120px;
 
