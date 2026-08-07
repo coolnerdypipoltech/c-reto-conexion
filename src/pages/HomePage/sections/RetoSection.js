@@ -93,6 +93,7 @@ const RetoSection = () => {
     <img src={stickerKnife} className=" reto-section__sticker--knife " alt="Sticker Knife" />
     <img src={stickerGun} className=" reto-section__sticker--gun" alt="Sticker Gun" />
     <img src={stcikerCrown} className="reto-section__sticker--crown" alt="Sticker Crown" />
+
 </div>
       <div className="reto-section__content container">
         <img src={image2} className="reto-section__title" alt="Reto Title" />

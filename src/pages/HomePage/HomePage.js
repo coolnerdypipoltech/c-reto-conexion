@@ -4,6 +4,8 @@ import { useLocation, useNavigate } from 'react-router-dom';
 import Footer from '../../components/Footer/Footer';
 import InicioSection from './sections/InicioSection';
 import RetoSection from './sections/RetoSection';
+import sticker from "../../assets/mainPage/dudas/desktop/Gato.png"
+
 
 import PremiosSection from './sections/PremiosSection';
 
@@ -55,6 +57,7 @@ if(introDone && show){
 return (
   <div className="home-page">
     <ParallaxStickers />
+                    <img src={sticker} className="premios-section__sticker--gato" alt="sticker" loading="lazy"  />
     <InicioSection />
     <RetoSection />
     <PremiosSection />

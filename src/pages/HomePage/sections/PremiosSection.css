@@ -135,6 +135,22 @@
   display: block;
 }
 
+
+.premios-section__sticker--gato{
+  position: absolute;
+  top: 281vh;
+  left: 5%;
+  transform: translate(-50%, -50%);
+  width: 90px;
+  animation: bob-and-tilt 5s ease-in-out infinite;
+  z-index: 1;
+  -webkit-animation: bob-and-tilt 5s ease-in-out infinite;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
+
 /* ── Entrance animations ── */
 
 .premios-section--visible .premios-section__stickers {

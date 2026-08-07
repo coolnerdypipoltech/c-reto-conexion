@@ -15,6 +15,7 @@ import image9 from "../../../assets/cod-logo.svg";
 import stickerKnife from "../../../assets/mainPage/reto/desktop/sticker-knife.png";
 import stickerBomb from "../../../assets/mainPage/premios/mobil/sticker-bomb.png";
 
+
 import './PremiosSection.css';
 
 const TIER_IMAGES = {

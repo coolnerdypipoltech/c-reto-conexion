@@ -14,6 +14,8 @@ import image8 from "../../../assets/mainPage/dudas/desktop/faqs_trucha.png";
 import image9 from "../../../assets/mainPage/dudas/desktop/faqs-sticker1.png";
 import image10 from "../../../assets/mainPage/dudas/desktop/faqs-sticker2.png";
 import image11 from "../../../assets/mainPage/dudas/desktop/question.png";
+
+
 import { useViewport } from '../../../context/ViewportContext';
 import './DudasSection.css';
 
@@ -49,6 +51,9 @@ const DudasSection = () => {
         '--bg-mobile': `url(${image1M})`,
       }}
     >
+
+
+
       <img src={image7} className="dudas-section__tornado" alt="tornado" loading="lazy"  />
       <div className="dudas-section__ticket-container-1">
         <img src={image6} className="dudas-section__ticket1" alt="tornado" loading="lazy"  />

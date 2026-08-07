@@ -1,4 +1,5 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
+import { createPortal } from 'react-dom';
 
 import './PrizeCardShowcase.css';
 
@@ -66,19 +67,6 @@ const PrizeCardShowcase = ({ cards, type }) => {
   useEffect(() => {
     document.body.style.overflow = open ? 'hidden' : '';
     return () => { document.body.style.overflow = ''; };
-  }, [open]);
-
-  useEffect(() => {
-    const bodyClass = 'prize-hero-open';
-    if (open) {
-      document.body.classList.add(bodyClass);
-    } else {
-      document.body.classList.remove(bodyClass);
-    }
-
-    return () => {
-      document.body.classList.remove(bodyClass);
-    };
   }, [open]);
 
   const tick = useCallback(() => {
@@ -212,7 +200,7 @@ const PrizeCardShowcase = ({ cards, type }) => {
         ))}
       </div>
 
-      {open && (
+      {open && createPortal(
         <div className="prize-hero">
           <div
             className="prize-hero__backdrop"
@@ -249,7 +237,8 @@ const PrizeCardShowcase = ({ cards, type }) => {
           {flash.on && (
             <div className="prize-hero__flash" style={{ left: flash.x, top: flash.y }} />
           )}
-        </div>
+        </div>,
+        document.body
       )}
     </>
   );
