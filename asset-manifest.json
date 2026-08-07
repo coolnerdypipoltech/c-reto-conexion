@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/c-reto-conexion/static/css/main.3efa707f.css",
-    "main.js": "/c-reto-conexion/static/js/main.32595413.js",
+    "main.css": "/c-reto-conexion/static/css/main.3e3f921e.css",
+    "main.js": "/c-reto-conexion/static/js/main.8fb10898.js",
     "static/js/453.9d3514db.chunk.js": "/c-reto-conexion/static/js/453.9d3514db.chunk.js",
     "static/media/reto_bckg.png": "/c-reto-conexion/static/media/reto_bckg.89067777b92375fca7a4.png",
     "static/media/home_bckg.png": "/c-reto-conexion/static/media/home_bckg.7450ab419c6d9393762f.png",
@@ -81,14 +81,15 @@
     "static/media/home_elreto.png": "/c-reto-conexion/static/media/home_elreto.a8ec4e29e812426a0d34.png",
     "static/media/facebook.png": "/c-reto-conexion/static/media/facebook.3f86b60e543c7370b9e0.png",
     "static/media/sticker-crown.png": "/c-reto-conexion/static/media/sticker-crown.fd2a2657741d54d34773.png",
+    "static/media/Gato.png": "/c-reto-conexion/static/media/Gato.97166bc8bd41abf5dfd2.png",
     "static/media/cod-logo.svg": "/c-reto-conexion/static/media/cod-logo.f5a7753cf97061cb45e147e59313038d.svg",
     "index.html": "/c-reto-conexion/index.html",
-    "main.3efa707f.css.map": "/c-reto-conexion/static/css/main.3efa707f.css.map",
-    "main.32595413.js.map": "/c-reto-conexion/static/js/main.32595413.js.map",
+    "main.3e3f921e.css.map": "/c-reto-conexion/static/css/main.3e3f921e.css.map",
+    "main.8fb10898.js.map": "/c-reto-conexion/static/js/main.8fb10898.js.map",
     "453.9d3514db.chunk.js.map": "/c-reto-conexion/static/js/453.9d3514db.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3efa707f.css",
-    "static/js/main.32595413.js"
+    "static/css/main.3e3f921e.css",
+    "static/js/main.8fb10898.js"
   ]
 }
