@@ -140,7 +140,7 @@ const FAQsPage = () => {
           src={image2}
           alt="Regresar"
           className="premios-back-button"
-          onClick={() => goToSection("premios")}
+          onClick={() => goToSection("dudas")}
         />
       </div>
 

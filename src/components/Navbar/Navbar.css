@@ -6,7 +6,10 @@
   height: var(--navbar-height);
   background-color: transparent !important;
 
-  z-index: 10;
+  /* Kept well above ordinary page content (pages have used z-index up to ~11)
+     so the fixed navbar never loses a stacking tie to page-level elements,
+     regardless of what z-index a given page/section happens to use. */
+  z-index: 500;
   display: flex;
   align-items: center;
   justify-content: space-around ;
@@ -102,7 +105,9 @@
 
 .navbar__social-image{
   width: 58px;
-
+  height: 42px;
+  max-height: 42px;
+  max-width: 58px;
   object-fit: contain;
 }
 

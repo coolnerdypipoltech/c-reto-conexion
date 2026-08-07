@@ -2,13 +2,16 @@
   position: relative;
   top: 0;
   background-color: transparent !important;
-  z-index: 0;
+  z-index: 1;
   width: 100%;
   min-height: 290px;
 }
 
 .footer__container{
   position: relative;
+  height: 290px;
+  min-height: 290px;
+  max-height: 290px;
 }
 
 .footer__background {
@@ -16,7 +19,7 @@
   bottom: 0;
 
 
-  z-index: 0;
+  z-index: 1;
   width: 100%;
    min-height: 335px;
    max-height: 335px;
@@ -95,6 +98,9 @@
     grid-template-columns: 1fr;
     
   }
+  .footer__social-group{
+    margin-bottom: 20px;
+}
 
   .footer {
     min-height: 340px;
@@ -105,7 +111,7 @@
   bottom: 0;
 
   object-fit: cover;
-  z-index: 0;
+  z-index: 1;
   width: 100%;
    min-height: 408px;
    max-height: 408px;
@@ -122,5 +128,13 @@
   .footer__inner-button{
     font-size: 16px;
     width: 100% !important;
+  }
+
+  .footer__container{
+      height: 100%;
+  min-height: 0px;
+  max-height: 100%;
+
+
   }
 }

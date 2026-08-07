@@ -8,9 +8,15 @@ import facebookIcon from "../../assets/mainPage/nav/facebook.png";
 import instagramIcon from "../../assets/mainPage/nav/insta.png";
 import tiktokIcon from "../../assets/mainPage/nav/tiktok.png";
 
+import facebookIcon2 from "../../assets/mainPage/inicio/mobil/facebook.png";
+import instagramIcon2 from "../../assets/mainPage/inicio/mobil/instagram.png";
+import tiktokIcon2 from "../../assets/mainPage/inicio/mobil/tiktok.png";
+
 import { useViewport } from "../../context/ViewportContext";
+import { useState } from "react"; 
 const Footer = () => {
   const { isMobile } = useViewport();
+  const [hoveredSocial, setHoveredSocial] = useState(null);
   return (
     <div className="footer__container"       >
       <img
@@ -25,14 +31,36 @@ const Footer = () => {
         </div>
 
         <div className="footer__social-group">
-          <img className="footer__socials"  src={facebookIcon} onClick={() => {window.open("https://www.facebook.com/LATAMCallOfDutyMobile")}} alt="Facebook" />
-          <img
-            className="footer__socials"
-            src={instagramIcon}
-            onClick={() => {window.open("https://www.instagram.com/callofdutymobilelatam/")}}
-            alt="Instagram"
-          />
-          <img className="footer__socials" src={tiktokIcon} onClick={() => {window.open("https://www.tiktok.com/@callofdutymobile_latam")}} alt="TikTok" />
+              <img
+                src={hoveredSocial === 'facebook' ? facebookIcon2 : facebookIcon}
+                onMouseEnter={() => setHoveredSocial('facebook')}
+                onMouseLeave={() => setHoveredSocial(null)}
+                onFocus={() => setHoveredSocial('facebook')}
+                onBlur={() => setHoveredSocial(null)}
+                onClick={() => { window.open("https://www.facebook.com/LATAMCallOfDutyMobile"); }}
+                alt="Facebook"
+                className="navbar__social-image"
+              />
+              <img
+                src={hoveredSocial === 'instagram' ? instagramIcon2 : instagramIcon}
+                onMouseEnter={() => setHoveredSocial('instagram')}
+                onMouseLeave={() => setHoveredSocial(null)}
+                onFocus={() => setHoveredSocial('instagram')}
+                onBlur={() => setHoveredSocial(null)}
+                onClick={() => { window.open("https://www.instagram.com/callofdutymobilelatam/"); }}
+                alt="Instagram"
+                className="navbar__social-image"
+              />
+              <img
+                src={hoveredSocial === 'tiktok' ? tiktokIcon2 : tiktokIcon}
+                onMouseEnter={() => setHoveredSocial('tiktok')}
+                onMouseLeave={() => setHoveredSocial(null)}
+                onFocus={() => setHoveredSocial('tiktok')}
+                onBlur={() => setHoveredSocial(null)}
+                onClick={() => { window.open("https://www.tiktok.com/@callofdutymobile_latam"); }}
+                alt="TikTok"
+                className="navbar__social-image"
+              />
         </div>
 
         <div className="footer__inner-buttons">

@@ -138,10 +138,10 @@
 
 .premios-section__sticker--gato{
   position: absolute;
-  top: 281vh;
+  top: 275vh;
   left: 5%;
   transform: translate(-50%, -50%);
-  width: 90px;
+  width: 65px;
   animation: bob-and-tilt 5s ease-in-out infinite;
   z-index: 1;
   -webkit-animation: bob-and-tilt 5s ease-in-out infinite;
@@ -150,6 +150,48 @@
   -ms-transform: translate(-50%, -50%);
   -o-transform: translate(-50%, -50%);
 }
+@media screen and (min-width: 720px) {
+  .premios-section__sticker--gato{
+    top: 267vh;
+    width: 90px;
+    left: 15%;
+  }
+}
+
+@media screen and (max-height: 660px) {
+  .premios-section__sticker--gato{
+    top: 285vh;
+    width: 60px;
+    scale : 0
+  }
+}
+
+
+@media screen and (max-height: 800px) {
+  .premios-section__sticker--gato{
+    top: 285vh;
+    width: 90px;
+    left: 15%;
+  }
+}
+
+@media screen and (max-height: 750px) {
+  .premios-section__sticker--gato{
+    top: 300vh;
+    width: 90px;
+    left: 15%;
+  }
+}
+
+@media screen and (max-height: 700px) {
+  .premios-section__sticker--gato{
+    top: 310vh;
+    width: 90px;
+    left: 15%;
+  }
+}
+
+
 
 /* ── Entrance animations ── */
 
@@ -194,7 +236,7 @@
   
   .premios-section__sticker--knife{
 
-    top: 70%;
+    top: 76%;
     left: 75%;
     width: 90px;
 

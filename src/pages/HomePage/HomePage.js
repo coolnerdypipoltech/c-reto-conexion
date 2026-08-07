@@ -57,7 +57,7 @@ if(introDone && show){
 return (
   <div className="home-page">
     <ParallaxStickers />
-                    <img src={sticker} className="premios-section__sticker--gato" alt="sticker" loading="lazy"  />
+    <img src={sticker} className="premios-section__sticker--gato" alt="sticker" loading="lazy"  />
     <InicioSection />
     <RetoSection />
     <PremiosSection />
