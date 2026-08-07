@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/c-reto-conexion/static/css/main.956f3440.css",
-    "main.js": "/c-reto-conexion/static/js/main.74e2621c.js",
+    "main.css": "/c-reto-conexion/static/css/main.b4145550.css",
+    "main.js": "/c-reto-conexion/static/js/main.f0e98372.js",
     "static/js/453.9d3514db.chunk.js": "/c-reto-conexion/static/js/453.9d3514db.chunk.js",
     "static/media/reto_bckg.png": "/c-reto-conexion/static/media/reto_bckg.89067777b92375fca7a4.png",
     "static/media/home_bckg.png": "/c-reto-conexion/static/media/home_bckg.7450ab419c6d9393762f.png",
@@ -85,12 +85,12 @@
     "static/media/sticker-crown.png": "/c-reto-conexion/static/media/sticker-crown.fd2a2657741d54d34773.png",
     "static/media/cod-logo.svg": "/c-reto-conexion/static/media/cod-logo.f5a7753cf97061cb45e147e59313038d.svg",
     "index.html": "/c-reto-conexion/index.html",
-    "main.956f3440.css.map": "/c-reto-conexion/static/css/main.956f3440.css.map",
-    "main.74e2621c.js.map": "/c-reto-conexion/static/js/main.74e2621c.js.map",
+    "main.b4145550.css.map": "/c-reto-conexion/static/css/main.b4145550.css.map",
+    "main.f0e98372.js.map": "/c-reto-conexion/static/js/main.f0e98372.js.map",
     "453.9d3514db.chunk.js.map": "/c-reto-conexion/static/js/453.9d3514db.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.956f3440.css",
-    "static/js/main.74e2621c.js"
+    "static/css/main.b4145550.css",
+    "static/js/main.f0e98372.js"
   ]
 }
