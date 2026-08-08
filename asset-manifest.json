@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/c-reto-conexion/static/css/main.f827fdab.css",
-    "main.js": "/c-reto-conexion/static/js/main.6a8f2a5c.js",
+    "main.css": "/c-reto-conexion/static/css/main.61cdf41c.css",
+    "main.js": "/c-reto-conexion/static/js/main.1d9a5e71.js",
     "static/js/453.9d3514db.chunk.js": "/c-reto-conexion/static/js/453.9d3514db.chunk.js",
     "static/media/faq.png": "/c-reto-conexion/static/media/faq.bf9cd0215ce689e7441f.png",
     "static/media/reto_bckg.png": "/c-reto-conexion/static/media/reto_bckg.190e9cdaef0adce1e857.png",
@@ -50,18 +50,18 @@
     "static/media/faqs-sticker1.png": "/c-reto-conexion/static/media/faqs-sticker1.303fef87ca9a9a2dd2ec.png",
     "static/media/texure-3.png": "/c-reto-conexion/static/media/texure-3.29577a08ab690fef3dc2.png",
     "static/media/faq_reto.png": "/c-reto-conexion/static/media/faq_reto.cf2579ae321619d30c8f.png",
+    "static/media/premios-legendarias.png": "/c-reto-conexion/static/media/premios-legendarias.b756990dc6eefee90851.png",
     "static/media/footer.png": "/c-reto-conexion/static/media/footer.42ae5816fd9c6cdd49a9.png",
     "static/media/premios-titulos.png": "/c-reto-conexion/static/media/premios-titulos.d06d99c5454f52c3a840.png",
+    "static/media/premios-miticas.png": "/c-reto-conexion/static/media/premios-miticas.a4e6d257ffe57e3bc41c.png",
     "static/media/question.png": "/c-reto-conexion/static/media/question.f29e86ef2cf50d9a46a3.png",
     "static/media/texture-2.png": "/c-reto-conexion/static/media/texture-2.461b4a83a1e7536a5878.png",
     "static/media/faq_dudas.png": "/c-reto-conexion/static/media/faq_dudas.7958ed345dc296a2c86e.png",
+    "static/media/premios-epicas.png": "/c-reto-conexion/static/media/premios-epicas.b2532e6827b1cb840b8a.png",
     "static/media/texture-4.png": "/c-reto-conexion/static/media/texture-4.bfc7bf6c159ce7ab2cd8.png",
     "static/media/footerM.png": "/c-reto-conexion/static/media/footerM.b4ae7a76d43569c211e5.png",
-    "static/media/premios-epicas.png": "/c-reto-conexion/static/media/premios-epicas.801bdec69264765aea4c.png",
-    "static/media/premios-miticas.png": "/c-reto-conexion/static/media/premios-miticas.e8f9beb374d2a94ee832.png",
     "static/media/reto_info-2.png": "/c-reto-conexion/static/media/reto_info-2.12a0a82b180972f99702.png",
     "static/media/Titulo.png": "/c-reto-conexion/static/media/Titulo.e8f95a3c55c0a68038b0.png",
-    "static/media/premios-legendarias.png": "/c-reto-conexion/static/media/premios-legendarias.43b5c3f7721654fe88a4.png",
     "static/media/reto_info-3.png": "/c-reto-conexion/static/media/reto_info-3.fbea119ace1809dfd1f2.png",
     "static/media/reto_info-1.png": "/c-reto-conexion/static/media/reto_info-1.310a052726860d089784.png",
     "static/media/Header.png": "/c-reto-conexion/static/media/Header.0e4f6bfe7507989e13f1.png",
@@ -79,12 +79,12 @@
     "static/media/Gato.png": "/c-reto-conexion/static/media/Gato.97166bc8bd41abf5dfd2.png",
     "static/media/cod-logo.svg": "/c-reto-conexion/static/media/cod-logo.f5a7753cf97061cb45e147e59313038d.svg",
     "index.html": "/c-reto-conexion/index.html",
-    "main.f827fdab.css.map": "/c-reto-conexion/static/css/main.f827fdab.css.map",
-    "main.6a8f2a5c.js.map": "/c-reto-conexion/static/js/main.6a8f2a5c.js.map",
+    "main.61cdf41c.css.map": "/c-reto-conexion/static/css/main.61cdf41c.css.map",
+    "main.1d9a5e71.js.map": "/c-reto-conexion/static/js/main.1d9a5e71.js.map",
     "453.9d3514db.chunk.js.map": "/c-reto-conexion/static/js/453.9d3514db.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f827fdab.css",
-    "static/js/main.6a8f2a5c.js"
+    "static/css/main.61cdf41c.css",
+    "static/js/main.1d9a5e71.js"
   ]
 }
