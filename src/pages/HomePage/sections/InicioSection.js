@@ -157,7 +157,7 @@ const InicioSection = () => {
         </>
       ) : (
         <>
-          <div className="inicio-tiktok-container"><img
+          <div className="inicio-tiktok-container" onClick={() => {window.open("https://www.tiktok.com/@callofdutymobile_latam")}}><img
             src={image1M}
             onClick={() => {window.open("https://www.tiktok.com/@callofdutymobile_latam")}}
             className="inicio-section__home-tiktok-mobile"
@@ -165,7 +165,7 @@ const InicioSection = () => {
             alt="Home TikTok"
             loading="lazy"
           /></div>
-          <div className="inicio-facebook-container">
+          <div className="inicio-facebook-container" onClick={() => {window.open("https://www.facebook.com/LATAMCallOfDutyMobile")}}>
             <img
               src={image2M}
               onClick={() => {window.open("https://www.facebook.com/LATAMCallOfDutyMobile")}}
@@ -175,7 +175,7 @@ const InicioSection = () => {
               loading="lazy"
             />
           </div>
-          <div className="inicio-instagram-container">
+          <div className="inicio-instagram-container" onClick={() => {window.open("https://www.instagram.com/callofdutymobilelatam/")}}>
             <img
               src={image3M}
               onClick={() => {window.open("https://www.instagram.com/callofdutymobilelatam/")}}

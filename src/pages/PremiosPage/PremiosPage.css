@@ -218,8 +218,8 @@
 
 @media (max-width: 720px) {
   .premios-page__hero-img {
-    max-width: 242px;
-    width: 80%;
+    max-width: 220px;
+    width: 60%;
     margin-top: 10px;
   }
 
