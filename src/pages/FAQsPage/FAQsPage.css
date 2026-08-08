@@ -42,6 +42,20 @@
   z-index: 0;
 }
 
+/* Texturas reutilizadas de PremiosPage: se anclan al top para que no
+   se desplacen cuando la página crece al abrir un FAQItem */
+.faqs-page .premios-page__texture--3{
+  bottom: auto;
+  top: 85vh;
+  left: 80%;
+}
+
+.faqs-page .premios-page__texture--4{
+  bottom: auto;
+  top: 90vh;
+  left: 0;
+}
+
 
 @media (max-width: 720px) {
   .faqs-page {
@@ -52,7 +66,7 @@
 
   .faqs-page__texture--2{
   position: absolute;
-  top: -5%;
+  top: -40px;
   left: 35%;
   width: 85vw;
   height: auto;
@@ -62,12 +76,21 @@
 
 .faqs-page__texture--3{
   position: absolute;
-  top: 8%;
+  top: 70px;
   left: -10%;
   width: 50vw;
   height: auto;
   z-index: 0;
   opacity: 1;
+}
+
+.faqs-page .premios-page__texture--3{
+  top: 80vh;
+  left: 70%;
+}
+
+.faqs-page .premios-page__texture--4{
+  top: 85vh;
 }
 
 }

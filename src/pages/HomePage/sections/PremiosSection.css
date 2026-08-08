@@ -167,7 +167,7 @@
 }
 
 
-@media screen and (max-height: 800px) {
+@media screen and (max-height: 800px)  and (min-width: 720px) {
   .premios-section__sticker--gato{
     top: 285vh;
     width: 90px;
@@ -175,7 +175,7 @@
   }
 }
 
-@media screen and (max-height: 750px) {
+@media screen and (max-height: 750px) and (min-width: 720px)  {
   .premios-section__sticker--gato{
     top: 300vh;
     width: 90px;
@@ -183,7 +183,7 @@
   }
 }
 
-@media screen and (max-height: 700px) {
+@media screen and (max-height: 700px) and (min-width: 720px)  {
   .premios-section__sticker--gato{
     top: 310vh;
     width: 90px;

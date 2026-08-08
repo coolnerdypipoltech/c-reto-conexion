@@ -417,7 +417,7 @@ top: 75vh;
 
 @media (max-height: 800px) and (max-width: 720px) {
   .inicio-section__content{
-
+    top: 0px;
     gap: 0px;
   }
 
@@ -455,24 +455,75 @@ top: 75vh;
   }
 }
 
+@media (max-height: 800px) and (max-width: 720px) {
+  .inicio-section__content{
+    top: 0px;
+    gap: 0px;
+  }
+
+  .inicio-section__title {
+
+    margin-top: 0px;
+  }
+
+  .inicio-section__home-elreto{
+
+  padding-top: 20px;
+  
+
+}
+
+  .inicio-section__home-instagram-mobile{
+    top: 73vh;
+  }
+
+  .inicio-section__home-tiktok-mobile{
+    top: 73vh;
+  }
+
+  .inicio-section__home-facebook-mobile{
+    top: 73vh;
+  }
+
+
+}
+
+
+@media (max-height: 750px) and (max-width: 720px) {
+
+
+  .inicio-section__home-instagram-mobile{
+    top: 73vh;
+  }
+
+  .inicio-section__home-tiktok-mobile{
+    top: 73vh;
+  }
+
+  .inicio-section__home-facebook-mobile{
+    top: 73vh;
+  }
+
+
+}
 
 
 @media (max-height: 700px) and (max-width: 720px)  {
   .inicio-section__content{
-    top: -20px;
+    top: 10px;
     gap: -5px;
   }
 
   .inicio-section__home-instagram-mobile{
-    top: 80vh;
+    top: 75vh;
   }
 
   .inicio-section__home-tiktok-mobile{
-    top: 80vh;
+    top: 75vh;
   }
 
   .inicio-section__home-facebook-mobile{
-    top: 80vh;
+    top: 75vh;
   }
 
 
