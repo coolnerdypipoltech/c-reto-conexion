@@ -1,7 +1,7 @@
 import { useState, useRef, useEffect } from 'react';
 import './Intro.css';
 import videoDesktop from '../../../assets/Loading.mp4';
-import videoMobile from '../../../assets/Loading.mp4';
+import videoMobile from '../../../assets/LoadingMobile.mp4';
 import { useViewport } from "../../../context/ViewportContext";
 function Intro({ onDone }) {
   const [fading, setFading] = useState(false);
