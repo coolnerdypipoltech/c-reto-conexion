@@ -16,7 +16,7 @@ import './HomePage.css';
 
 const HomePage = () => {
   
-  console.log("HomePage rendered");
+;
 
   const location = useLocation();
   const navigate = useNavigate();

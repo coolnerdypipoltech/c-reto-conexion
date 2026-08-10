@@ -22,12 +22,12 @@ function App() {
     if(firstVisit.current) {
       
       firstVisit.current = false;
-      console.log(firstVisit.current);
+
     }
     
   }, []); 
 
-  console.log(firstVisit.current);
+
 
   return (
     <BrowserRouter>
@@ -41,7 +41,7 @@ function App() {
             <Route path="/premios/:tier" element={<PremiosPage />} />
             <Route path="/faqs" element={<FAQsPage />} />
             <Route path="/terminos-y-condiciones" element={<TerminosPage />} />
-            <Route path="/politica-de-privacidad" element={<PrivacidadPage />} />
+           
             <Route path="*" element={<HomePage  />} />
           </Routes>
         </main>

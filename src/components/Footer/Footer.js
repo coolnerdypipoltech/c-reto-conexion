@@ -80,7 +80,7 @@ const Footer = () => {
                    width: "100%"
                 }}
               >
-                <p className="footer__inner-button" style={{ width: "160px" }} onClick={() => { window.open("/files/B2S_2026_Términos_y_Condiciones_Español.pdf") }}>
+                <p className="footer__inner-button" style={{ width: "160px" }} onClick={() => { window.open(encodeURI("/files/B2S_2026_Términos_y_Condiciones_Español.pdf")) }}>
                   Términos y condiciones
                 </p>
                 <p className="footer__inner-button" style={{ width: "50%" }} onClick={()=>{window.open("https://www.activision.com/mx/es/legal/privacy-policy")}}>
@@ -99,7 +99,7 @@ const Footer = () => {
                  
                 }}
               >
-                <p className="footer__inner-button" style={{ minWidth: "180px" }} onClick={() => { window.open("/files/B2S_2026_Términos_y_Condiciones_Español.pdf") }}>
+                <p className="footer__inner-button" style={{ minWidth: "180px" }} onClick={() => { window.open(encodeURI("/files/B2S_2026_Términos_y_Condiciones_Español.pdf")) }}>
                   Términos y condiciones
                 </p>
                 <p className="footer__inner-button" style={{ width: "50%" }} onClick={()=>{window.open("https://www.activision.com/mx/es/legal/privacy-policy")}}>
