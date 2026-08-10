@@ -117,14 +117,14 @@ const Navbar = () => {
               </div>
 
               <div className="navbar__social-group">
-              <img
-                src={hoveredSocial === 'facebook' ? facebookIcon2 : facebookIcon}
-                onMouseEnter={() => setHoveredSocial('facebook')}
+                                <img
+                src={hoveredSocial === 'tiktok' ? tiktokIcon2 : tiktokIcon}
+                onMouseEnter={() => setHoveredSocial('tiktok')}
                 onMouseLeave={() => setHoveredSocial(null)}
-                onFocus={() => setHoveredSocial('facebook')}
+                onFocus={() => setHoveredSocial('tiktok')}
                 onBlur={() => setHoveredSocial(null)}
-                onClick={() => { window.open("https://www.facebook.com/LATAMCallOfDutyMobile"); }}
-                alt="Facebook"
+                onClick={() => { window.open("https://www.tiktok.com/@callofdutymobile_latam"); }}
+                alt="TikTok"
                 className="navbar__social-image"
               />
               <img
@@ -137,16 +137,17 @@ const Navbar = () => {
                 alt="Instagram"
                 className="navbar__social-image"
               />
-              <img
-                src={hoveredSocial === 'tiktok' ? tiktokIcon2 : tiktokIcon}
-                onMouseEnter={() => setHoveredSocial('tiktok')}
+                            <img
+                src={hoveredSocial === 'facebook' ? facebookIcon2 : facebookIcon}
+                onMouseEnter={() => setHoveredSocial('facebook')}
                 onMouseLeave={() => setHoveredSocial(null)}
-                onFocus={() => setHoveredSocial('tiktok')}
+                onFocus={() => setHoveredSocial('facebook')}
                 onBlur={() => setHoveredSocial(null)}
-                onClick={() => { window.open("https://www.tiktok.com/@callofdutymobile_latam"); }}
-                alt="TikTok"
+                onClick={() => { window.open("https://www.facebook.com/LATAMCallOfDutyMobile"); }}
+                alt="Facebook"
                 className="navbar__social-image"
               />
+
               </div>
 
               <img src={image9} style={{ height: '28px', width: "auto", objectFit: "contain", marginTop: "30px", marginBottom: "10px"}} alt="COD Logo" />

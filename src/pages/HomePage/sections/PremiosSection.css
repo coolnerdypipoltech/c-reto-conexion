@@ -37,6 +37,7 @@
   overflow: hidden;
   min-height: 100vh;
   max-height: 100vh;
+  top: -3px;
 }
 
 .premios-section__stickers{

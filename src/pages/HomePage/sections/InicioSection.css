@@ -37,7 +37,7 @@
 
 .inicio-section {
   position: relative;
-  top: 2px;
+  top: -2px;
   min-height: calc(100vh - 76px);
   display: flex;
   align-items: center;
@@ -149,8 +149,9 @@
 
 @media (max-height: 750px) {
   .inicio-section__home-logo{
-    width: 19%;
+    width: 18%;
     margin-bottom: 10px;
+    margin-top: 15px;
   }
 }
 

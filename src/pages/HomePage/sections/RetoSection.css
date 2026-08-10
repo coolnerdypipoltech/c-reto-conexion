@@ -88,7 +88,8 @@
   background-size: 100% 100%;
   background-position: center;
   overflow: hidden;
-  padding: 70px
+  padding: 70px;
+  top: -3px;
 }
 
 .reto-section__stickers{
@@ -342,12 +343,47 @@
   -webkit-animation: fadeIn 0.6s ease 0.45s forwards;
 }
 
+.reto-section__info-arrows{
+  position: absolute;
+  width: 0px;
+  height: 0px;
+  overflow: visible;
+
+}
+
+.reto-section__info-arrow-1{
+  position: absolute;
+  min-width: 100px;
+  min-height: auto;
+  top: 20px;
+  left: -230px;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+}
+
+.reto-section__info-arrow-2{
+  position: absolute;
+  min-width: 100px;
+  min-height: auto;
+  top: 270px;
+  left: 150px;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+}
+
+
 @media (max-width: 720px) {
   .reto-section {
     background-image: var(--bg-mobile);
     background-size: 100% 100%;
     padding: 10px;
-    top: 0px;
+
     
   }
 

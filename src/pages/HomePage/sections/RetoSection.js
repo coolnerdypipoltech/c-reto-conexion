@@ -16,6 +16,8 @@ import infoImage1 from "../../../assets/mainPage/reto/desktop/reto_info-1.png";
 import infoImage2 from "../../../assets/mainPage/reto/desktop/reto_info-2.png";
 import infoImage3 from "../../../assets/mainPage/reto/desktop/reto_info-3.png";
 
+import flecha1 from "../../../assets/mainPage/reto/desktop/reto_flecha1.png";
+import flecha2 from "../../../assets/mainPage/reto/desktop/reto_flecha2.png";
 
 
 import control from "../../../assets/mainPage/reto/mobil/premios-flechas.png";
@@ -111,7 +113,15 @@ const RetoSection = () => {
         ) : (
           <div className="reto-section__info-desktop">
             <img src={infoImage1} className="reto-section__info" alt="Reto Info" />
+            <div className="reto-section__info-arrows">
+              <img src={flecha1} className="reto-section__info-arrow-1" alt="Flecha Left" />
+
+            </div>
             <img src={infoImage2} className="reto-section__info" alt="Reto Info" />
+            <div className="reto-section__info-arrows">
+
+              <img src={flecha2} className="reto-section__info-arrow-2" alt="Flecha Right" />
+            </div>
             <img src={infoImage3} className="reto-section__info" alt="Reto Info" />
           </div>
         )}
