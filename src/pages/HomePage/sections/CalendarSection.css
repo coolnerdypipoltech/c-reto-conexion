@@ -1,4 +1,4 @@
-.dudas-section {
+.calendar-section {
   position: relative;
   min-height: calc(100vh );
   width: 100%;
@@ -14,313 +14,85 @@
   top: -4px;
 }
 
-
-.dudas-section__keyword2{
-  width: auto;
-  animation: art-bob3 4s ease-in-out infinite;
-  -webkit-animation: art-bob3 4s ease-in-out infinite;
-}
-.dudas-section__keyword1{
-  width: auto;
-  animation: art-bob3 4s ease-in-out infinite;
-}
-
-.dudas-section__content{
+.calendar-section__container{
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  width: 100%;
-  height: 100%;
+  width: 90%;
+  height: 90%;
   z-index: 1;
   gap: 0px;
+  padding: 5%;
 }
 
-.dudas-section__tornado{
-  position: absolute;
-  top: 52%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: auto;
-  height: 90%;
-  max-width: calc(535px * 1.6);
-  max-height: calc(567px * 1.6);
-  z-index: 0;
-  -webkit-transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  -o-transform: translate(-50%, -50%);
+.calendar-self{
+  width: 100%;
 }
 
-.dudas-section__ticket1{
-  position: absolute;
-  top: 60%;
-  left: 25vw;
-  transform: translate(-50%, -50%);
-  width: 290px;
-  height: 232px;
-  rotate: -20deg;
-  z-index: 0;
-  animation: art-bob2 4s ease-in-out infinite;
-  -webkit-transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  -o-transform: translate(-50%, -50%);
-  -webkit-animation: art-bob2 4s ease-in-out infinite;
+.calendar-title{
+  width: 100%;
 }
 
-.dudas-section__ticket2{
-  position: absolute;
-  top: 90%;
-  left: 80%;
-  transform: translate(-50%, -50%);
-  width: 337px;
-  height: 304px;
-  animation: art-bob2 4s ease-in-out infinite;
-  z-index: 0;
-  -webkit-transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  -o-transform: translate(-50%, -50%);
-  -webkit-animation: art-bob2 4s ease-in-out infinite;
+.calendar-button{
+  width: 45%;
+  max-width: 450px;
+  position: relative;
+  top: -8vw;
+  left: 15%;
 }
 
-.dudas-section__phrase{
-  position: absolute;
-  top: 68%;
-  left: 76%;
-  transform: translate(-50%, -50%);
-  width: 177px;
-  height: 118px;
-  z-index: 0;
-  -webkit-transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  -o-transform: translate(-50%, -50%);
-}
-
-
-.dudas-section__button {
-  display: inline-block;
-  padding: 14px 32px;
-  background-color: var(--color-primary);
-  color: #161616;
-  font-weight: 600;
-  border-radius: 999px;
-  transition: transform 0.2s ease, background-color 0.2s ease;
-}
-
-
-.dudas-section__sticker1{
-  position: absolute;
-  top: 40%;
-  left: 78%;
-  transform: translate(-50%, -50%);
-  width: 200px;
-  height: 180px;
-  z-index: 0;
-  -webkit-transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  -o-transform: translate(-50%, -50%);
-}
-
-.dudas-section__sticker2{
-  position: absolute;
-  top: 30%;
-  left: 30%;
-  transform: translate(-50%, -50%);
-  width: 280px;
-  height: 230px;
-
-  z-index: 0;
-  -webkit-transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  -o-transform: translate(-50%, -50%);
-}
-
-
-
-
-.dudas-section__ticket-container-1{
-  position: absolute;
-  overflow: visible;
-  animation: art-bob5 4s ease-in-out infinite;
-  -webkit-animation: art-bob5 4s ease-in-out infinite;
-  width: 250px;
-  height: 180px;
-  top: 45%;
-  left: 0%;
-  transform: translate(-50%, -50%);
-  -webkit-transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  -o-transform: translate(-50%, -50%);
-}
-
-.dudas-section__ticket-container-2{
-  position: absolute;
-  overflow: visible;
-  animation: art-bob6 4s ease-in-out infinite;
-  -webkit-animation: art-bob6 4s ease-in-out infinite;
-  width: 280px;
-  height: 230px;
-  top: 70%;
-  left: 65%;
-  transform: translate(-50%, -50%);
-}
 
 @media (max-width: 720px) {
   
-  .dudas-section__ticket-container-2{
-      top: 50%;
-      left: 30%;
+  .calendar-self{
+    width: 100%;
   }
   
+  .calendar-section__container{
+    width: 100%;
+    padding: 0px;
+    height: 100%;
+  }
   
-  .dudas-section__ticket-container-1{
-        top: 40%;
-  left: 15%;
+  .calendar-title{
+    width: 90%;
+    position: relative;
+    top: 6vw;
+    max-width: 500px;
   }
 
+  .calendar-button{
+    width: 80%;
+    max-width: 300px;
+    position: relative;
+    top: -10vw;
+    left: 0%;
+  }
+
+
 }
-
-
-@keyframes art-bob2 {
-  0%, 100% { transform: translateY(0); }
-  50% { transform: translateY(-30px); -webkit-transform: translateY(-30px); -moz-transform: translateY(-30px); -ms-transform: translateY(-30px); -o-transform: translateY(-30px); }
-}
-@keyframes art-bob3 {
-  0%, 100% { transform: translateY(0); -webkit-transform: translateY(0); -moz-transform: translateY(0); -ms-transform: translateY(0); -o-transform: translateY(0); }
-  50% { transform: translateX(-8px); -webkit-transform: translateX(-8px); -moz-transform: translateX(-8px); -ms-transform: translateX(-8px); -o-transform: translateX(-8px); }
-}
-
-@keyframes art-bob5 {
-  0%, 100% { transform: translateX(0); -webkit-transform: translateX(0); -moz-transform: translateX(0); -ms-transform: translateX(0); -o-transform: translateX(0); }
-  50% { transform: translateX(0px); -webkit-transform: translateX(0px); -moz-transform: translateX(0px); -ms-transform: translateX(0px); -o-transform: translateX(0px); }
-}
-  
-@keyframes art-bob6 {
-  0%, 100% { transform: translateY(0); -webkit-transform: translateY(0); -moz-transform: translateY(0); -ms-transform: translateY(0); -o-transform: translateY(0); }
-  50% { transform: translateX(-0px); -webkit-transform: translateX(-0px); -moz-transform: translateX(-0px); -ms-transform: translateX(-0px); -o-transform: translateX(-0px); }
-}
-
-@keyframes art-bob4 {
-  0%, 100% { transform: translateY(0); }
-  50% { transform: translateY(-8px); -webkit-transform: translateY(-8px); -moz-transform: translateY(-8px); -ms-transform: translateY(-8px); -o-transform: translateY(-8px); }
-}
-
-
-.dudas-section__question{
-  height:  clamp(250px, 20vw, 450px);
-  cursor: pointer;
-  animation: art-bob2 4s ease-in-out infinite;
-  -webkit-animation: art-bob2 4s ease-in-out infinite;
-}
-
-
-
-
-.dudas-section__question-text{
-  animation: art-bob2 4s ease-in-out infinite;
-  -webkit-animation: art-bob2 4s ease-in-out infinite;
-  position: relative;
-  top: 0px;
-  height: 80px;
-  z-index: 1;
-}
-
-
-
-
 
 
 
 /* default hidden state before animation */
-.dudas-section__tornado,
-.dudas-section__ticket1,
-.dudas-section__ticket2,
-.dudas-section__phrase,
-.dudas-section__sticker1,
-.dudas-section__sticker2,
-.dudas-section__content {
+.calendar-section__container {
   opacity: 0;
 }
 
-.dudas-section--visible .dudas-section__tornado {
+.calendar-section--visible .calendar-section__container {
   animation: fadeIn 0.7s ease 0s forwards;
 }
 
-.dudas-section--visible .dudas-section__ticket1 {
-  animation: slideFromLeft 0.7s cubic-bezier(0.22, 0.61, 0.36, 1) 0.2s forwards;
-  -webkit-animation: slideFromLeft 0.7s cubic-bezier(0.22, 0.61, 0.36, 1) 0.2s forwards;
-}
-
-.dudas-section--visible .dudas-section__ticket2 {
-  animation: slideFromRight 0.7s cubic-bezier(0.22, 0.61, 0.36, 1) 0.3s forwards;
-  -webkit-animation: slideFromRight 0.7s cubic-bezier(0.22, 0.61, 0.36, 1) 0.3s forwards;
-}
-
-.dudas-section--visible .dudas-section__phrase {
-  animation: slideFromRight 0.6s cubic-bezier(0.22, 0.61, 0.36, 1) 0.25s forwards;
-}
-
-.dudas-section--visible .dudas-section__sticker1 {
-  animation: slideFromRight 0.6s cubic-bezier(0.22, 0.61, 0.36, 1) 0.35s forwards;
-}
-
-.dudas-section--visible .dudas-section__sticker2 {
-  animation: slideFromLeft 0.6s cubic-bezier(0.22, 0.61, 0.36, 1) 0.15s forwards;
-}
-
-.dudas-section--visible .dudas-section__content {
-  animation: fadeSlideUp 0.7s ease 0.1s forwards;
-}
-
-@media (max-width: 720px) {
-  .dudas-section__keyword2 {
-    width: 100%;
-    max-width: 257px;
-  }
-
-  .dudas-section__keyword1 {
-    width: 100%;
-    margin-bottom: 20px;
-    max-width: 257px;
-  }
-
-  .dudas-section__ticket1 {
-    top: 50%;
-    left: 5%;
-    width: 150px;
-    height: 130px;
-  }
-
-  .dudas-section__ticket2 {
-    top: 65%;
-    left: 100%;
-    width: 200px;
-    height: 180px;
-  }
-
-  .dudas-section__phrase {
-    top: 50%;
-    left: 90%;
-    width: 100px;
-    height: 70px;
-  }
-}
-
 
 
 @media (max-width: 720px) {
-  .dudas-section {
+  .calendar-section {
     min-height: calc(100vh );
     background-image: var(--bg-mobile);
     background-size: 100% 100%;
     background-position: center;
-    padding: 10px;
+    padding: 0px;
   }
 
 

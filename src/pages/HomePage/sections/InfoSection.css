@@ -28,6 +28,9 @@
   gap: 32px;
 }
 
+
+
+
 .info-section__button{
   
   width: auto;
@@ -90,6 +93,27 @@
   -webkit-animation: art-bob2 4s ease-in-out infinite;
 }
 
+.info-section__sticker3{
+  width: 100%;
+  max-width: 200px;
+}
+
+.info-section__sticker4-container{
+  width: 0px;
+  height: 0px;
+  overflow: visible;
+}
+
+.info-section__sticker4{
+  position: relative;
+  z-index: 1;
+  min-width: 140px;
+  top: -80px;
+  right: 15vh;
+  transform: translate(-50%, -50%);
+  z-index: 0;
+
+}
 
 @media (max-width: 720px) {
   
@@ -98,10 +122,22 @@
       left: 30%;
   }
   
+  .info-section{
+    justify-content: flex-start;
+  }
   
   .info-section__container-1{
         top: 40%;
-  left: 15%;
+    left: 15%;
+  }
+
+  .info-section-container{
+    width: 80%;
+    margin-top: 20px;
+  }
+  .info-section__text{
+    width: 100%;
+
   }
 
 }
@@ -143,6 +179,7 @@
 .info-section__title,
 .info-section__sticker1,
 .info-section__sticker2,
+.info-section-container,
 .info-section__content {
   opacity: 0;
 }
@@ -174,7 +211,8 @@
   animation: slideFromLeft 0.6s cubic-bezier(0.22, 0.61, 0.36, 1) 0.15s forwards;
 }
 
-.info-section--visible .info-section__content {
+
+.info-section--visible .info-section-container {
   animation: fadeSlideUp 0.7s ease 0.1s forwards;
 }
 
@@ -210,7 +248,7 @@
 
 
 @media (max-width: 720px) {
-  .dudas-section {
+  .info-section {
     min-height: calc(100vh );
     background-image: var(--bg-mobile);
     background-size: 100% 100%;
