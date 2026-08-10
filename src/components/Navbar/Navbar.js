@@ -3,8 +3,7 @@ import { Link } from 'react-router-dom';
 
 import { HOME_SECTIONS, useSectionNav } from '../../utils/navigation';
 import './Navbar.css';
-import image8 from "../../assets/mainPage/inicio/desktop/logo.png";
-
+import image8 from "../../assets/reto-conexion-logo.svg";
 import box from "../../assets/mainPage/nav/caja.png";
 import navBox from "../../assets/mainPage/nav/Header.png";
 

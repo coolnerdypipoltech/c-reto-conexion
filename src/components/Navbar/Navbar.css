@@ -46,7 +46,20 @@
   color: var(--color-text);
   letter-spacing: 0.5px;
   margin-left: 16px;
+  transform: ease-in-out;
   animation: navbarDropIn 0.6s cubic-bezier(0.16, 1, 0.3, 1) both;
+  -webkit-transform: ease-in-out;
+  -moz-transform: ease-in-out;
+  -ms-transform: ease-in-out;
+  -o-transform: ease-in-out;
+}
+
+.navbar__brand img:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
 }
 
 .navbar__brand span {

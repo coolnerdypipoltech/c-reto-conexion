@@ -11,7 +11,7 @@
   background-position: center;
   overflow: hidden;
   padding: 30px;
-  top: -3px;
+  top: -4px;
 }
 
 
@@ -214,9 +214,13 @@
 
 .dudas-section__question{
   height:  clamp(250px, 20vw, 450px);
+  cursor: pointer;
   animation: art-bob2 4s ease-in-out infinite;
   -webkit-animation: art-bob2 4s ease-in-out infinite;
 }
+
+
+
 
 .dudas-section__question-text{
   animation: art-bob2 4s ease-in-out infinite;

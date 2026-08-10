@@ -9,8 +9,8 @@
   --color-text-muted: #c6c6c6;
   --color-border: rgba(255, 255, 255, 0.12);
 
-  --font-heading: "hitmarker-regular", 'Segoe UI', sans-serif;
-  --font-body: "hitmarker-regular", 'Segoe UI', sans-serif;
+  --font-heading: "hitmarker-regular", sans-serif;
+  --font-body: "hitmarker-regular", sans-serif;
 
   --navbar-height: 76px;
   --content-max-width: 1200px;
@@ -29,6 +29,13 @@
   font-family: "hitmarkerR-regular";
   src: url(assets/fonts/HitmarkerText-Regular.ttf) format('truetype');
   font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "hitmarkerR-medium";
+  src: url(assets/fonts/HitmarkerText-Medium.ttf) format('truetype');
+  font-weight: 500;
   font-style: normal;
 }
 
@@ -70,7 +77,7 @@
 
 * {
   box-sizing: border-box;
-    font-family: "hitmarker-regular", sans-serif;
+  
 }
 
 html {

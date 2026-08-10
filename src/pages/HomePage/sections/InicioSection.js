@@ -16,7 +16,7 @@ import image5 from "../../../assets/mainPage/inicio/desktop/home_mark.png";
 import image5M from "../../../assets/mainPage/inicio/mobil/home_marker.png";
 import image6 from "../../../assets/mainPage/inicio/desktop/img_chica.png";
 import image7 from "../../../assets/mainPage/inicio/desktop/img_ghost.png";
-import image8 from "../../../assets/mainPage/inicio/desktop/logo.png";
+import image8 from "../../../assets/reto-conexion-logo.svg";
 import image9 from "../../../assets/cod-logo.svg";
 import image10 from "../../../assets/mainPage/inicio/desktop/home_elreto.png";
 import "./InicioSection.css";

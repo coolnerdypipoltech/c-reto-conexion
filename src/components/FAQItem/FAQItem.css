@@ -97,7 +97,8 @@
   line-height: 1.7;
   text-align: left;
   color: var(--color-text-muted);
-  font-family: "hitmarkerR-regular", sans-serif;
+  font-family: "hitmarkerR-medium", sans-serif !important;
+  font-weight: 500;
   
 }
 
