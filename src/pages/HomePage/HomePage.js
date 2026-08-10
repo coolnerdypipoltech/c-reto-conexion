@@ -6,7 +6,8 @@ import InicioSection from './sections/InicioSection';
 import RetoSection from './sections/RetoSection';
 import sticker from "../../assets/mainPage/dudas/desktop/Gato.png"
 
-
+import InfoSection from './sections/InfoSection';
+import CalendarSection from './sections/CalendarSection';
 import PremiosSection from './sections/PremiosSection';
 
 import DudasSection from './sections/DudasSection';
@@ -61,6 +62,8 @@ return (
     <InicioSection />
     <RetoSection />
     <PremiosSection />
+    <InfoSection />
+    <CalendarSection />
     <DudasSection />
     <Footer />
   </div>
