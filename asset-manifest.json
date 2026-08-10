@@ -1,14 +1,16 @@
 {
   "files": {
-    "main.css": "/c-reto-conexion/static/css/main.a7f2ce9e.css",
-    "main.js": "/c-reto-conexion/static/js/main.511ee440.js",
+    "main.css": "/c-reto-conexion/static/css/main.46adf609.css",
+    "main.js": "/c-reto-conexion/static/js/main.9ce76d78.js",
     "static/js/453.9d3514db.chunk.js": "/c-reto-conexion/static/js/453.9d3514db.chunk.js",
     "static/media/faq.png": "/c-reto-conexion/static/media/faq.bf9cd0215ce689e7441f.png",
     "static/media/reto_bckg.png": "/c-reto-conexion/static/media/reto_bckg.190e9cdaef0adce1e857.png",
+    "static/media/Titulo.png": "/c-reto-conexion/static/media/Titulo.348245766c23f7244eaf.png",
     "static/media/Loading.mp4": "/c-reto-conexion/static/media/Loading.acf9bc8c6d0854a374d3.mp4",
     "static/media/home_bckg.png": "/c-reto-conexion/static/media/home_bckg.49d8ed1c7f706d099a03.png",
     "static/media/premios-bckg.png": "/c-reto-conexion/static/media/premios-bckg.057ccfd3d249bf55826a.png",
     "static/media/faqs-bckg.png": "/c-reto-conexion/static/media/faqs-bckg.d3ad566202784489d897.png",
+    "static/media/reto-conexion-logo.svg": "/c-reto-conexion/static/media/reto-conexion-logo.2dd321a3ab1d939d4a51724bdc9dad19.svg",
     "static/media/texture-5.png": "/c-reto-conexion/static/media/texture-5.3ac51e04eabe11cda3fa.png",
     "static/media/faqs_tornado.png": "/c-reto-conexion/static/media/faqs_tornado.78d72c10afa57f40f6e2.png",
     "static/media/reto-bckg.png": "/c-reto-conexion/static/media/reto-bckg.613f8d21cac01db46cd6.png",
@@ -34,6 +36,7 @@
     "static/media/HitmarkerCondensed-Regular.ttf": "/c-reto-conexion/static/media/HitmarkerCondensed-Regular.6fd169f61b8e5a980696.ttf",
     "static/media/HitmarkerCondensed-Medium.ttf": "/c-reto-conexion/static/media/HitmarkerCondensed-Medium.2448c9f6ec1ff5c6a900.ttf",
     "static/media/texture-8.png": "/c-reto-conexion/static/media/texture-8.827e77d5a43521f14f99.png",
+    "static/media/HitmarkerText-Medium.ttf": "/c-reto-conexion/static/media/HitmarkerText-Medium.d95156dc973e00034d9d.ttf",
     "static/media/HitmarkerText-Regular.ttf": "/c-reto-conexion/static/media/HitmarkerText-Regular.a229dca0d3d6a17517d5.ttf",
     "static/media/faqs_ticket2.png": "/c-reto-conexion/static/media/faqs_ticket2.7ba8b4351cae4ffde3d7.png",
     "static/media/faqs-bckg2.png": "/c-reto-conexion/static/media/faqs-bckg2.bbcd63d30694b781c562.png",
@@ -61,7 +64,6 @@
     "static/media/texture-4.png": "/c-reto-conexion/static/media/texture-4.bfc7bf6c159ce7ab2cd8.png",
     "static/media/footerM.png": "/c-reto-conexion/static/media/footerM.b4ae7a76d43569c211e5.png",
     "static/media/reto_info-2.png": "/c-reto-conexion/static/media/reto_info-2.12a0a82b180972f99702.png",
-    "static/media/Titulo.png": "/c-reto-conexion/static/media/Titulo.e8f95a3c55c0a68038b0.png",
     "static/media/reto_info-3.png": "/c-reto-conexion/static/media/reto_info-3.fbea119ace1809dfd1f2.png",
     "static/media/reto_info-1.png": "/c-reto-conexion/static/media/reto_info-1.310a052726860d089784.png",
     "static/media/Header.png": "/c-reto-conexion/static/media/Header.0e4f6bfe7507989e13f1.png",
@@ -81,12 +83,12 @@
     "static/media/Gato.png": "/c-reto-conexion/static/media/Gato.97166bc8bd41abf5dfd2.png",
     "static/media/cod-logo.svg": "/c-reto-conexion/static/media/cod-logo.f5a7753cf97061cb45e147e59313038d.svg",
     "index.html": "/c-reto-conexion/index.html",
-    "main.a7f2ce9e.css.map": "/c-reto-conexion/static/css/main.a7f2ce9e.css.map",
-    "main.511ee440.js.map": "/c-reto-conexion/static/js/main.511ee440.js.map",
+    "main.46adf609.css.map": "/c-reto-conexion/static/css/main.46adf609.css.map",
+    "main.9ce76d78.js.map": "/c-reto-conexion/static/js/main.9ce76d78.js.map",
     "453.9d3514db.chunk.js.map": "/c-reto-conexion/static/js/453.9d3514db.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a7f2ce9e.css",
-    "static/js/main.511ee440.js"
+    "static/css/main.46adf609.css",
+    "static/js/main.9ce76d78.js"
   ]
 }
