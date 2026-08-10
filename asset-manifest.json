@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/c-reto-conexion/static/css/main.6bf2d8f8.css",
-    "main.js": "/c-reto-conexion/static/js/main.83c28118.js",
+    "main.css": "/c-reto-conexion/static/css/main.a7f2ce9e.css",
+    "main.js": "/c-reto-conexion/static/js/main.511ee440.js",
     "static/js/453.9d3514db.chunk.js": "/c-reto-conexion/static/js/453.9d3514db.chunk.js",
     "static/media/faq.png": "/c-reto-conexion/static/media/faq.bf9cd0215ce689e7441f.png",
     "static/media/reto_bckg.png": "/c-reto-conexion/static/media/reto_bckg.190e9cdaef0adce1e857.png",
@@ -75,16 +75,18 @@
     "static/media/faqs-question2.png": "/c-reto-conexion/static/media/faqs-question2.bc9b4df6c9be5d1fcadc.png",
     "static/media/faqs-question1.png": "/c-reto-conexion/static/media/faqs-question1.c6e52e9da7155aac8a5c.png",
     "static/media/sticker-bomb.png": "/c-reto-conexion/static/media/sticker-bomb.50dc725965af2987b9d5.png",
+    "static/media/reto_flecha2.png": "/c-reto-conexion/static/media/reto_flecha2.526e7a44746ccd4777e7.png",
     "static/media/insta.png": "/c-reto-conexion/static/media/insta.6582acb1200926c16729.png",
+    "static/media/reto_flecha1.png": "/c-reto-conexion/static/media/reto_flecha1.5e0a3816784f00322069.png",
     "static/media/Gato.png": "/c-reto-conexion/static/media/Gato.97166bc8bd41abf5dfd2.png",
     "static/media/cod-logo.svg": "/c-reto-conexion/static/media/cod-logo.f5a7753cf97061cb45e147e59313038d.svg",
     "index.html": "/c-reto-conexion/index.html",
-    "main.6bf2d8f8.css.map": "/c-reto-conexion/static/css/main.6bf2d8f8.css.map",
-    "main.83c28118.js.map": "/c-reto-conexion/static/js/main.83c28118.js.map",
+    "main.a7f2ce9e.css.map": "/c-reto-conexion/static/css/main.a7f2ce9e.css.map",
+    "main.511ee440.js.map": "/c-reto-conexion/static/js/main.511ee440.js.map",
     "453.9d3514db.chunk.js.map": "/c-reto-conexion/static/js/453.9d3514db.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6bf2d8f8.css",
-    "static/js/main.83c28118.js"
+    "static/css/main.a7f2ce9e.css",
+    "static/js/main.511ee440.js"
   ]
 }
