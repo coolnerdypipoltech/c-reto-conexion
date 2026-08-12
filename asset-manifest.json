@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/c-reto-conexion/static/css/main.f29df68a.css",
-    "main.js": "/c-reto-conexion/static/js/main.c50d7ea8.js",
+    "main.css": "/c-reto-conexion/static/css/main.59e96a3a.css",
+    "main.js": "/c-reto-conexion/static/js/main.996c841f.js",
     "static/js/453.9d3514db.chunk.js": "/c-reto-conexion/static/js/453.9d3514db.chunk.js",
     "static/media/calendar-bckg.png": "/c-reto-conexion/static/media/calendar-bckg.95c4dc5da969f2463f64.png",
     "static/media/info-bckg.png": "/c-reto-conexion/static/media/info-bckg.cb033e1bda67a17f0e21.png",
@@ -17,6 +17,7 @@
     "static/media/reto-conexion-logo.svg": "/c-reto-conexion/static/media/reto-conexion-logo.2dd321a3ab1d939d4a51724bdc9dad19.svg",
     "static/media/texture-5.png": "/c-reto-conexion/static/media/texture-5.3ac51e04eabe11cda3fa.png",
     "static/media/faqs_tornado.png": "/c-reto-conexion/static/media/faqs_tornado.78d72c10afa57f40f6e2.png",
+    "static/media/embajadores-title.png": "/c-reto-conexion/static/media/embajadores-title.39f58d61fe2c1024507f.png",
     "static/media/info-titulo.png": "/c-reto-conexion/static/media/info-titulo.d7c4296106d88549265b.png",
     "static/media/reto-bckg.png": "/c-reto-conexion/static/media/reto-bckg.613f8d21cac01db46cd6.png",
     "static/media/Recompensa_Tarjeta_12.png": "/c-reto-conexion/static/media/Recompensa_Tarjeta_12.1cf9b60fcf1a9a01c2df.png",
@@ -46,8 +47,10 @@
     "static/media/HitmarkerText-Medium.ttf": "/c-reto-conexion/static/media/HitmarkerText-Medium.d95156dc973e00034d9d.ttf",
     "static/media/HitmarkerText-Regular.ttf": "/c-reto-conexion/static/media/HitmarkerText-Regular.a229dca0d3d6a17517d5.ttf",
     "static/media/faqs_ticket2.png": "/c-reto-conexion/static/media/faqs_ticket2.7ba8b4351cae4ffde3d7.png",
+    "static/media/embajadores-footer.png": "/c-reto-conexion/static/media/embajadores-footer.853bcf6798b4a1f621b6.png",
     "static/media/faqs-bckg2.png": "/c-reto-conexion/static/media/faqs-bckg2.bbcd63d30694b781c562.png",
     "static/media/img_chica.png": "/c-reto-conexion/static/media/img_chica.c6962a0e9324c7ccb8c8.png",
+    "static/media/embajadores-card.png": "/c-reto-conexion/static/media/embajadores-card.95d1f682967cea459385.png",
     "static/media/img_ghost.png": "/c-reto-conexion/static/media/img_ghost.7072fea496c18f45adf9.png",
     "static/media/Buton.png": "/c-reto-conexion/static/media/Buton.5dcead2d03b6d63f8bf9.png",
     "static/media/Faqs-title.png": "/c-reto-conexion/static/media/Faqs-title.59c9118e6e92e6ded30b.png",
@@ -67,6 +70,7 @@
     "static/media/premios-titulos.png": "/c-reto-conexion/static/media/premios-titulos.d06d99c5454f52c3a840.png",
     "static/media/premios-miticas.png": "/c-reto-conexion/static/media/premios-miticas.a4e6d257ffe57e3bc41c.png",
     "static/media/question.png": "/c-reto-conexion/static/media/question.f29e86ef2cf50d9a46a3.png",
+    "static/media/Brand_activision.png": "/c-reto-conexion/static/media/Brand_activision.a6b119b111271771ec45.png",
     "static/media/premios-epicas.png": "/c-reto-conexion/static/media/premios-epicas.b2532e6827b1cb840b8a.png",
     "static/media/texture-2.png": "/c-reto-conexion/static/media/texture-2.461b4a83a1e7536a5878.png",
     "static/media/faq_dudas.png": "/c-reto-conexion/static/media/faq_dudas.7958ed345dc296a2c86e.png",
@@ -74,6 +78,7 @@
     "static/media/footerM.png": "/c-reto-conexion/static/media/footerM.b4ae7a76d43569c211e5.png",
     "static/media/reto_info-2.png": "/c-reto-conexion/static/media/reto_info-2.12a0a82b180972f99702.png",
     "static/media/reto_info-3.png": "/c-reto-conexion/static/media/reto_info-3.fbea119ace1809dfd1f2.png",
+    "static/media/embajadores-deco.png": "/c-reto-conexion/static/media/embajadores-deco.7cde6c5680b06ecc2754.png",
     "static/media/reto_info-1.png": "/c-reto-conexion/static/media/reto_info-1.310a052726860d089784.png",
     "static/media/Header.png": "/c-reto-conexion/static/media/Header.0e4f6bfe7507989e13f1.png",
     "static/media/tiktok.png": "/c-reto-conexion/static/media/tiktok.59b800f0eea924782ad2.png",
@@ -92,13 +97,17 @@
     "static/media/reto_flecha1.png": "/c-reto-conexion/static/media/reto_flecha1.5e0a3816784f00322069.png",
     "static/media/Gato.png": "/c-reto-conexion/static/media/Gato.97166bc8bd41abf5dfd2.png",
     "static/media/cod-logo.svg": "/c-reto-conexion/static/media/cod-logo.f5a7753cf97061cb45e147e59313038d.svg",
+    "static/media/embajadores-tiktok.svg": "/c-reto-conexion/static/media/embajadores-tiktok.cd81b96cf09de69a4136d99ca28d8305.svg",
+    "static/media/embajadores-insta.svg": "/c-reto-conexion/static/media/embajadores-insta.e4fc61e8ea7e0da97101828f25ffc2af.svg",
+    "static/media/embajadores-yt.svg": "/c-reto-conexion/static/media/embajadores-yt.90a71eaab6bf6ec37ba9dae9f0814a57.svg",
+    "static/media/embajadores-fb.svg": "/c-reto-conexion/static/media/embajadores-fb.042e66fc7f75bbb683374be2fd2e3164.svg",
     "index.html": "/c-reto-conexion/index.html",
-    "main.f29df68a.css.map": "/c-reto-conexion/static/css/main.f29df68a.css.map",
-    "main.c50d7ea8.js.map": "/c-reto-conexion/static/js/main.c50d7ea8.js.map",
+    "main.59e96a3a.css.map": "/c-reto-conexion/static/css/main.59e96a3a.css.map",
+    "main.996c841f.js.map": "/c-reto-conexion/static/js/main.996c841f.js.map",
     "453.9d3514db.chunk.js.map": "/c-reto-conexion/static/js/453.9d3514db.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f29df68a.css",
-    "static/js/main.c50d7ea8.js"
+    "static/css/main.59e96a3a.css",
+    "static/js/main.996c841f.js"
   ]
 }
