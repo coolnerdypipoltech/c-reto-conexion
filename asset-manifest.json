@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/c-reto-conexion/static/css/main.eeb6e5b6.css",
-    "main.js": "/c-reto-conexion/static/js/main.d7d85ece.js",
+    "main.css": "/c-reto-conexion/static/css/main.7f9dd166.css",
+    "main.js": "/c-reto-conexion/static/js/main.f62e4338.js",
     "static/js/453.9d3514db.chunk.js": "/c-reto-conexion/static/js/453.9d3514db.chunk.js",
     "static/media/calendar-bckg.png": "/c-reto-conexion/static/media/calendar-bckg.95c4dc5da969f2463f64.png",
     "static/media/info-bckg.png": "/c-reto-conexion/static/media/info-bckg.cb033e1bda67a17f0e21.png",
@@ -24,6 +24,7 @@
     "static/media/Recompensa_Tarjeta_12.png": "/c-reto-conexion/static/media/Recompensa_Tarjeta_12.1cf9b60fcf1a9a01c2df.png",
     "static/media/Recompensa_Tarjeta_6.png": "/c-reto-conexion/static/media/Recompensa_Tarjeta_6.5e432fbc51d792e09175.png",
     "static/media/Recompensa_Tarjeta_8.png": "/c-reto-conexion/static/media/Recompensa_Tarjeta_8.2b6502a281e4bd74cf6b.png",
+    "static/media/info-ghost.png": "/c-reto-conexion/static/media/info-ghost.b2984159edecd248faed.png",
     "static/media/Recompensa_Tarjeta_4.png": "/c-reto-conexion/static/media/Recompensa_Tarjeta_4.e4f38325b25ec5e94841.png",
     "static/media/Recompensa_Tarjeta_5.png": "/c-reto-conexion/static/media/Recompensa_Tarjeta_5.4bb254e9aad9bcbc34fb.png",
     "static/media/texture-7.png": "/c-reto-conexion/static/media/texture-7.3481b3a1c3f4b7b144f2.png",
@@ -57,6 +58,7 @@
     "static/media/Faqs-title.png": "/c-reto-conexion/static/media/Faqs-title.59c9118e6e92e6ded30b.png",
     "static/media/texture-6.png": "/c-reto-conexion/static/media/texture-6.bd686c45142484a78362.png",
     "static/media/Recompensa_Tarjeta_11.png": "/c-reto-conexion/static/media/Recompensa_Tarjeta_11.edc666a6707499b19628.png",
+    "static/media/info-button.png": "/c-reto-conexion/static/media/info-button.a73b304e06b51c405b0d.png",
     "static/media/info-heli.png": "/c-reto-conexion/static/media/info-heli.608e7d1ee9b254c8a6a2.png",
     "static/media/Recompensa_Tarjeta_10.png": "/c-reto-conexion/static/media/Recompensa_Tarjeta_10.304e5ea3e2aaf00c25fb.png",
     "static/media/Recompensa_Tarjeta_15.png": "/c-reto-conexion/static/media/Recompensa_Tarjeta_15.b8bc621fa6e64e620ae9.png",
@@ -106,12 +108,12 @@
     "static/media/embajadores-yt.svg": "/c-reto-conexion/static/media/embajadores-yt.90a71eaab6bf6ec37ba9dae9f0814a57.svg",
     "static/media/embajadores-fb.svg": "/c-reto-conexion/static/media/embajadores-fb.042e66fc7f75bbb683374be2fd2e3164.svg",
     "index.html": "/c-reto-conexion/index.html",
-    "main.eeb6e5b6.css.map": "/c-reto-conexion/static/css/main.eeb6e5b6.css.map",
-    "main.d7d85ece.js.map": "/c-reto-conexion/static/js/main.d7d85ece.js.map",
+    "main.7f9dd166.css.map": "/c-reto-conexion/static/css/main.7f9dd166.css.map",
+    "main.f62e4338.js.map": "/c-reto-conexion/static/js/main.f62e4338.js.map",
     "453.9d3514db.chunk.js.map": "/c-reto-conexion/static/js/453.9d3514db.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.eeb6e5b6.css",
-    "static/js/main.d7d85ece.js"
+    "static/css/main.7f9dd166.css",
+    "static/js/main.f62e4338.js"
   ]
 }
