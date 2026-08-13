@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import Intro from './sections/Intro';
 import { useLocation, useNavigate } from 'react-router-dom';
-
+import EmbajadoresSection from './sections/EmbajadoresSection';
 import InicioSection from './sections/InicioSection';
 import RetoSection from './sections/RetoSection';
 import Footer from '../../components/Footer/Footer';
@@ -58,6 +58,7 @@ return (
           <PremiosSection />
               <InfoSection />
     <CalendarSection />
+    <EmbajadoresSection/>
           <DudasSection />
           <Footer></Footer>
         </div>

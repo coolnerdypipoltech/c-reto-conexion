@@ -1,7 +1,7 @@
 {
   "name": "c-reto-conexion",
   "version": "1.0.1",
-    "homepage": "https://codm1014.com/",
+    "homepage": "https://coolnerdypipoltech.github.io/c-reto-conexion/",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.1",

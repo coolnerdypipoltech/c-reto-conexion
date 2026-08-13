@@ -79,13 +79,24 @@
 }
 
 .inicio-section__home-elreto{
-
-  width: 201px;
-  height: auto;
+    cursor: pointer;
+  width: auto;
+  height: 100px;
   padding-top: 20px;
-  
+
 
 }
+
+.inicio-section__home-elreto:hover{
+  transform: scale(1.15);
+  transition: transform 0.3s ease;
+  -webkit-transform: scale(1.15);
+  -moz-transform: scale(1.15);
+  -ms-transform: scale(1.15);
+  -o-transform: scale(1.15);
+}
+
+
 @keyframes art-bob {
   0%, 100% { transform: translateY(0); }
   50% { transform: translateY(-14px); -webkit-transform: translateY(-14px); -moz-transform: translateY(-14px); -ms-transform: translateY(-14px); -o-transform: translateY(-14px); }
@@ -320,8 +331,8 @@ top: 75vh;
 
 .inicio-section__home-elreto{
 
-  padding-top: 40px;
-  
+  padding-top: 20px;
+  height: 80px;
 
 }
 

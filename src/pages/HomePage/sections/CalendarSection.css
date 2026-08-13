@@ -43,6 +43,48 @@
 }
 
 
+  .calendar-button-2{
+    width: 80px;
+    position: relative;
+    top: -270px;
+    left: 35%;
+    animation:  wiggle-grow 1.5s ease-in-out infinite;
+    -webkit-animation:  wiggle-grow 1.5s ease-in-out infinite;
+}
+
+@keyframes wiggle-grow {
+  0%, 100% {
+    transform: rotate(0deg) scale(1);
+  }
+  25% {
+    transform: rotate(-6deg) scale(1.08);
+  }
+  50% {
+    transform: rotate(0deg) scale(1.15);
+  }
+  75% {
+    transform: rotate(6deg) scale(1.08);
+  }
+}
+
+@-webkit-keyframes wiggle-grow {
+  0%, 100% {
+    transform: rotate(0deg) scale(1);
+  }
+  25% {
+    transform: rotate(-6deg) scale(1.08);
+  }
+  50% {
+    transform: rotate(0deg) scale(1.15);
+  }
+  75% {
+    transform: rotate(6deg) scale(1.08);
+  }
+}
+
+
+
+
 @media (max-width: 720px) {
   
   .calendar-self{
@@ -56,20 +98,28 @@
   }
   
   .calendar-title{
-    width: 90%;
+    width: 80%;
     position: relative;
     top: 6vw;
-    max-width: 500px;
+    max-width: 300px;
   }
 
   .calendar-button{
-    width: 80%;
-    max-width: 300px;
+    width: 90%;
+    
     position: relative;
     top: -10vw;
     left: 0%;
   }
 
+
+  .calendar-button-2{
+    width: 60px;
+    max-width: 60px;
+    position: relative;
+    top: -16vh;
+    left: 38%;
+  }
 
 }
 

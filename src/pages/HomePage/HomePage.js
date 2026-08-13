@@ -9,7 +9,7 @@ import sticker from "../../assets/mainPage/dudas/desktop/Gato.png"
 import InfoSection from './sections/InfoSection';
 import CalendarSection from './sections/CalendarSection';
 import PremiosSection from './sections/PremiosSection';
-
+import EmbajadoresSection from './sections/EmbajadoresSection';
 import DudasSection from './sections/DudasSection';
 import ParallaxStickers from '../../components/ParallaxStickers/ParallaxStickers';
 
@@ -64,6 +64,7 @@ return (
     <PremiosSection />
     <InfoSection />
     <CalendarSection />
+    <EmbajadoresSection />
     <DudasSection />
     <Footer />
   </div>

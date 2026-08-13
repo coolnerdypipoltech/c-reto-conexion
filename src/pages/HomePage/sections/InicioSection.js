@@ -19,6 +19,7 @@ import image7 from "../../../assets/mainPage/inicio/desktop/img_ghost.png";
 import image8 from "../../../assets/reto-conexion-logo.svg";
 import image9 from "../../../assets/cod-logo.svg";
 import image10 from "../../../assets/mainPage/inicio/desktop/home_elreto.png";
+import image11 from "../../../assets/mainPage/inicio/desktop/Buton.png";
 import "./InicioSection.css";
 import { useViewport } from "../../../context/ViewportContext";
 
@@ -119,16 +120,19 @@ const InicioSection = () => {
           <span style={{ color: "#8A09E7" }}>ÉPICA!</span>
         </h1>
 
+
         <img
-          src={image10}
+          src={image11}
           className="inicio-section__home-elreto"
-          alt="Home El Reto"
+          alt="Home New"
           loading="lazy"
+          onClick={() => {window.open("https://codmatvi.onelink.me/jYL7/7nhxz7h5")}}
         />
-        <Countdown targetDate={CHALLENGE_START_DATE} />
+
         <p className="inicio-section__subtitle">
-          El reto está disponible del 24 de agosto {isMobile && <br></br>}[UTC-6]
-          {!isMobile && <br></br>} al 06 de septiembre.
+
+          Realiza tu primer inicio de sesión antes del {isMobile && <br></br>}
+          {!isMobile && <br></br>} 28 de agosto a las 6 PM (UTC-6).
         </p>
       </div>
       {!isMobile ? (
