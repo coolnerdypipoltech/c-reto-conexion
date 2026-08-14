@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/c-reto-conexion/static/css/main.af6a199f.css",
-    "main.js": "/c-reto-conexion/static/js/main.dbdedc49.js",
+    "main.css": "/c-reto-conexion/static/css/main.83a06396.css",
+    "main.js": "/c-reto-conexion/static/js/main.5e19f855.js",
     "static/js/453.9d3514db.chunk.js": "/c-reto-conexion/static/js/453.9d3514db.chunk.js",
     "static/media/calendar-bckg.png": "/c-reto-conexion/static/media/calendar-bckg.95c4dc5da969f2463f64.png",
     "static/media/info-bckg.png": "/c-reto-conexion/static/media/info-bckg.cb033e1bda67a17f0e21.png",
@@ -12,7 +12,7 @@
     "static/media/Loading.mp4": "/c-reto-conexion/static/media/Loading.29a77ca86c36544f5678.mp4",
     "static/media/premios-bckg.png": "/c-reto-conexion/static/media/premios-bckg.057ccfd3d249bf55826a.png",
     "static/media/faqs-bckg.png": "/c-reto-conexion/static/media/faqs-bckg.d3ad566202784489d897.png",
-    "static/media/calendar-self.png": "/c-reto-conexion/static/media/calendar-self.d6c76a9191f61238610e.png",
+    "static/media/calendar-self.png": "/c-reto-conexion/static/media/calendar-self.0ba7c27cf301c8ce8ea4.png",
     "static/media/info-popup.png": "/c-reto-conexion/static/media/info-popup.24896a80bc1e7028cc3b.png",
     "static/media/embajadores-card2.png": "/c-reto-conexion/static/media/embajadores-card2.5229ecba99dedd36a554.png",
     "static/media/embajadores-card.png": "/c-reto-conexion/static/media/embajadores-card.c4ebf7d4e0de21fc7638.png",
@@ -101,6 +101,7 @@
     "static/media/faqs-question2.png": "/c-reto-conexion/static/media/faqs-question2.bc9b4df6c9be5d1fcadc.png",
     "static/media/faqs-question1.png": "/c-reto-conexion/static/media/faqs-question1.c6e52e9da7155aac8a5c.png",
     "static/media/info-title2.png": "/c-reto-conexion/static/media/info-title2.0a73e76b8e4fc761f37f.png",
+    "static/media/calendar-footer.png": "/c-reto-conexion/static/media/calendar-footer.547f62fe1c5d673c8ff8.png",
     "static/media/sticker-bomb.png": "/c-reto-conexion/static/media/sticker-bomb.50dc725965af2987b9d5.png",
     "static/media/reto_flecha2.png": "/c-reto-conexion/static/media/reto_flecha2.526e7a44746ccd4777e7.png",
     "static/media/insta.png": "/c-reto-conexion/static/media/insta.6582acb1200926c16729.png",
@@ -113,12 +114,12 @@
     "static/media/embajadores-yt.svg": "/c-reto-conexion/static/media/embajadores-yt.b9a9fe1d75d899c820e86336ee74ad87.svg",
     "static/media/embajadores-fb.svg": "/c-reto-conexion/static/media/embajadores-fb.2d5f9c50a608d369fbebbd99f3e456c4.svg",
     "index.html": "/c-reto-conexion/index.html",
-    "main.af6a199f.css.map": "/c-reto-conexion/static/css/main.af6a199f.css.map",
-    "main.dbdedc49.js.map": "/c-reto-conexion/static/js/main.dbdedc49.js.map",
+    "main.83a06396.css.map": "/c-reto-conexion/static/css/main.83a06396.css.map",
+    "main.5e19f855.js.map": "/c-reto-conexion/static/js/main.5e19f855.js.map",
     "453.9d3514db.chunk.js.map": "/c-reto-conexion/static/js/453.9d3514db.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.af6a199f.css",
-    "static/js/main.dbdedc49.js"
+    "static/css/main.83a06396.css",
+    "static/js/main.5e19f855.js"
   ]
 }
