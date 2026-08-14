@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/c-reto-conexion/static/css/main.a35fd3cb.css",
+    "main.css": "/c-reto-conexion/static/css/main.1d0764c3.css",
     "main.js": "/c-reto-conexion/static/js/main.8fbe686f.js",
     "static/js/453.9d3514db.chunk.js": "/c-reto-conexion/static/js/453.9d3514db.chunk.js",
     "static/media/calendar-bckg.png": "/c-reto-conexion/static/media/calendar-bckg.95c4dc5da969f2463f64.png",
@@ -112,12 +112,12 @@
     "static/media/embajadores-yt.svg": "/c-reto-conexion/static/media/embajadores-yt.b9a9fe1d75d899c820e86336ee74ad87.svg",
     "static/media/embajadores-fb.svg": "/c-reto-conexion/static/media/embajadores-fb.2d5f9c50a608d369fbebbd99f3e456c4.svg",
     "index.html": "/c-reto-conexion/index.html",
-    "main.a35fd3cb.css.map": "/c-reto-conexion/static/css/main.a35fd3cb.css.map",
+    "main.1d0764c3.css.map": "/c-reto-conexion/static/css/main.1d0764c3.css.map",
     "main.8fbe686f.js.map": "/c-reto-conexion/static/js/main.8fbe686f.js.map",
     "453.9d3514db.chunk.js.map": "/c-reto-conexion/static/js/453.9d3514db.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a35fd3cb.css",
+    "static/css/main.1d0764c3.css",
     "static/js/main.8fbe686f.js"
   ]
 }
