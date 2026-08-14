@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/c-reto-conexion/static/css/main.683d30a2.css",
-    "main.js": "/c-reto-conexion/static/js/main.097a1bc3.js",
+    "main.css": "/c-reto-conexion/static/css/main.cf0aff6c.css",
+    "main.js": "/c-reto-conexion/static/js/main.44f5e274.js",
     "static/js/453.9d3514db.chunk.js": "/c-reto-conexion/static/js/453.9d3514db.chunk.js",
     "static/media/calendar-bckg.png": "/c-reto-conexion/static/media/calendar-bckg.95c4dc5da969f2463f64.png",
     "static/media/info-bckg.png": "/c-reto-conexion/static/media/info-bckg.cb033e1bda67a17f0e21.png",
@@ -114,12 +114,12 @@
     "static/media/embajadores-yt.svg": "/c-reto-conexion/static/media/embajadores-yt.b9a9fe1d75d899c820e86336ee74ad87.svg",
     "static/media/embajadores-fb.svg": "/c-reto-conexion/static/media/embajadores-fb.2d5f9c50a608d369fbebbd99f3e456c4.svg",
     "index.html": "/c-reto-conexion/index.html",
-    "main.683d30a2.css.map": "/c-reto-conexion/static/css/main.683d30a2.css.map",
-    "main.097a1bc3.js.map": "/c-reto-conexion/static/js/main.097a1bc3.js.map",
+    "main.cf0aff6c.css.map": "/c-reto-conexion/static/css/main.cf0aff6c.css.map",
+    "main.44f5e274.js.map": "/c-reto-conexion/static/js/main.44f5e274.js.map",
     "453.9d3514db.chunk.js.map": "/c-reto-conexion/static/js/453.9d3514db.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.683d30a2.css",
-    "static/js/main.097a1bc3.js"
+    "static/css/main.cf0aff6c.css",
+    "static/js/main.44f5e274.js"
   ]
 }
