@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/c-reto-conexion/static/css/main.bd660336.css",
-    "main.js": "/c-reto-conexion/static/js/main.6b703b51.js",
+    "main.js": "/c-reto-conexion/static/js/main.9fffd65e.js",
     "static/js/453.9d3514db.chunk.js": "/c-reto-conexion/static/js/453.9d3514db.chunk.js",
-    "static/media/home_bckg.png": "/c-reto-conexion/static/media/home_bckg.7886072ab802cfda84f9.png",
-    "static/media/embajadores-bckg.png": "/c-reto-conexion/static/media/embajadores-bckg.4b9d754964667ddfaff0.png",
-    "static/media/calendar-bckg.png": "/c-reto-conexion/static/media/calendar-bckg.f5fadd6721e15e9ee07e.png",
+    "static/media/home_bckg.png": "/c-reto-conexion/static/media/home_bckg.b54cd8da49330f1eeea6.png",
+    "static/media/embajadores-bckg.png": "/c-reto-conexion/static/media/embajadores-bckg.bcc5ae6c3fe87d05703e.png",
+    "static/media/calendar-bckg.png": "/c-reto-conexion/static/media/calendar-bckg.7528697bfa78cd98d11b.png",
     "static/media/reto_bckg.png": "/c-reto-conexion/static/media/reto_bckg.73d5297b811e08b6c788.png",
     "static/media/premios-bckg.png": "/c-reto-conexion/static/media/premios-bckg.e91658966e76eebe6816.png",
     "static/media/faq.png": "/c-reto-conexion/static/media/faq.870bdace68ed17c6eb90.png",
@@ -149,11 +149,11 @@
     "static/media/embajadores-fb.svg": "/c-reto-conexion/static/media/embajadores-fb.2d5f9c50a608d369fbebbd99f3e456c4.svg",
     "index.html": "/c-reto-conexion/index.html",
     "main.bd660336.css.map": "/c-reto-conexion/static/css/main.bd660336.css.map",
-    "main.6b703b51.js.map": "/c-reto-conexion/static/js/main.6b703b51.js.map",
+    "main.9fffd65e.js.map": "/c-reto-conexion/static/js/main.9fffd65e.js.map",
     "453.9d3514db.chunk.js.map": "/c-reto-conexion/static/js/453.9d3514db.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bd660336.css",
-    "static/js/main.6b703b51.js"
+    "static/js/main.9fffd65e.js"
   ]
 }
