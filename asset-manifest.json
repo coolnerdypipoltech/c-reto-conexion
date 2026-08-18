@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/c-reto-conexion/static/css/main.fb6a0aec.css",
-    "main.js": "/c-reto-conexion/static/js/main.d2de1bfc.js",
+    "main.css": "/c-reto-conexion/static/css/main.bd660336.css",
+    "main.js": "/c-reto-conexion/static/js/main.8e7e8c00.js",
     "static/js/453.9d3514db.chunk.js": "/c-reto-conexion/static/js/453.9d3514db.chunk.js",
     "static/media/home_bckg.png": "/c-reto-conexion/static/media/home_bckg.aec7c4f137ad20b4383d.png",
     "static/media/embajadores-bckg.png": "/c-reto-conexion/static/media/embajadores-bckg.250b6d5d7e5b8b0f7c5d.png",
@@ -115,13 +115,17 @@
     "static/media/info-list.png": "/c-reto-conexion/static/media/info-list.faf0bd01a0a0d21b3ae4.png",
     "static/media/Gato.png": "/c-reto-conexion/static/media/Gato.97166bc8bd41abf5dfd2.png",
     "static/media/cod-logo.svg": "/c-reto-conexion/static/media/cod-logo.f5a7753cf97061cb45e147e59313038d.svg",
+    "static/media/embajadores-tiktok.svg": "/c-reto-conexion/static/media/embajadores-tiktok.accfecd802a7205d0c8ad14d717241fe.svg",
+    "static/media/embajadores-insta.svg": "/c-reto-conexion/static/media/embajadores-insta.dbfd940f4f18b2e365df110ca7b0af88.svg",
+    "static/media/embajadores-yt.svg": "/c-reto-conexion/static/media/embajadores-yt.b9a9fe1d75d899c820e86336ee74ad87.svg",
+    "static/media/embajadores-fb.svg": "/c-reto-conexion/static/media/embajadores-fb.2d5f9c50a608d369fbebbd99f3e456c4.svg",
     "index.html": "/c-reto-conexion/index.html",
-    "main.fb6a0aec.css.map": "/c-reto-conexion/static/css/main.fb6a0aec.css.map",
-    "main.d2de1bfc.js.map": "/c-reto-conexion/static/js/main.d2de1bfc.js.map",
+    "main.bd660336.css.map": "/c-reto-conexion/static/css/main.bd660336.css.map",
+    "main.8e7e8c00.js.map": "/c-reto-conexion/static/js/main.8e7e8c00.js.map",
     "453.9d3514db.chunk.js.map": "/c-reto-conexion/static/js/453.9d3514db.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fb6a0aec.css",
-    "static/js/main.d2de1bfc.js"
+    "static/css/main.bd660336.css",
+    "static/js/main.8e7e8c00.js"
   ]
 }
