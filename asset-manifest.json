@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/c-reto-conexion/static/css/main.e26df165.css",
-    "main.js": "/c-reto-conexion/static/js/main.8fde0dd5.js",
+    "main.css": "/c-reto-conexion/static/css/main.668140c9.css",
+    "main.js": "/c-reto-conexion/static/js/main.1f527369.js",
     "static/js/453.9d3514db.chunk.js": "/c-reto-conexion/static/js/453.9d3514db.chunk.js",
     "static/media/home_bckg.png": "/c-reto-conexion/static/media/home_bckg.b54cd8da49330f1eeea6.png",
     "static/media/embajadores-bckg.png": "/c-reto-conexion/static/media/embajadores-bckg.550559eb58a22939c1e2.png",
@@ -156,12 +156,12 @@
     "static/media/embajadores-yt.svg": "/c-reto-conexion/static/media/embajadores-yt.b9a9fe1d75d899c820e86336ee74ad87.svg",
     "static/media/embajadores-fb.svg": "/c-reto-conexion/static/media/embajadores-fb.2d5f9c50a608d369fbebbd99f3e456c4.svg",
     "index.html": "/c-reto-conexion/index.html",
-    "main.e26df165.css.map": "/c-reto-conexion/static/css/main.e26df165.css.map",
-    "main.8fde0dd5.js.map": "/c-reto-conexion/static/js/main.8fde0dd5.js.map",
+    "main.668140c9.css.map": "/c-reto-conexion/static/css/main.668140c9.css.map",
+    "main.1f527369.js.map": "/c-reto-conexion/static/js/main.1f527369.js.map",
     "453.9d3514db.chunk.js.map": "/c-reto-conexion/static/js/453.9d3514db.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e26df165.css",
-    "static/js/main.8fde0dd5.js"
+    "static/css/main.668140c9.css",
+    "static/js/main.1f527369.js"
   ]
 }
