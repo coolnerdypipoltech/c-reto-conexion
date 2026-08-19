@@ -11,6 +11,7 @@ import legendariaImg from "../../../assets/mainPage/premios/desktop/premios-lege
 import miticaImg from "../../../assets/mainPage/premios/desktop/premios-mitica.png";
 import titulos from "../../../assets/mainPage/premios/desktop/premios-titulos.png";
 import image9 from "../../../assets/cod-logo.svg";
+import picale from "../../../assets/mainPage/dudas/desktop/question.png";
 
 import stickerKnife from "../../../assets/mainPage/reto/desktop/sticker-knife.png";
 import stickerBomb from "../../../assets/mainPage/premios/mobil/sticker-bomb.png";
@@ -78,7 +79,7 @@ const PremiosSection = () => {
      
       <div className="premios-section__content container">
         <img className='premios-section__title' src={titulos} alt="Titulo" style={{paddingLeft: "10px", paddingRight: "10px"}} />
-
+        <img className='premios-section__picale' src={picale} alt="Titulo" />
         <div className="premios-section__grid">
           {PRIZE_TIER_ORDER.map((slug, index) => (
             <button

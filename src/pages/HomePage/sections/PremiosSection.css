@@ -45,9 +45,17 @@
   width: 100%;
   height: 100%;
   opacity: 0;
+  z-index: 1;
 }
 
-
+.premios-section__picale{
+  width: 110px;
+  position: absolute;
+  top: 25%;
+  right: 45%;
+  rotate: 15deg;
+  animation: bob-and-tilt 5s ease-in-out infinite;
+}
 
 .premios-section__sticker--knife{
     position: relative;
@@ -107,7 +115,7 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 40px;
-  margin-top: 30px;
+  margin-top: 60px;
 }
 
 .premios-card {
@@ -140,7 +148,7 @@
 .premios-section__sticker--gato{
   position: absolute;
   top: 275vh;
-  left: 5%;
+  left: -8%;
   transform: translate(-50%, -50%);
   width: 65px;
   animation: bob-and-tilt 5s ease-in-out infinite;
@@ -220,7 +228,17 @@
   .premios-section {
     background-image: var(--bg-mobile);
     background-size: 100% 100%;
+        min-height: 732px;
+    max-height: 732px;
   }
+
+  .premios-section__picale{
+  width: 80px;
+  position: absolute;
+  top: 12.5%;
+  right: 6%;
+  rotate: 15deg;
+}
 
   .premios-card__image {
     width: 150px;
@@ -255,7 +273,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 40px;
+    margin-top: 55px;
     gap: 20px;
   }
 }

@@ -53,6 +53,7 @@ if(!introDone){
       }} />)
 }
 
+console.log("1");
 
 if(introDone && show){
 return (

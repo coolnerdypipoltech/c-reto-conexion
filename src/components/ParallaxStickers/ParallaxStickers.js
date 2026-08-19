@@ -2,11 +2,11 @@ import { useEffect, useRef } from 'react';
 
 import './ParallaxStickers.css';
 
+import stickerYellow from "../../assets/mainPage/stickers/M_yellow.png"
+import stickerBlue from "../../assets/mainPage/stickers/M_Blue.png"
 
-
-const STICKERS = [
-
-];
+import stickerGradient from "../../assets/mainPage/stickers/M_gradient.png"
+import stickerPink from "../../assets/mainPage/stickers/M_pink.png"
 
 // Decorative sticker layer that sits above the section artwork on the
 // homepage and drifts at its own rate on scroll (parallax), so it reads as
@@ -14,42 +14,18 @@ const STICKERS = [
 const ParallaxStickers = () => {
   const refs = useRef([]);
 
-  useEffect(() => {
-    let ticking = false;
 
-    const apply = () => {
-      const y = window.scrollY;
-      refs.current.forEach((el, i) => {
-        if (!el) return;
-        const { rotate, speed } = STICKERS[i];
-        el.style.transform = `translate3d(0, ${(y * speed).toFixed(1)}px, 0) rotate(${rotate}deg)`;
-      });
-      ticking = false;
-    };
 
-    const onScroll = () => {
-      if (!ticking) {
-        ticking = true;
-        requestAnimationFrame(apply);
-      }
-    };
-
-    apply();
-    window.addEventListener('scroll', onScroll, { passive: true });
-    return () => window.removeEventListener('scroll', onScroll);
-  }, []);
 
   return (
     <div className="parallax-stickers" aria-hidden="true">
-      {STICKERS.map((sticker, i) => (
-        <img
-          key={i}
-          src={sticker.src}
-          alt=""
-          ref={(el) => { refs.current[i] = el; }}
-          className={`parallax-stickers__item ${sticker.className}`}
-        />
-      ))}
+      <img src={stickerPink} className='parallax-stickers-1' alt='sticker'/>
+      <img src={stickerPink} className='parallax-stickers-2' alt='sticker'/>
+      <img src={stickerYellow} className='parallax-stickers-3' alt='sticker'/>
+      <img src={stickerGradient} className='parallax-stickers-4' alt='sticker'/>
+      <img src={stickerBlue} className='parallax-stickers-4-1' alt='sticker'/>
+      <img src={stickerYellow} className='parallax-stickers-5' alt='sticker'/>
+      <img src={stickerBlue} className='parallax-stickers-6' alt='sticker'/>
     </div>
   );
 };

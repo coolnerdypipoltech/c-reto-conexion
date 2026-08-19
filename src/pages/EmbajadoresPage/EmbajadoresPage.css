@@ -1,0 +1,211 @@
+.embajadores-page {
+  position: relative;
+  background-color: var(--color-bg);
+  background-image: var(--bg-desktop);
+  background-size: 100% auto;
+  background-position: center;
+  background-repeat:repeat-y;
+  overflow: hidden;
+  min-height: 100vh;
+  padding-bottom: 60px;
+  z-index: 1;
+  top: -2px;
+}
+
+.embajadores-page__hero {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 20px;
+  z-index: 1;
+}
+
+.embajadores-page__hero-img {
+  width: 50%;
+  max-width: 662px;
+}
+
+.embajadores-back-button-container {
+  height: 0px;
+  width: 100%;
+  overflow: visible;
+  z-index: 100;
+}
+
+.embajadores-back-button {
+  position: relative;
+  top: 40px;
+  left: 5%;
+  width: 36px;
+  z-index: 100;
+  height: auto;
+  cursor: pointer;
+}
+
+.embajadores-section__home-ghost {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+  width: 25%;
+  height: auto;
+  max-width: 364px;
+  z-index: 0;
+}
+
+.embajadores-section__home-girl-container {
+  position: absolute;
+  top: 104%;
+  left: 93%;
+  transform: translate(-50%, -50%);
+  width: 0px;
+}
+
+.embajadores-section__home-girl {
+  position: relative;
+  left: 100%;
+  transform: translate(-50%, -50%);
+  width: 25vw;
+  height: auto;
+  max-width: 419px;
+  overflow: hidden;
+  z-index: 0;
+}
+
+
+
+.embajadores-page__sticker-2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 30vw;
+  height: auto;
+  z-index: 0;
+}
+.embajadores-page__sticker-3 {
+  position: absolute;
+  top: 10%;
+  left: 75%;
+  width: 25vw;
+  height: auto;
+  z-index: 0;
+}
+
+.embajadores-page__sticker-4 {
+  position: absolute;
+  top: 45%;
+  right: 0%;
+  width: 25vw;
+  height: auto;
+  z-index: 0;
+}
+.embajadores-page__sticker-5 {
+  position: absolute;
+  top: 45%;
+  left: 0%;
+  width: 35vw;
+  height: auto;
+  z-index: 0;
+}
+
+
+.embajadores-page__sticker-6 {
+  position: absolute;
+  bottom: -3%;
+  left: 80%;
+  width: 20vw;
+  height: auto;
+  z-index: 0;
+}
+
+
+.embajadores-page__grid {
+  margin-top: 44px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+  padding: 0 20px;
+  margin-bottom: 50px;
+}
+
+@media (max-width: 720px) {
+  .embajadores-page {
+    background-image: var(--bg-mobile);
+    background-size: 100% auto;
+  }
+
+  .embajadores-section__home-girl {
+    scale: 1;
+    width: 50vw;
+    top: -20vh;
+    left: 0vw;
+  }
+
+  .embajadores-section__home-ghost {
+    scale: 0;
+  }
+
+  .embajadores-page__hero-img {
+    max-width: 220px;
+    width: 60%;
+    margin-top: 10px;
+  }
+
+  .embajadores-back-button {
+    left: 2.5%;
+    top: 45px;
+  }
+
+
+.embajadores-page__sticker-2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50vw;
+  height: auto;
+  z-index: 0;
+}
+.embajadores-page__sticker-3 {
+  position: absolute;
+  top: 10%;
+  left: 55%;
+  width: 50vw;
+  height: auto;
+  z-index: 0;
+}
+
+.embajadores-page__sticker-4 {
+  position: absolute;
+  top: 45%;
+  right: 0%;
+  width: 60vw;
+  height: auto;
+  z-index: 0;
+}
+  .embajadores-page__sticker-5 {
+    position: absolute;
+    top: 45%;
+    left: 0%;
+    width: 50vw;
+    height: auto;
+    z-index: 0;
+  }
+
+
+  .embajadores-page__sticker-6 {
+    position: absolute;
+    bottom: 0%;
+    left: 60%;
+    width: 40vw;
+    height: auto;
+    z-index: 0;
+  }
+
+  .embajadores-page__grid {
+    gap: 6px;
+    padding: 0 10px;
+  }
+}

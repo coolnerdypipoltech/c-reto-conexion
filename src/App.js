@@ -9,6 +9,7 @@ import FAQsPage from './pages/FAQsPage/FAQsPage';
 import TerminosPage from './pages/TerminosPage/TerminosPage';
 import PrivacidadPage from './pages/PrivacidadPage/PrivacidadPage';
 import PremiosPage from './pages/PremiosPage/PremiosPage';
+import EmbajadoresPage from './pages/EmbajadoresPage/EmbajadoresPage';
 
 import { DEFAULT_PRIZE_TIER } from './utils/prizeTiers';
 import { useEffect, useRef } from 'react';
@@ -39,6 +40,7 @@ function App() {
             <Route path="/home" element={<HomePage2  />} />
             <Route path="/premios" element={<Navigate to={`/premios/${DEFAULT_PRIZE_TIER}`} replace />} />
             <Route path="/premios/:tier" element={<PremiosPage />} />
+            <Route path="/embajadores" element={<EmbajadoresPage />} />
             <Route path="/faqs" element={<FAQsPage />} />
             <Route path="/terminos-y-condiciones" element={<TerminosPage />} />
            

@@ -9,7 +9,7 @@ import yt from "../../assets/mainPage/embajadores/desktop/embajadores-yt.svg"
 
 import { useViewport } from '../../context/ViewportContext';
 
-const EmbajadorItem = ({ image, link1, link2}) => {
+const EmbajadorItem = ({ slideDir, image, link1, link2}) => {
 
   let imageHolder1 = tiktok;
   let imageHolder2 = tiktok;
@@ -31,7 +31,7 @@ const EmbajadorItem = ({ image, link1, link2}) => {
   }
 
   return (
-    <div className="embajador-item">
+    <div className={`embajador-item ${slideDir === 'left' ? 'embajador-item--slide-left' : 'embajador-item--slide-right'}`}>
       <img src={image} alt="Embajador" className="embajador-item__image" />
       <div className="embajador-item__links">
         <a href={link1} target="_blank" rel="noopener noreferrer">

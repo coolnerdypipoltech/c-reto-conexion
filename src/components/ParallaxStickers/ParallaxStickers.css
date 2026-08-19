@@ -3,52 +3,139 @@
   top: 0;
   left: 0;
   right: 0;
-  height: 400vh;
+  height: 680vh;
 
-  z-index: 2;
+  z-index: 1;
   pointer-events: none;
   overflow: hidden;
 }
 
-.parallax-stickers__item {
+@media (max-width: 720px) {
+  .parallax-stickers {
+    height: calc(500vh + 1400px);
+  }
+}
+
+.parallax-stickers-1{
   position: absolute;
-  height: auto;
-  opacity: 0.6;
-  filter: drop-shadow(0 4px 10px rgba(0, 0, 0, 0.4));
-  will-change: transform;
+  transform: translateX(-50%);
+  width: 375px;
+  left: 50%;
+  top: 8.5%;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
 }
 
-.parallax-stickers__item--1 {
-  top: 20%;
-  left: 5%;
-  min-width: clamp(150px, 20vw, 200px);
-  max-width: 200px;
+.parallax-stickers-2{
+  position: absolute;
+  transform: translateX(-50%);
+  width: 390px;
+  left: 15%;
+  top: 25%;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
 }
 
-.parallax-stickers__item--2 {
-  top: 20%;
-  right: 7%;
-  min-width: clamp(150px, 20vw, 200px);
-  max-width: 200px;
+.parallax-stickers-3{
+  position: absolute;
+
+  width: 250px;
+  right: 6%;
+  top: 29%;
+
 }
 
-.parallax-stickers__item--3 {
-  top: 58%;
-  left: 4%;
-  min-width: clamp(150px, 20vw, 200px);
-  max-width: 150px;
+.parallax-stickers-4{
+  position: absolute;
+  transform: translateX(-50%);
+  width: 350px;
+  left: 12%;
+  top: 37%;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
 }
 
-.parallax-stickers__item--4 {
-  top: 75%;
-  right: 5%;
-  min-width: clamp(150px, 20vw, 200px);
-  max-width: 200px;
+.parallax-stickers-4-1{
+  position: absolute;
+  transform: translateX(-50%);
+  width: 200px;
+  left: 90%;
+  top: 39%;
+
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
 }
+
+.parallax-stickers-5{
+  position: absolute;
+  transform: translateX(-50%);
+  width: 200px;
+  left: 0%;
+  top: 49%;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+}
+
+.parallax-stickers-6{
+  position: absolute;
+
+  width: 220px;
+  right: 0%;
+  top: 86%;
+
+}
+
+@media (max-width: 1000px) {
+  .parallax-stickers-6{
+    position: absolute;
+
+    scale: 0;
+
+  }
+}
+
 
 @media (max-width: 720px) {
-  .parallax-stickers__item--1 { width: 38px; }
-  .parallax-stickers__item--2 { width: 46px; }
-  .parallax-stickers__item--3 { width: 34px; }
-  .parallax-stickers__item--4 { width: 40px; }
+
+
+
+  .parallax-stickers-1{
+    width: 300px;
+    top: 10%;
+  }
+
+  .parallax-stickers-2{
+    width: 250px;
+    top: 25%;
+    left: 0%;
+  }
+
+  .parallax-stickers-3{
+    width: 150px;
+    top: 30%;
+    left: 75%;
+  }
+
+  .parallax-stickers-4{
+    width: 250px;
+    top: 34%;
+    left: 10%;
+  }
+
+  .parallax-stickers-5{
+    width: 150px;
+    top: 48.2%;
+    right: 0%;
+     left: 95%;
+  }
 }

@@ -7,7 +7,11 @@ import image3 from "../../../assets/mainPage/info/desktop/info-subtitulo.png";
 import image4 from "../../../assets/mainPage/info/desktop/info-heli.png";
 import image5 from "../../../assets/mainPage/info/desktop/info-button.png";
 import image6 from "../../../assets/mainPage/info/desktop/info-art.png";
+import image6M from "../../../assets/mainPage/info/mobil/info-art.png"
 import image7 from "../../../assets/mainPage/info/desktop/info-ghost.png";
+import image8 from "../../../assets/mainPage/info/desktop/info-text.png";
+import image8M from "../../../assets/mainPage/info/mobil/info-text.png";
+
 import popupBg from "../../../assets/mainPage/info/desktop/info-popup.png";
 import popupTitle from "../../../assets/mainPage/info/desktop/info-title2.png";
 import popupClose from "../../../assets/mainPage/info/desktop/info-close.png";
@@ -15,8 +19,15 @@ import popupBullet from "../../../assets/mainPage/info/desktop/info-list.png";
 
 import { useViewport } from "../../../context/ViewportContext";
 import "./InfoSection.css";
-const popupItems = [
-  <>Tu primer inicio de sesión debe suceder antes del <span style={{ color: "#FFFF0D" }}> 28 de agosto 6 PM [UTC-6] </span> . NOTA: Así tendrás tiempo de completar los 10 días antes del <span style={{ color: "#FFFF0D" }}> 6 de septiembre 6 PM [UTC-6].</span></>,
+
+
+const InfoSection = () => {
+  const { isMobile } = useViewport();
+  const sectionRef = useRef(null);
+  const [showPopup, setShowPopup] = useState(false);
+
+  const popupItems = [
+  <>Tu primer inicio de sesión debe suceder antes del <span style={{ color: "#FFFF0D" }}> 28 de agosto 6 PM [UTC-6] </span>. {!isMobile && (<br></br>)} NOTA: Así tendrás tiempo de completar los 10 días antes del <span style={{ color: "#FFFF0D" }}> 6 de septiembre 6 PM [UTC-6].</span></>,
   <>Los inicios de sesión se reinician diariamente a <span style={{ color: "#FFFF0D" }}> las 6 PM [UTC-6].</span></>,
   <>No necesitas iniciar sesión 10 días consecutivos; solo <span style={{ color: "#FFFF0D" }}> acumular 10 de los 14 disponibles.</span></>,
   <><span style={{ color: "#FFFF0D" }}>Los links de CODM y los links de los embajadores </span> de campaña funcionan igual.</>,
@@ -24,10 +35,16 @@ const popupItems = [
   <>Consulta tu progreso en <span style={{ color: "#FFFF0D" }}>el correo dentro del juego.</span></>,
 ];
 
-const InfoSection = () => {
-  const { isMobile } = useViewport();
-  const sectionRef = useRef(null);
-  const [showPopup, setShowPopup] = useState(false);
+  useEffect(() => {
+    if (showPopup) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "";
+    }
+    return () => {
+      document.body.style.overflow = "";
+    };
+  }, [showPopup]);
 
   useEffect(() => {
     const el = sectionRef.current;
@@ -65,12 +82,12 @@ const InfoSection = () => {
         />)}
 
       <div className="info-section-container">
-        {isMobile && (<img
-          src={image6}
+        {isMobile && (<div className="info-section__sticker3-container"><img
+          src={image6M}
           className="info-section__sticker3"
           alt="ghost"
           loading="lazy"
-        />)}
+        /></div>)}
         <img
           src={image2}
           className="info-section__title"
@@ -86,11 +103,12 @@ const InfoSection = () => {
 
 
 
-        <p className="info-section__text">
-          Antes de continuar,  revisa algunos{" "}
-          <span style={{ color: "#FFFF0D" }}>detalles importantes </span>
-          que pueden <span style={{ color: "#FFFF0D" }}>afectar tu progreso en el reto. </span>
-        </p>
+        <img
+          src={isMobile ? image8M : image8}
+          className="info-section__text"
+          alt="content"
+          loading="lazy"
+        />
         <img
           src={image5}
           className="info-section__button"

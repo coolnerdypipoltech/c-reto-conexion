@@ -6,6 +6,10 @@ export const HOME_SECTIONS = [
   { id: 'inicio', label: 'INICIO' },
   { id: 'reto', label: '¿QUÉ ES RETO: CONEXIÓN 10/14?' },
   { id: 'premios', label: 'RECOMPENSAS' },
+
+  { id: 'info', label: 'LO QUE DEBES SABER' },
+    { id: 'calendar', label: 'CALENDARIO' },
+  { id: 'embajadores', label: 'EMBAJADORES' },
   { id: 'dudas', label: 'DUDAS FRECUENTES' },
 ];
 

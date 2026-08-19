@@ -68,6 +68,7 @@
   position: absolute;
   top: 50%;
   left: 50%;
+  z-index: 1;
   transform: translate(-50%, -50%);
   width: 100%;
   height: auto;
@@ -79,12 +80,15 @@
 }
 
 .inicio-section__home-elreto{
-    cursor: pointer;
+  cursor: pointer;
   width: auto;
   height: 100px;
   padding-top: 20px;
-
-
+  transition: transform 0.4s ease;
+  -webkit-transition: transform 0.4s ease;
+  -moz-transition: transform 0.4s ease;
+  -ms-transition: transform 0.4s ease;
+  -o-transition: transform 0.4s ease;
 }
 
 .inicio-section__home-elreto:hover{
@@ -128,6 +132,7 @@
   -moz-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   -o-transform: translate(-50%, -50%);
+  z-index: 10;
 }
 
 .inicio-section__home-logo-container-2{
@@ -145,6 +150,7 @@
   -moz-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   -o-transform: translate(-50%, -50%);
+  z-index: 10;
 }
 
 
@@ -169,7 +175,7 @@
 
 .inicio-section__home-ghost{
   position: absolute;
-
+  
   width:  100%;
 
 }
@@ -488,15 +494,15 @@ top: 75vh;
 }
 
   .inicio-section__home-instagram-mobile{
-    top: 73vh;
+    top: 67vh;
   }
 
   .inicio-section__home-tiktok-mobile{
-    top: 73vh;
+    top: 67vh;
   }
 
   .inicio-section__home-facebook-mobile{
-    top: 73vh;
+    top: 67vh;
   }
 
 
@@ -507,15 +513,15 @@ top: 75vh;
 
 
   .inicio-section__home-instagram-mobile{
-    top: 73vh;
+    top: 70vh;
   }
 
   .inicio-section__home-tiktok-mobile{
-    top: 73vh;
+    top: 70vh;
   }
 
   .inicio-section__home-facebook-mobile{
-    top: 73vh;
+    top: 70vh;
   }
 
 
@@ -529,15 +535,15 @@ top: 75vh;
   }
 
   .inicio-section__home-instagram-mobile{
-    top: 75vh;
+    top: 72vh;
   }
 
   .inicio-section__home-tiktok-mobile{
-    top: 75vh;
+    top: 72vh;
   }
 
   .inicio-section__home-facebook-mobile{
-    top: 75vh;
+    top: 72vh;
   }
 
 

@@ -51,6 +51,11 @@
   75% { transform: translateY(-8px) rotate(4deg); -webkit-transform: translateY(-8px) rotate(4deg); -moz-transform: translateY(-8px) rotate(4deg); -ms-transform: translateY(-8px) rotate(4deg); -o-transform: translateY(-8px) rotate(4deg); }
 }
 
+@keyframes bob-and-tilt2 {
+  0%, 100% { transform: translateY(2px) rotate(0deg); -webkit-transform: translateY(2px) rotate(0deg); -moz-transform: translateY(2px) rotate(0deg); -ms-transform: translateY(2px) rotate(0deg); -o-transform: translateY(2px) rotate(0deg); }
+  50% { transform: translateY(-8px) rotate(-4deg); -webkit-transform: translateY(-8px) rotate(-4deg); -moz-transform: translateY(-8px) rotate(-4deg); -ms-transform: translateY(-8px) rotate(-4deg); -o-transform: translateY(-8px) rotate(-4deg); }
+  }
+
 .idle-float-soft {
   animation: float-soft 4.6s ease-in-out infinite;
 }
@@ -87,12 +92,46 @@
   background-image: var(--bg-desktop);
   background-size: 100% 100%;
   background-position: center;
-  overflow: hidden;
+  overflow: visible;
   padding: 70px;
-  top: -3px;
+  top: -4px;
+}
+
+.embajadores-sticker-container{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 0px;
+  height: 0px;
+  z-index: 1;
+  overflow: visible;
+  
 }
 
 
+.embajadores-section__sticker1{
+    position: absolute;
+    top: 75vh;
+    left: 5vw;
+    min-width: 130px;
+    min-height: 130px;
+    z-index: 1;
+    overflow: visible;
+    animation: bob-and-tilt 6s ease-in-out infinite;
+    -webkit-animation: bob-and-tilt 6s ease-in-out infinite;
+}
+
+
+.embajadores-section__sticker2{
+    position: absolute;
+    top: 40vh;
+    left: 90vw;
+    min-width: 170px;
+    min-height: 170px;
+    z-index: 1;
+    overflow: visible;
+
+}
 
 
 .embajadores-section__content {
@@ -145,9 +184,17 @@
 
 
 .embajadores-text-container{
-  width: 0px;
-  height: 0px;
-  overflow: visible;
+    width: 0px;
+    height: 0px;
+    overflow: visible;
+    animation: bob-and-tilt2 6s ease-in-out infinite;
+    -webkit-animation: bob-and-tilt2 6s ease-in-out infinite;
+}
+
+.embajadores-text-container2{
+    width: 0px;
+    height: 0px;
+    overflow: visible;
 
 }
 
@@ -224,28 +271,60 @@
 
 .embajadores-section__title
 {
-  width: 80%;
+  width: 70%;
   height: auto;
-  max-width: 1200px;
+  
+
 }
 
 
 .embajadores-section__brand{
   
-  min-width: 150px;
-  min-height: 100px;
-  right: 32vw;
+  min-width: 170px;
+  min-height: auto;
+  right: 36vw;
   position: relative;
-  top: -70px;
+  top: -90px;
 }
 
+.embajadores-section__poster{
+  width: 70%;
+}
 
+.embajadores-section__button{
+  min-width: clamp(250px, 30vw, 550px);
+  min-height: auto;
+  z-index: 5;
+  position: relative;
+  bottom: 8vw;
+  left: -5vw;
+   transition: transform 0.3s ease-in-out;
 
+}
 
+.embajadores-section__button2{
+  min-width: clamp(100px, 10vw, 150px);
+  min-height: auto;
+  z-index: 5;
+  position: relative;
+  bottom: 16vw;
+  left: 18vw;
+   animation: bob-and-tilt 6s ease-in-out infinite;
+
+}
+
+.embajadores-section__button:hover{
+    transform: scale(1.05);
+ 
+}
 
 /* default hidden state before animation */
 .embajadores-section__content
  {
+  opacity: 0;
+}
+
+.embajadores-sticker-container{
   opacity: 0;
 }
 
@@ -258,7 +337,10 @@
   -webkit-animation: fadeSlideDown 0.7s cubic-bezier(0.22, 0.61, 0.36, 1) 0.1s forwards;
 }
 
-
+.embajadores-section--visible .embajadores-sticker-container {
+  animation: fadeSlideDown 0.7s cubic-bezier(0.22, 0.61, 0.36, 1) 0.1s forwards;
+  -webkit-animation: fadeSlideDown 0.7s cubic-bezier(0.22, 0.61, 0.36, 1) 0.1s forwards;
+}
 
 .embajadores-section--visible .embajadores-section__footer {
   animation: fadeSlideUp 0.6s ease 0.5s forwards;
@@ -271,9 +353,44 @@
   .embajadores-section{
     background-image: var(--bg-mobile);
     background-size: 100% 100%;
+        min-height: 700px;
+    max-height: 700px;
     padding: 10px;
-
+    top: -6px;
     
+  }
+
+  .embajadores-section__poster{
+    width: 90%;
+  }
+
+  .embajadores-section__button{
+    position: relative;
+    width: 90%;
+    top: 10px;
+    left: 0px;
+    min-width: 0px;
+    min-height: 0px;
+  }
+
+  .embajadores-section__button2{
+
+    bottom: 19vw;
+  }
+
+  .embajadores-section__sticker1{
+
+    top: 72vh;
+    left: -12vw;
+
+  }
+
+  .embajadores-section__sticker2{
+
+      min-width: 150px;
+  min-height: 150px;
+    left: 82vw;
+
   }
 
   .embajadores-section__content-items {
@@ -286,10 +403,13 @@
 
   .embajadores-section__footer-container{
     width: 90%;
+    position: relative;
+    top: 50px;
   }
 
   .embajadores-section__title{
     padding-top: 50px;
+    margin-bottom: 10px;
   }
 
   .embajadores-section__brand{
