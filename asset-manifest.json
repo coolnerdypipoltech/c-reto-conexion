@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/c-reto-conexion/static/css/main.25ada7c1.css",
-    "main.js": "/c-reto-conexion/static/js/main.5f617cac.js",
+    "main.css": "/c-reto-conexion/static/css/main.41c202db.css",
+    "main.js": "/c-reto-conexion/static/js/main.17c60d0c.js",
     "static/js/453.9d3514db.chunk.js": "/c-reto-conexion/static/js/453.9d3514db.chunk.js",
     "static/media/home_bckg.png": "/c-reto-conexion/static/media/home_bckg.b54cd8da49330f1eeea6.png",
     "static/media/reto_bckg.png": "/c-reto-conexion/static/media/reto_bckg.73d5297b811e08b6c788.png",
@@ -60,9 +60,9 @@
     "static/media/27_Tarjeta_soyjohnnygames.png": "/c-reto-conexion/static/media/27_Tarjeta_soyjohnnygames.e2f3050155d761ccb01f.png",
     "static/media/img_chica.png": "/c-reto-conexion/static/media/img_chica.c6962a0e9324c7ccb8c8.png",
     "static/media/img_ghost.png": "/c-reto-conexion/static/media/img_ghost.7072fea496c18f45adf9.png",
-    "static/media/embajadores-title.png": "/c-reto-conexion/static/media/embajadores-title.8af3d3175b548ca64339.png",
+    "static/media/embajadores-title.png": "/c-reto-conexion/static/media/embajadores-title.a3860c338b06e905d35e.png",
+    "static/media/info-titulo.png": "/c-reto-conexion/static/media/info-titulo.035b5fb4f138fd636886.png",
     "static/media/24_Tarjeta_applesitogg.png": "/c-reto-conexion/static/media/24_Tarjeta_applesitogg.9e4129acb3dcef2c2663.png",
-    "static/media/info-titulo.png": "/c-reto-conexion/static/media/info-titulo.1041f99dc89c22945ef3.png",
     "static/media/12_Tarjeta_nosoytopher.png": "/c-reto-conexion/static/media/12_Tarjeta_nosoytopher.7af07f8478ab9d34ba89.png",
     "static/media/09_Tarjeta_Hisoka9210.png": "/c-reto-conexion/static/media/09_Tarjeta_Hisoka9210.39ab2a922a6122a6028d.png",
     "static/media/04_Tarjeta_rido.png": "/c-reto-conexion/static/media/04_Tarjeta_rido.5ae52277f6b9e77b589d.png",
@@ -151,12 +151,12 @@
     "static/media/embajadores-yt.svg": "/c-reto-conexion/static/media/embajadores-yt.b9a9fe1d75d899c820e86336ee74ad87.svg",
     "static/media/embajadores-fb.svg": "/c-reto-conexion/static/media/embajadores-fb.2d5f9c50a608d369fbebbd99f3e456c4.svg",
     "index.html": "/c-reto-conexion/index.html",
-    "main.25ada7c1.css.map": "/c-reto-conexion/static/css/main.25ada7c1.css.map",
-    "main.5f617cac.js.map": "/c-reto-conexion/static/js/main.5f617cac.js.map",
+    "main.41c202db.css.map": "/c-reto-conexion/static/css/main.41c202db.css.map",
+    "main.17c60d0c.js.map": "/c-reto-conexion/static/js/main.17c60d0c.js.map",
     "453.9d3514db.chunk.js.map": "/c-reto-conexion/static/js/453.9d3514db.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.25ada7c1.css",
-    "static/js/main.5f617cac.js"
+    "static/css/main.41c202db.css",
+    "static/js/main.17c60d0c.js"
   ]
 }
