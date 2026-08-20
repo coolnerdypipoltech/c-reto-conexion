@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/c-reto-conexion/static/css/main.136fcf2b.css",
+    "main.css": "/c-reto-conexion/static/css/main.725aff10.css",
     "main.js": "/c-reto-conexion/static/js/main.ee406416.js",
     "static/js/453.9d3514db.chunk.js": "/c-reto-conexion/static/js/453.9d3514db.chunk.js",
     "static/media/home_bckg.png": "/c-reto-conexion/static/media/home_bckg.b54cd8da49330f1eeea6.png",
@@ -151,12 +151,12 @@
     "static/media/embajadores-yt.svg": "/c-reto-conexion/static/media/embajadores-yt.b9a9fe1d75d899c820e86336ee74ad87.svg",
     "static/media/embajadores-fb.svg": "/c-reto-conexion/static/media/embajadores-fb.2d5f9c50a608d369fbebbd99f3e456c4.svg",
     "index.html": "/c-reto-conexion/index.html",
-    "main.136fcf2b.css.map": "/c-reto-conexion/static/css/main.136fcf2b.css.map",
+    "main.725aff10.css.map": "/c-reto-conexion/static/css/main.725aff10.css.map",
     "main.ee406416.js.map": "/c-reto-conexion/static/js/main.ee406416.js.map",
     "453.9d3514db.chunk.js.map": "/c-reto-conexion/static/js/453.9d3514db.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.136fcf2b.css",
+    "static/css/main.725aff10.css",
     "static/js/main.ee406416.js"
   ]
 }
