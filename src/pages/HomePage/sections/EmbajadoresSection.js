@@ -21,7 +21,7 @@ import image7M from "../../../assets/mainPage/embajadores/mobil/embajadores-butt
 import image8 from "../../../assets/mainPage/embajadores/desktop/embajadores-button2.png";
 
 import sticker1 from "../../../assets/mainPage/embajadores/desktop/embajadores-sticker.png";
-import sticker2 from "../../../assets/mainPage/reto/desktop/sticker-gun.png";
+import sticker2 from "../../../assets/mainPage/embajadores/desktop/embajadores-sticker2.png";
 
 
 
@@ -67,9 +67,9 @@ const EmbajadoresSection = () => {
         <img src={sticker1} className='embajadores-section__sticker1' alt="Embajadores Sticker" />
       </div>
 
-      <div className='embajadores-sticker-container'>
+      {!isMobile && (<div className='embajadores-sticker-container'>
         <img src={sticker2} className='embajadores-section__sticker2' alt="Embajadores Sticker" />
-      </div>
+      </div>)}
 
       <div className="embajadores-section__content">
         <div className='embajadores-text-container'>

@@ -69,12 +69,16 @@
 
 .calendar-self-wrapper{
   position: relative;
-  width: 65%;
+  width: 70%;
   display: flex;
   justify-content: center;
   position: relative;
   top: 20px;
 }
+
+
+
+
 
 .calendar-self{
   width: 100%;
@@ -82,9 +86,18 @@
 }
 
 .calendar-title{
-  width: 70%;
+  width: 55%;
   max-width: 800px;
 }
+
+@media (min-height: 850px) {
+  .calendar-title{
+    width: 70%;
+  }
+
+
+}
+
 
 .calendar-button-link,
 .calendar-button-2-link{
@@ -138,6 +151,18 @@
     animation:  wiggle-grow 1.5s ease-in-out infinite;
     -webkit-animation:  wiggle-grow 1.5s ease-in-out infinite;
 }
+
+
+@media (min-height: 850px) {
+  .calendar-self-wrapper{
+    width: 90%;
+
+  }
+  .calendar-footer{
+    width: 40%;
+  }
+}
+
 
 @keyframes wiggle-grow {
   0%, 100% {

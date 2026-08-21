@@ -77,7 +77,7 @@
 }
 
 .info-section__text{
-  width: 60%;
+  width: 75%;
   position: relative;
   top: -10px;
        
@@ -416,6 +416,22 @@
 
 .info-popup__close:hover {
   transform: scale(1.15);
+}
+
+@media (min-height: 900px) {
+  .info-section{
+    max-height: clamp(80vh, 100vh, 700px);
+    min-height: clamp(80vh, 100vh, 700px);;
+  }
+  .info-section__subtitle{
+    height: 45px;
+    max-height: 45px;
+    margin-top: 20px;
+  }
+  .info-section__text{
+    width: 75%;
+    margin-top: 20px;
+  }
 }
 
 @media (max-width: 720px) {

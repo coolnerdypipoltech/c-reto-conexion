@@ -85,7 +85,7 @@
 
 .embajadores-section {
   position: relative;
-  min-height: calc(100vh - 50px);
+  min-height: calc(90vh - 50px);
 
   max-height: 100vh;
   width: 100%;
@@ -95,7 +95,7 @@
   background-size: 100% 100%;
   background-position: center;
   overflow: visible;
-  padding: 70px;
+  padding: 100px;
   top: -4px;
 }
 
@@ -113,10 +113,10 @@
 
 .embajadores-section__sticker1{
     position: absolute;
-    top: 75vh;
-    left: 5vw;
-    min-width: 130px;
-    min-height: 130px;
+    top: 40vh;
+    left: 88vw;
+    min-width: 170px;
+    min-height: 170px;
     z-index: 1;
     overflow: visible;
 
@@ -125,13 +125,17 @@
 
 .embajadores-section__sticker2{
     position: absolute;
-    top: 40vh;
-    left: 90vw;
-    min-width: 170px;
-    min-height: 170px;
+    top: 62vh;
+    left: 5vw;
+    transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    -moz-transform: scaleX(-1);
+    -ms-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    min-width: 250px;
+    rotate: -25deg;
     z-index: 1;
     overflow: visible;
-
 }
 
 
@@ -283,13 +287,13 @@
   
   min-width: 170px;
   min-height: auto;
-  right: 36vw;
+  right: 34vw;
   position: relative;
-  top: -90px;
+  top: -120px;
 }
 
 .embajadores-section__poster{
-  width: 70%;
+  width: 60%;
 }
 
 .embajadores-section__button{
@@ -384,13 +388,7 @@
 
   }
 
-  .embajadores-section__sticker2{
 
-      min-width: 150px;
-  min-height: 150px;
-    left: 82vw;
-
-  }
 
   .embajadores-section__content-items {
     display: flex;

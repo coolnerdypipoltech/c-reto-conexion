@@ -35,9 +35,17 @@
   background-size: 100% 100%;
   background-position: center;
   overflow: hidden;
-  min-height: 100vh;
-  max-height: 100vh;
+  min-height: clamp(90vh, 100vh, 850px);
+  max-height: clamp(90vh, 100vh, 850px);;
   top: -3px;
+}
+
+@media (min-height: 900px) {
+  .premios-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 }
 
 .premios-section__stickers{

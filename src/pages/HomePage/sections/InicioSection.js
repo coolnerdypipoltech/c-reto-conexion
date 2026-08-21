@@ -1,5 +1,6 @@
 import { useEffect, useRef } from "react";
-
+import Countdown from "../../../components/Countdown/Countdown";
+import { CHALLENGE_START_DATE } from "../../../utils/constants";
 
 import image1 from "../../../assets/mainPage/inicio/desktop/tiktok.png";
 import image2 from "../../../assets/mainPage/inicio/desktop/facebook.png";
@@ -120,13 +121,7 @@ const InicioSection = () => {
         </h1>
 
 
-        <img
-          src={image11}
-          className="inicio-section__home-elreto"
-          alt="Home New"
-          loading="lazy"
-          onClick={() => {window.open("https://codmatvi.onelink.me/jYL7/7nhxz7h5")}}
-        />
+        <Countdown targetDate={CHALLENGE_START_DATE} />
 
         <p className="inicio-section__subtitle">
 
