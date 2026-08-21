@@ -246,6 +246,11 @@
 .dudas-section__sticker2,
 .dudas-section__content {
   opacity: 0;
+  transition: opacity 0.8s ease, transform 0.8s ease;
+  -webkit-transition: opacity 0.8s ease, transform 0.8s ease;
+  -moz-transition: opacity 0.8s ease, transform 0.8s ease;
+  -ms-transition: opacity 0.8s ease, transform 0.8s ease;
+  -o-transition: opacity 0.8s ease, transform 0.8s ease;
 }
 
 .dudas-section--visible .dudas-section__tornado {

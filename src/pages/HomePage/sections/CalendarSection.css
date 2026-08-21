@@ -190,10 +190,10 @@
   }
   
   .calendar-title{
-    width: 80%;
+    width: 75%;
     position: relative;
     top: 10vw;
-    max-width: 300px;
+    max-width: 270px;
     z-index: 100;
   }
 
@@ -205,9 +205,9 @@
 
 
   .calendar-footer{
-    width: 70%;
+    width: 65%;
     position: relative;
-    top: 17vh;
+    top: 13.5vh;
     left: 0%;
     z-index: 10000;
     margin-right: 0%;
@@ -247,16 +247,27 @@
 
 /* default hidden state before animation */
 .calendar-section__container {
-  opacity: 0;
+ 
+  transition: opacity 0.8s ease, transform 0.8s ease;
+  -webkit-transition: opacity 0.8s ease, transform 0.8s ease;
+  -moz-transition: opacity 0.8s ease, transform 0.8s ease;
+  -ms-transition: opacity 0.8s ease, transform 0.8s ease;
+  -o-transition: opacity 0.8s ease, transform 0.8s ease;
 }
 
 .calendar-sticker-container{
-  opacity: 0;
+
+  transition: opacity 0.8s ease, transform 0.8s ease;
+  -webkit-transition: opacity 0.8s ease, transform 0.8s ease;
+  -moz-transition: opacity 0.8s ease, transform 0.8s ease;
+  -ms-transition: opacity 0.8s ease, transform 0.8s ease;
+  -o-transition: opacity 0.8s ease, transform 0.8s ease;
 }
 
 
 .calendar-section--visible .calendar-section__container {
   animation: fadeIn 0.7s ease 0s forwards;
+  -webkit-animation: fadeIn 0.7s ease 0s forwards;
 }
 
 .calendar-section--visible .calendar-sticker-container {
@@ -264,10 +275,11 @@
 }
 
 
+
 @media (max-width: 720px) {
   .calendar-section {
         min-height: 732px;
-    max-height: 732px;
+
     background-image: var(--bg-mobile);
     background-size: 100% 100%;
     background-position: center;
@@ -278,6 +290,7 @@
   .calendar-self{
 
     width: 98%;
+    height: auto;
     margin-right: 0%;
   }
 

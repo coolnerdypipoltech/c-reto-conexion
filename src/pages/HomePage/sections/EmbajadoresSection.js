@@ -39,13 +39,14 @@ const EmbajadoresSection = () => {
     if (!el) return;
     const observer = new IntersectionObserver(
       ([entry]) => {
+        console.log('IntersectionObserver entry:', entry);
         if (entry.isIntersecting) {
           el.classList.add("embajadores-section--visible");
         } else {
           el.classList.remove("embajadores-section--visible");
         }
       },
-      { threshold: 0.15 }
+      { threshold: 0.15, rootMargin: "20% 0px 20% 0px" }
     );
     observer.observe(el);
     return () => observer.disconnect();

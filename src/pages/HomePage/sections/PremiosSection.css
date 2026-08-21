@@ -46,6 +46,11 @@
   height: 100%;
   opacity: 0;
   z-index: 1;
+  transition: opacity 0.8s ease, transform 0.8s ease;
+  -webkit-transition: opacity 0.8s ease, transform 0.8s ease;
+  -moz-transition: opacity 0.8s ease, transform 0.8s ease;
+  -ms-transition: opacity 0.8s ease, transform 0.8s ease;
+  -o-transition: opacity 0.8s ease, transform 0.8s ease;
 }
 
 .premios-section__picale{
@@ -109,6 +114,11 @@
 /* default hidden state before animation */
 .premios-section__title {
   opacity: 0;
+  transition: opacity 0.8s ease, transform 0.8s ease;
+  -webkit-transition: opacity 0.8s ease, transform 0.8s ease;
+  -moz-transition: opacity 0.8s ease, transform 0.8s ease;
+  -ms-transition: opacity 0.8s ease, transform 0.8s ease;
+  -o-transition: opacity 0.8s ease, transform 0.8s ease;
 }
 
 .premios-section__grid {
@@ -124,7 +134,11 @@
   border: none;
   padding: 0;
   cursor: pointer;
-  transition: transform 0.2s ease;
+  transition: opacity 0.8s ease, transform 0.2s ease;
+  -webkit-transition: opacity 0.8s ease, transform 0.2s ease;
+  -moz-transition: opacity 0.8s ease, transform 0.2s ease;
+  -ms-transition: opacity 0.8s ease, transform 0.2s ease;
+  -o-transition: opacity 0.8s ease, transform 0.2s ease;
 }
 
 .premios-card__image:hover {

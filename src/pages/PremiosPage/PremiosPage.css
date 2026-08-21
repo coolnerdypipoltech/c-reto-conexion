@@ -26,7 +26,7 @@
 
 .premios-section__sticker--gun{
     position: relative;
-    top: 70%;
+    top: calc(100% - 330px);
     left: 62%;
     width: 250px;
     z-index: 1;

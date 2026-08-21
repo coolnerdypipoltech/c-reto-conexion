@@ -320,6 +320,11 @@
 .reto-section__stickers,
 .reto-section__footer_text {
   opacity: 0;
+  transition: opacity 0.8s ease, transform 0.8s ease;
+  -webkit-transition: opacity 0.8s ease, transform 0.8s ease;
+  -moz-transition: opacity 0.8s ease, transform 0.8s ease;
+  -ms-transition: opacity 0.8s ease, transform 0.8s ease;
+  -o-transition: opacity 0.8s ease, transform 0.8s ease;
 }
 
 .reto-section--visible  .reto-section__stickers{

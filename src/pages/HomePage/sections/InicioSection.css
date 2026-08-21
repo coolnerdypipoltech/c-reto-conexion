@@ -121,7 +121,7 @@
   position: absolute;
   top: 50%;
   left: 24%;
-  width:  35%;
+  width:  30%;
   height: auto;
   max-width: 500px;
   min-width: 170px;
@@ -494,15 +494,15 @@ top: 75vh;
 }
 
   .inicio-section__home-instagram-mobile{
-    top: 67vh;
+    top: 72vh;
   }
 
   .inicio-section__home-tiktok-mobile{
-    top: 67vh;
+    top: 72vh;
   }
 
   .inicio-section__home-facebook-mobile{
-    top: 67vh;
+    top: 72vh;
   }
 
 
@@ -599,11 +599,16 @@ top: 75vh;
 .inicio-section__home-cod-logo,
 .inicio-section__home-mark,
 .inicio-section__content,
-
 .inicio-section__home-tiktok-mobile,
 .inicio-section__home-facebook-mobile,
 .inicio-section__home-instagram-mobile {
+  opacity: 1;
+}
+
+.inicio-section__home-ghost,
+.inicio-section__home-girl{
   opacity: 0;
+
 }
 
 .inicio-section--visible .inicio-section__home-ghost {

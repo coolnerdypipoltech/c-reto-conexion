@@ -36,13 +36,23 @@ const InfoSection = () => {
 ];
 
   useEffect(() => {
+    const preventScroll = (e) => e.preventDefault();
     if (showPopup) {
+      document.documentElement.style.overflow = "hidden";
       document.body.style.overflow = "hidden";
+      document.body.style.touchAction = "none";
+      window.addEventListener("touchmove", preventScroll, { passive: false });
     } else {
+      document.documentElement.style.overflow = "";
       document.body.style.overflow = "";
+      document.body.style.touchAction = "";
+      window.removeEventListener("touchmove", preventScroll);
     }
     return () => {
+      document.documentElement.style.overflow = "";
       document.body.style.overflow = "";
+      document.body.style.touchAction = "";
+      window.removeEventListener("touchmove", preventScroll);
     };
   }, [showPopup]);
 
@@ -57,7 +67,7 @@ const InfoSection = () => {
           el.classList.remove("info-section--visible");
         }
       },
-      { threshold: 0.15 },
+      { threshold: 0.15, rootMargin: "15% 0px 15% 0px" },
     );
     observer.observe(el);
     return () => observer.disconnect();
@@ -116,7 +126,10 @@ const InfoSection = () => {
           loading="lazy"
           onClick={() => setShowPopup(true)}
         />
-        {isMobile && (        <div className="info-section__sticker4-container">
+
+      </div>
+
+              {isMobile && (        <div className="info-section__sticker4-container">
           <img
           src={image4}
           className="info-section__sticker4"
@@ -124,7 +137,6 @@ const InfoSection = () => {
           loading="lazy"
         />
         </div>)}
-      </div>
 
       {!isMobile && (<div className="info-section__container-1">
         <img

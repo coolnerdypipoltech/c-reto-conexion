@@ -1,6 +1,5 @@
 import { useEffect, useRef } from "react";
-import Countdown from "../../../components/Countdown/Countdown";
-import { CHALLENGE_START_DATE } from "../../../utils/constants";
+
 
 import image1 from "../../../assets/mainPage/inicio/desktop/tiktok.png";
 import image2 from "../../../assets/mainPage/inicio/desktop/facebook.png";

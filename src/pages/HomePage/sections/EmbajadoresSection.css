@@ -86,6 +86,8 @@
 .embajadores-section {
   position: relative;
   min-height: calc(100vh - 50px);
+
+  max-height: 100vh;
   width: 100%;
   display: flex;
   align-items: center;
@@ -117,8 +119,7 @@
     min-height: 130px;
     z-index: 1;
     overflow: visible;
-    animation: bob-and-tilt 6s ease-in-out infinite;
-    -webkit-animation: bob-and-tilt 6s ease-in-out infinite;
+
 }
 
 
@@ -321,30 +322,28 @@
 /* default hidden state before animation */
 .embajadores-section__content
  {
-  opacity: 0;
+  
+  transition: opacity 0.8s ease, transform 0.8s ease;
+  -webkit-transition: opacity 0.8s ease, transform 0.8s ease;
+  -moz-transition: opacity 0.8s ease, transform 0.8s ease;
+  -ms-transition: opacity 0.8s ease, transform 0.8s ease;
+  -o-transition: opacity 0.8s ease, transform 0.8s ease;
 }
 
 .embajadores-sticker-container{
-  opacity: 0;
+ 
+  transition: opacity 0.8s ease, transform 0.8s ease;
+  -webkit-transition: opacity 0.8s ease, transform 0.8s ease;
+  -moz-transition: opacity 0.8s ease, transform 0.8s ease;
+  -ms-transition: opacity 0.8s ease, transform 0.8s ease;
+  -o-transition: opacity 0.8s ease, transform 0.8s ease;
 }
 
 .embajadores-section--visible  .embajadores-section__content{
   animation: fadeSlideDown 0.7s cubic-bezier(0.22, 0.61, 0.36, 1) 0.1s forwards;
-}
-
-.embajadores-section--visible .embajadores-section__title {
-  animation: fadeSlideDown 0.7s cubic-bezier(0.22, 0.61, 0.36, 1) 0.1s forwards;
   -webkit-animation: fadeSlideDown 0.7s cubic-bezier(0.22, 0.61, 0.36, 1) 0.1s forwards;
 }
 
-.embajadores-section--visible .embajadores-sticker-container {
-  animation: fadeSlideDown 0.7s cubic-bezier(0.22, 0.61, 0.36, 1) 0.1s forwards;
-  -webkit-animation: fadeSlideDown 0.7s cubic-bezier(0.22, 0.61, 0.36, 1) 0.1s forwards;
-}
-
-.embajadores-section--visible .embajadores-section__footer {
-  animation: fadeSlideUp 0.6s ease 0.5s forwards;
-}
 
 
 
@@ -353,8 +352,8 @@
   .embajadores-section{
     background-image: var(--bg-mobile);
     background-size: 100% 100%;
-        min-height: 700px;
-    max-height: 700px;
+    min-height: clamp(700px, 90vh, 750px);
+
     padding: 10px;
     top: -6px;
     
@@ -404,12 +403,13 @@
   .embajadores-section__footer-container{
     width: 90%;
     position: relative;
-    top: 50px;
+    top: 30px;
   }
 
   .embajadores-section__title{
     padding-top: 50px;
     margin-bottom: 10px;
+    width: 90%;
   }
 
   .embajadores-section__brand{

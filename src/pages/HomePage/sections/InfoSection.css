@@ -43,7 +43,7 @@
 
 .info-section__button{
   width: auto;
-  height: 80px;
+  height: 70px;
   
   cursor: pointer;
   transition: transform 0.4s ease;
@@ -78,9 +78,8 @@
 
 .info-section__text{
   width: 60%;
-
-  font-family: "hitmarker-regular", sans-serif;
-  
+  position: relative;
+  top: -10px;
        
 }
 
@@ -141,8 +140,8 @@
   position: relative;
   z-index: 1;
   min-width: 120px;
-  top: 0vh ;
-  right: 57vw;
+  top: 46vh ;
+  right: 7vw;
   transform: translate(-50%, -50%);
   z-index: 1;
   animation: art-bob2 4s ease-in-out infinite;
@@ -159,6 +158,7 @@
     width: 90vw;
     max-width: 350px;
     right: 2%;
+    top: -30px;
   }
   
   .info-section__container-1{
@@ -168,7 +168,8 @@
 
   .info-section-container{
     width: 90%;
-    margin-top: 20px;
+    position: relative;
+    top: -20px;
     
   }
   .info-section__text{
@@ -177,16 +178,16 @@
   }
 
   .info-section__button{
-    min-width: clamp(120%, 90vw, 100%);
+    min-width: clamp(110%, 90vw, 100%);
     height: auto;
   }
 
   .info-section__title{
-      max-width: 110%;
+
       margin-left: 4%;
-    width: auto;
-    height: 90%;
-    max-height: 90px;
+      width: 100%;
+      height: auto;
+
   }
 
   .info-section__subtitle{
@@ -239,6 +240,11 @@
 .info-section-container,
 .info-section__content {
   opacity: 0;
+  transition: opacity 0.8s ease, transform 0.8s ease;
+  -webkit-transition: opacity 0.8s ease, transform 0.8s ease;
+  -moz-transition: opacity 0.8s ease, transform 0.8s ease;
+  -ms-transition: opacity 0.8s ease, transform 0.8s ease;
+  -o-transition: opacity 0.8s ease, transform 0.8s ease;
 }
 
 .info-section--visible .info-section__title {
@@ -334,9 +340,10 @@
   align-items: center;
   justify-content: flex-start;
   text-align: center;
-  width: 60%;
+  width: 70%;
   height: 70%;
   max-width: 1200px;
+  min-height: 620px;
  
   padding-top: 60px;
   background-size: 100% 100%;
