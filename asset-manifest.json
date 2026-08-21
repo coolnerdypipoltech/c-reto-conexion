@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/c-reto-conexion/static/css/main.4dff6078.css",
-    "main.js": "/c-reto-conexion/static/js/main.ff2d3879.js",
+    "main.css": "/c-reto-conexion/static/css/main.4c07d6e5.css",
+    "main.js": "/c-reto-conexion/static/js/main.3bc21021.js",
     "static/js/453.9d3514db.chunk.js": "/c-reto-conexion/static/js/453.9d3514db.chunk.js",
     "static/media/home_bckg.png": "/c-reto-conexion/static/media/home_bckg.7886072ab802cfda84f9.png",
-    "static/media/reto_bckg.png": "/c-reto-conexion/static/media/reto_bckg.73d5297b811e08b6c788.png",
+    "static/media/embajadores-bckg.png": "/c-reto-conexion/static/media/embajadores-bckg.527472a3d3bae1f324ee.png",
+    "static/media/faq.png": "/c-reto-conexion/static/media/faq.c5f0830f8c5516d86160.png",
     "static/media/premios-bckg.png": "/c-reto-conexion/static/media/premios-bckg.820bb809b4d61a9337fa.png",
-    "static/media/faq.png": "/c-reto-conexion/static/media/faq.870bdace68ed17c6eb90.png",
+    "static/media/calendar-bckg.png": "/c-reto-conexion/static/media/calendar-bckg.ebe4aae3a593e849bea7.png",
+    "static/media/reto_bckg.png": "/c-reto-conexion/static/media/reto_bckg.bcca5139e5b3363b22bb.png",
     "static/media/Titulo.png": "/c-reto-conexion/static/media/Titulo.348245766c23f7244eaf.png",
+    "static/media/info-bckg.png": "/c-reto-conexion/static/media/info-bckg.78905f21f2811ceb7331.png",
     "static/media/Loading.mp4": "/c-reto-conexion/static/media/Loading.29a77ca86c36544f5678.mp4",
-    "static/media/embajadores-bckg.png": "/c-reto-conexion/static/media/embajadores-bckg.abdff87e0423a29a46b2.png",
     "static/media/faqs-bckg.png": "/c-reto-conexion/static/media/faqs-bckg.d3ad566202784489d897.png",
-    "static/media/calendar-bckg.png": "/c-reto-conexion/static/media/calendar-bckg.a86283e74ca3d4105249.png",
     "static/media/reto-bckg.png": "/c-reto-conexion/static/media/reto-bckg.f20dcf6cabea02447046.png",
-    "static/media/info-bckg.png": "/c-reto-conexion/static/media/info-bckg.886792f61049cef7a86f.png",
+    "static/media/embajadores-poster.png": "/c-reto-conexion/static/media/embajadores-poster.75133c6650e948900213.png",
     "static/media/reto-conexion-logo.svg": "/c-reto-conexion/static/media/reto-conexion-logo.2dd321a3ab1d939d4a51724bdc9dad19.svg",
     "static/media/texture-5.png": "/c-reto-conexion/static/media/texture-5.3ac51e04eabe11cda3fa.png",
     "static/media/desktopbckg.png": "/c-reto-conexion/static/media/desktopbckg.64229a165086dbfce93c.png",
@@ -37,7 +38,6 @@
     "static/media/Recompensa_Tarjeta_13.png": "/c-reto-conexion/static/media/Recompensa_Tarjeta_13.6cb7fe8f046ba60fda29.png",
     "static/media/info-popup.png": "/c-reto-conexion/static/media/info-popup.d27988f5411e87cca739.png",
     "static/media/reto_footer.png": "/c-reto-conexion/static/media/reto_footer.06177ebe383937b5a5ce.png",
-    "static/media/embajadores-poster.png": "/c-reto-conexion/static/media/embajadores-poster.75133c6650e948900213.png",
     "static/media/premios-epica.png": "/c-reto-conexion/static/media/premios-epica.5d2dd95f4c3c50291262.png",
     "static/media/mobilebckg.png": "/c-reto-conexion/static/media/mobilebckg.a7c7ae4358a4d9af0fdc.png",
     "static/media/info-art.png": "/c-reto-conexion/static/media/info-art.c0c81cacb1f512769793.png",
@@ -151,12 +151,12 @@
     "static/media/embajadores-yt.svg": "/c-reto-conexion/static/media/embajadores-yt.b9a9fe1d75d899c820e86336ee74ad87.svg",
     "static/media/embajadores-fb.svg": "/c-reto-conexion/static/media/embajadores-fb.2d5f9c50a608d369fbebbd99f3e456c4.svg",
     "index.html": "/c-reto-conexion/index.html",
-    "main.4dff6078.css.map": "/c-reto-conexion/static/css/main.4dff6078.css.map",
-    "main.ff2d3879.js.map": "/c-reto-conexion/static/js/main.ff2d3879.js.map",
+    "main.4c07d6e5.css.map": "/c-reto-conexion/static/css/main.4c07d6e5.css.map",
+    "main.3bc21021.js.map": "/c-reto-conexion/static/js/main.3bc21021.js.map",
     "453.9d3514db.chunk.js.map": "/c-reto-conexion/static/js/453.9d3514db.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4dff6078.css",
-    "static/js/main.ff2d3879.js"
+    "static/css/main.4c07d6e5.css",
+    "static/js/main.3bc21021.js"
   ]
 }
