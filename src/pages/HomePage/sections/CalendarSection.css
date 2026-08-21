@@ -110,13 +110,21 @@
   max-width: 500px;
   position: absolute;
   bottom: -8%;
-  left: 41%;
+  left: 35%;
   z-index: 2;
   transition: transform 0.3s ease-in-out;
   -webkit-transition: transform 0.3s ease-in-out;
   -moz-transition: transform 0.3s ease-in-out;
   -ms-transition: transform 0.3s ease-in-out;
   -o-transition: transform 0.3s ease-in-out;
+}
+
+@media (min-width: 1400px) {
+  .calendar-button{
+    right: 12%;
+    left: auto;
+    bottom: -6%;
+  }
 }
 
 .calendar-button:hover{
@@ -161,6 +169,11 @@
   .calendar-footer{
     width: 40%;
   }
+  .calendar-button-2{
+    bottom: 3%;
+    right: 8vw;
+  }
+
 }
 
 
