@@ -121,7 +121,13 @@ const InicioSection = () => {
         </h1>
 
 
-        <Countdown targetDate={CHALLENGE_START_DATE} />
+          <img
+          src={image11}
+          className="inicio-section__home-elreto"
+          alt="Home New"
+          loading="lazy"
+          onClick={() => {window.open("https://codmatvi.onelink.me/jYL7/7nhxz7h5")}}
+        />
 
         <p className="inicio-section__subtitle">
 
