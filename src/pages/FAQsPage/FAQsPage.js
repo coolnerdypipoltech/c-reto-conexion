@@ -356,6 +356,22 @@ const faqGroups = [
       },
 
       {
+        question: "¿Qué pasa si no puedo agregar el calendario a mi celular?",
+        answer: (
+          <>
+            <span>Intenta </span>
+            <span style={{ color: "#FFFF0D" }}>copiar y pegar el siguiente enlace directamente en tu navegador</span>
+            <span>móvil preferido: </span>
+            <a href="https://codm1014.com/calendario/recordatorios.ics" target="_blank" rel="noopener noreferrer" style={{ color: "#FFFF0D", textDecoration: "underline" }}>
+              https://codm1014.com/calendario/recordatorios.ics
+            </a>
+            <span> Este te permitirá descargar el calendario de la actividad y activar recordatorios en tu teléfono. Si el problema persiste, te recomendamos revisar los permisos de tu calendario y asegurarte de haber autorizado todas las opciones de acceso.</span>
+            <span>Puedes seguirnos en nuestras redes sociales y activar las notificaciones, ya que también estaremos compartiendo recordatorios frecuentes por ese medio.</span>
+          </>
+        ),
+      },
+
+      {
         question: "¿Tienes más preguntas?",
         answer: (
           <>
