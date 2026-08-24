@@ -476,3 +476,17 @@
     transform: translateX(50%);
   }
 }
+
+@media (max-width: 720px) and (max-height: 700px ) {
+  .info-popup__list {
+    gap: 8px;
+  }
+  .info-popup__text {
+    font-size: 12px;
+  }
+
+  .info-popup{
+    
+    min-height: 530px;
+  }
+}
