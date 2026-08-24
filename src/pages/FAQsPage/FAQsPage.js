@@ -167,7 +167,7 @@ const faqGroups = [
           <>
             <span>Podrás realizar tu primer inicio de sesión el{" "}</span>
             <span style={{ color: "#FFFF0D" }}>
-              24 de agosto a partir de las 6PM (UTC-6)
+              24 de agosto antes de las 6PM (UTC-6)
             </span>
             <span>. Los inicios de sesión diarios serán después de las 6PM
             (UTC-6).</span>
