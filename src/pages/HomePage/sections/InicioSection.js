@@ -1,6 +1,5 @@
 import { useEffect, useRef } from "react";
-import Countdown from "../../../components/Countdown/Countdown";
-import { CHALLENGE_START_DATE } from "../../../utils/constants";
+
 
 import image1 from "../../../assets/mainPage/inicio/desktop/tiktok.png";
 import image2 from "../../../assets/mainPage/inicio/desktop/facebook.png";
@@ -18,7 +17,7 @@ import image6 from "../../../assets/mainPage/inicio/desktop/img_chica.png";
 import image7 from "../../../assets/mainPage/inicio/desktop/img_ghost.png";
 import image8 from "../../../assets/reto-conexion-logo.svg";
 import image9 from "../../../assets/cod-logo.svg";
-import image10 from "../../../assets/mainPage/inicio/desktop/home_elreto.png";
+
 import image11 from "../../../assets/mainPage/inicio/desktop/Buton.png";
 import "./InicioSection.css";
 import { useViewport } from "../../../context/ViewportContext";
@@ -26,6 +25,8 @@ import { useViewport } from "../../../context/ViewportContext";
 const InicioSection = () => {
   const { isMobile } = useViewport();
   const sectionRef = useRef(null);
+
+
 
   useEffect(() => {
     const el = sectionRef.current;
@@ -126,7 +127,15 @@ const InicioSection = () => {
           className="inicio-section__home-elreto"
           alt="Home New"
           loading="lazy"
-          onClick={() => {window.open("https://codmatvi.onelink.me/jYL7/7nhxz7h5")}}
+          onClick={() => {
+            if (window.gtag) {
+              window.gtag('event', 'DeepLink Click', {
+                event_category: 'engagement',
+                event_label: 'Reto Conexion deep link',
+              });
+            }
+            window.open("https://codmatvi.onelink.me/jYL7/7nhxz7h5");
+          }}
         />
 
         <p className="inicio-section__subtitle">
