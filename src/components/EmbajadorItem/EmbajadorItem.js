@@ -8,7 +8,7 @@ import insta from "../../assets/mainPage/embajadores/desktop/embajadores-insta.s
 import yt from "../../assets/mainPage/embajadores/desktop/embajadores-yt.svg"
 
 import { useViewport } from '../../context/ViewportContext';
-
+import { trackEvent, getFileName } from '../../utils/analytics';
 const EmbajadorItem = ({ slideDir, image, link1, link2}) => {
 
   let imageHolder1 = tiktok;
@@ -34,10 +34,20 @@ const EmbajadorItem = ({ slideDir, image, link1, link2}) => {
     <div className={`embajador-item ${slideDir === 'left' ? 'embajador-item--slide-left' : 'embajador-item--slide-right'}`}>
       <img src={image} alt="Embajador" className="embajador-item__image" />
       <div className="embajador-item__links">
-        <a href={link1} target="_blank" rel="noopener noreferrer">
+        <a
+          href={link1}
+          target="_blank"
+          rel="noopener noreferrer"
+          onClick={() => trackEvent('influencer_social', { 'social-link': link1 })}
+        >
           <img src={imageHolder1} alt="Link 1" />
         </a>
-        <a href={link2} target="_blank" rel="noopener noreferrer">
+        <a
+          href={link2}
+          target="_blank"
+          rel="noopener noreferrer"
+          onClick={() => trackEvent('influencer_social', { 'social-link': link2 })}
+        >
           <img src={imageHolder2} alt="Link 2" />
         </a>
       </div>
