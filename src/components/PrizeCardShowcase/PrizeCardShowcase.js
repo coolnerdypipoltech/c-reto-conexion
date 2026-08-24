@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
 import { createPortal } from 'react-dom';
-
+import { trackEvent, getFileName } from '../../utils/analytics';
 import './PrizeCardShowcase.css';
 
 const GLOW_DELAYS = [0, -1.1, -2.4, -3.3, -0.5, -1.8, -2.9, -3.8];
@@ -128,6 +128,12 @@ const PrizeCardShowcase = ({ cards, type }) => {
       button.style.transform = '';
       button.style.transition = 'transform .18s ease';
     }, 130);
+
+    trackEvent('select_prize_card', {
+      card_file: getFileName(card.src),
+      card_label: card.label,
+      card_tier: type || 'unknown',
+    });
 
     if (navigator.vibrate) { try { navigator.vibrate(12); } catch (err) { /* unsupported */ } }
 
