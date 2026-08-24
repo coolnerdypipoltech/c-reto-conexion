@@ -45,9 +45,9 @@ const faqGroups = [
           <>
             <span>Del </span>
             <span style={{ color: "#FFFF0D" }}>24 de agosto del </span>
-            <span> 2026 a las 6PM (UTC-6) al{" "}</span>
+            <span> 2026 a las 00:00 (UTC-6) al{" "}</span>
             <span style={{ color: "#FFFF0D" }}>6 de septiembre </span>
-            <span> del 2026 a las 6PM (UTC-6).</span>
+            <span> del 2026 a las 18:00 (UTC-6).</span>
           </>
         ),
       },
