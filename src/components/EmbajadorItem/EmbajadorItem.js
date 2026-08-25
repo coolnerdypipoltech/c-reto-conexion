@@ -38,7 +38,7 @@ const EmbajadorItem = ({ slideDir, image, link1, link2}) => {
           href={link1}
           target="_blank"
           rel="noopener noreferrer"
-          onClick={() => trackEvent('influencer_social', { 'social-link': link1 })}
+          onClick={() => trackEvent('influencer_social', { 'social_link': link1 })}
         >
           <img src={imageHolder1} alt="Link 1" />
         </a>
@@ -46,7 +46,7 @@ const EmbajadorItem = ({ slideDir, image, link1, link2}) => {
           href={link2}
           target="_blank"
           rel="noopener noreferrer"
-          onClick={() => trackEvent('influencer_social', { 'social-link': link2 })}
+          onClick={() => trackEvent('influencer_social', { 'social_link': link2 })}
         >
           <img src={imageHolder2} alt="Link 2" />
         </a>
