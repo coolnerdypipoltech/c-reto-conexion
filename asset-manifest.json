@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/c-reto-conexion/static/css/main.d105d1d7.css",
-    "main.js": "/c-reto-conexion/static/js/main.ec5f3c8b.js",
+    "main.css": "/c-reto-conexion/static/css/main.f7f5ca08.css",
+    "main.js": "/c-reto-conexion/static/js/main.dbdf9666.js",
     "static/js/453.9d3514db.chunk.js": "/c-reto-conexion/static/js/453.9d3514db.chunk.js",
     "static/media/Loading.mp4": "/c-reto-conexion/static/media/Loading.6cd263c9d88457ad2e75.mp4",
     "static/media/home_bckg.png": "/c-reto-conexion/static/media/home_bckg.c1378cfdff657326244a.png",
@@ -43,6 +43,7 @@
     "static/media/HitmarkerText-Medium.ttf": "/c-reto-conexion/static/media/HitmarkerText-Medium.d95156dc973e00034d9d.ttf",
     "static/media/HitmarkerText-Regular.ttf": "/c-reto-conexion/static/media/HitmarkerText-Regular.a229dca0d3d6a17517d5.ttf",
     "static/media/mobilebckg.png": "/c-reto-conexion/static/media/mobilebckg.8a9985110856908ba925.png",
+    "static/media/Logo_Azul.png": "/c-reto-conexion/static/media/Logo_Azul.4fb556cfc2be845232a6.png",
     "static/media/info-popup.png": "/c-reto-conexion/static/media/info-popup.d864c29109a3980e713a.png",
     "static/media/texture-8.png": "/c-reto-conexion/static/media/texture-8.f4b37010b47b7160f113.png",
     "static/media/info-art.png": "/c-reto-conexion/static/media/info-art.01f0ac578cf7597c6262.png",
@@ -50,6 +51,7 @@
     "static/media/15_Tarjeta_aleemeow.png": "/c-reto-conexion/static/media/15_Tarjeta_aleemeow.a9d0325277f97a78be0f.png",
     "static/media/sticker2.png": "/c-reto-conexion/static/media/sticker2.b190cc6aacfe8ba0c1ea.png",
     "static/media/25_Tarjeta_nixyrew.png": "/c-reto-conexion/static/media/25_Tarjeta_nixyrew.8c51e9ee9e1078363fa4.png",
+    "static/media/WinnersPage-TitleD.png": "/c-reto-conexion/static/media/WinnersPage-TitleD.87ba0ba2a2d32bb8550e.png",
     "static/media/08_Tarjeta_soythalas.png": "/c-reto-conexion/static/media/08_Tarjeta_soythalas.d5e45e397f3dc2aff83a.png",
     "static/media/21_Tarjeta_alucardv2.png": "/c-reto-conexion/static/media/21_Tarjeta_alucardv2.d3deda9f4a016e0540db.png",
     "static/media/faqs_tornado.png": "/c-reto-conexion/static/media/faqs_tornado.e1636ec9401d92669879.png",
@@ -59,6 +61,7 @@
     "static/media/embajadores-sticker2.png": "/c-reto-conexion/static/media/embajadores-sticker2.17de0a2aa7cade3326f1.png",
     "static/media/18_Tarjeta_carelygames.png": "/c-reto-conexion/static/media/18_Tarjeta_carelygames.a0b4c79c672aafe34d78.png",
     "static/media/12_Tarjeta_nosoytopher.png": "/c-reto-conexion/static/media/12_Tarjeta_nosoytopher.a1a5860aa5a751d442fd.png",
+    "static/media/WinnersPage-TitleM.png": "/c-reto-conexion/static/media/WinnersPage-TitleM.81387a40dea74cfa4905.png",
     "static/media/M_gradient.png": "/c-reto-conexion/static/media/M_gradient.6646a57770b61f6d3e58.png",
     "static/media/09_Tarjeta_Hisoka9210.png": "/c-reto-conexion/static/media/09_Tarjeta_Hisoka9210.1fed38705e43998dd831.png",
     "static/media/24_Tarjeta_applesitogg.png": "/c-reto-conexion/static/media/24_Tarjeta_applesitogg.5759a57802032dd3c1f7.png",
@@ -74,7 +77,6 @@
     "static/media/Faqs-title.png": "/c-reto-conexion/static/media/Faqs-title.8d94d066442facbfaa4e.png",
     "static/media/faqs-bckg2.png": "/c-reto-conexion/static/media/faqs-bckg2.2bf1c2db5ded8748c1dc.png",
     "static/media/20_Tarjeta_igrowan.png": "/c-reto-conexion/static/media/20_Tarjeta_igrowan.8100cfce6a9230e1f125.png",
-    "static/media/sticker4.png": "/c-reto-conexion/static/media/sticker4.854f14eddae5af90e9d8.png",
     "static/media/sticker5.png": "/c-reto-conexion/static/media/sticker5.8cf3f0303a46f4c0948e.png",
     "static/media/03_Tarjeta_edgardogrr.png": "/c-reto-conexion/static/media/03_Tarjeta_edgardogrr.1dbb474423447e63d3f1.png",
     "static/media/14_Tarjeta_exoticod.png": "/c-reto-conexion/static/media/14_Tarjeta_exoticod.52511cabfa39b71323f2.png",
@@ -89,7 +91,6 @@
     "static/media/primeicons.ttf": "/c-reto-conexion/static/media/primeicons.7e2f30c9e5de67796cff.ttf",
     "static/media/sticker6.png": "/c-reto-conexion/static/media/sticker6.0ce9a849ff5774ac1b63.png",
     "static/media/img_ghost.png": "/c-reto-conexion/static/media/img_ghost.41fa81e30a5c922e44a1.png",
-    "static/media/sticker1.png": "/c-reto-conexion/static/media/sticker1.b8bad2e56387e43726e1.png",
     "static/media/22_Tarjeta_adlyncovarrubias.png": "/c-reto-conexion/static/media/22_Tarjeta_adlyncovarrubias.512192612d9e65a15286.png",
     "static/media/10_Tarjeta_rambochiapaneco.png": "/c-reto-conexion/static/media/10_Tarjeta_rambochiapaneco.f03816bb13b5a7dd5f1b.png",
     "static/media/Recompensa_Tarjeta_10.png": "/c-reto-conexion/static/media/Recompensa_Tarjeta_10.1d011bcb367ae24de005.png",
@@ -97,6 +98,7 @@
     "static/media/Recompensa_Tarjeta_15.png": "/c-reto-conexion/static/media/Recompensa_Tarjeta_15.a5b0b42ff56ca3833ff9.png",
     "static/media/26_Tarjeta_noesm_yt.png": "/c-reto-conexion/static/media/26_Tarjeta_noesm_yt.4f8fb9320d3721ac3b95.png",
     "static/media/calendar-self.png": "/c-reto-conexion/static/media/calendar-self.5b92c7b54c8acd159f1a.png",
+    "static/media/Buton.png": "/c-reto-conexion/static/media/Buton.1c8a84f5b1065ba746e6.png",
     "static/media/B2S-2026-Winners.csv": "/c-reto-conexion/static/media/B2S-2026-Winners.490b65034e89cd1ced9a.csv",
     "static/media/Recompensa_Tarjeta_14.png": "/c-reto-conexion/static/media/Recompensa_Tarjeta_14.7aac8a35692d9692505f.png",
     "static/media/premios-legendarias.png": "/c-reto-conexion/static/media/premios-legendarias.b756990dc6eefee90851.png",
@@ -120,7 +122,6 @@
     "static/media/M_yellow.png": "/c-reto-conexion/static/media/M_yellow.d4800c7867dabb998f6f.png",
     "static/media/primeicons.woff2": "/c-reto-conexion/static/media/primeicons.2909bbb54be295cd3ca8.woff2",
     "static/media/faqs_ticket2.png": "/c-reto-conexion/static/media/faqs_ticket2.5d06e6758b50fb5aa24b.png",
-    "static/media/Buton.png": "/c-reto-conexion/static/media/Buton.388a0a783d662004380d.png",
     "static/media/reto_info-2.png": "/c-reto-conexion/static/media/reto_info-2.7961c45502e6f9ff115c.png",
     "static/media/reto_info-1.png": "/c-reto-conexion/static/media/reto_info-1.fcf728466d2300399524.png",
     "static/media/Header.png": "/c-reto-conexion/static/media/Header.0e4f6bfe7507989e13f1.png",
@@ -153,12 +154,12 @@
     "static/media/embajadores-yt.svg": "/c-reto-conexion/static/media/embajadores-yt.b9a9fe1d75d899c820e86336ee74ad87.svg",
     "static/media/embajadores-fb.svg": "/c-reto-conexion/static/media/embajadores-fb.2d5f9c50a608d369fbebbd99f3e456c4.svg",
     "index.html": "/c-reto-conexion/index.html",
-    "main.d105d1d7.css.map": "/c-reto-conexion/static/css/main.d105d1d7.css.map",
-    "main.ec5f3c8b.js.map": "/c-reto-conexion/static/js/main.ec5f3c8b.js.map",
+    "main.f7f5ca08.css.map": "/c-reto-conexion/static/css/main.f7f5ca08.css.map",
+    "main.dbdf9666.js.map": "/c-reto-conexion/static/js/main.dbdf9666.js.map",
     "453.9d3514db.chunk.js.map": "/c-reto-conexion/static/js/453.9d3514db.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d105d1d7.css",
-    "static/js/main.ec5f3c8b.js"
+    "static/css/main.f7f5ca08.css",
+    "static/js/main.dbdf9666.js"
   ]
 }
