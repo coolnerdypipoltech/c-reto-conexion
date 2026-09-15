@@ -1,4 +1,5 @@
 import { useEffect, useRef } from "react";
+import { useNavigate } from "react-router-dom";
 
 
 import image1 from "../../../assets/mainPage/inicio/desktop/tiktok.png";
@@ -25,6 +26,7 @@ import { useViewport } from "../../../context/ViewportContext";
 const InicioSection = () => {
   const { isMobile } = useViewport();
   const sectionRef = useRef(null);
+  const navigate = useNavigate();
 
 
 
@@ -115,10 +117,10 @@ const InicioSection = () => {
         loading="lazy"
       />
         <h1 className="inicio-section__title">
-          ¡PARTICIPA POR UNA RECOMPENSA <br></br>{" "}
-          <span style={{ color: "#E44968" }}>MÍTICA,</span>{" "}
-          <span style={{ color: "#FF9000" }}>LEGENDARIA</span> O{" "}
-          <span style={{ color: "#8A09E7" }}>ÉPICA!</span>
+          DESCUBRE A LOS GANADORES <br></br> DE LAS RECOMPENSAS <br></br>{" "}
+          <span style={{ color: "#E44968" }}>MÍTICAS,</span>{" "}
+          <span style={{ color: "#FF9000" }}>LEGENDARIAS</span> O{" "}
+          <span style={{ color: "#8A09E7" }}>ÉPICAS!</span>
         </h1>
 
 
@@ -134,15 +136,11 @@ const InicioSection = () => {
                 event_label: 'Reto Conexion deep link',
               });
             }
-            window.open("https://codmatvi.onelink.me/jYL7/7nhxz7h5");
+            navigate("/ganadores");
           }}
         />
 
-        <p className="inicio-section__subtitle">
 
-          Realiza tu primer inicio de sesión antes del {isMobile && <br></br>}
-          {!isMobile && <br></br>} 28 de agosto a las 6 PM (UTC-6).
-        </p>
       </div>
       {!isMobile ? (
         <>

@@ -16,10 +16,10 @@ import backArrow from '../../assets/premiosPage/desktop/premios-flechas.png';
 import homeGirl from '../../assets/mainPage/inicio/desktop/img_chica.png';
 import homeGhost from '../../assets/mainPage/inicio/desktop/img_ghost.png';
 
-import sticker1 from '../../assets/embajadoresPage/sticker1.png';
+
 import sticker2 from '../../assets/embajadoresPage/sticker2.png';
 import sticker3 from '../../assets/embajadoresPage/sticker3.png';
-import sticker4 from '../../assets/embajadoresPage/sticker4.png';
+
 import sticker5 from '../../assets/embajadoresPage/sticker5.png';
 import sticker6 from '../../assets/embajadoresPage/sticker6.png';
 
