@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/c-reto-conexion/static/css/main.268aa8fb.css",
-    "main.js": "/c-reto-conexion/static/js/main.dbdf9666.js",
+    "main.css": "/c-reto-conexion/static/css/main.3cc6c025.css",
+    "main.js": "/c-reto-conexion/static/js/main.0b073d7b.js",
     "static/js/453.9d3514db.chunk.js": "/c-reto-conexion/static/js/453.9d3514db.chunk.js",
     "static/media/Loading.mp4": "/c-reto-conexion/static/media/Loading.6cd263c9d88457ad2e75.mp4",
     "static/media/home_bckg.png": "/c-reto-conexion/static/media/home_bckg.c1378cfdff657326244a.png",
@@ -47,21 +47,21 @@
     "static/media/info-popup.png": "/c-reto-conexion/static/media/info-popup.d864c29109a3980e713a.png",
     "static/media/texture-8.png": "/c-reto-conexion/static/media/texture-8.f4b37010b47b7160f113.png",
     "static/media/info-art.png": "/c-reto-conexion/static/media/info-art.01f0ac578cf7597c6262.png",
+    "static/media/WinnersPage-TitleD.png": "/c-reto-conexion/static/media/WinnersPage-TitleD.774c8680726ff5a09431.png",
     "static/media/sticker3.png": "/c-reto-conexion/static/media/sticker3.80b793eac2508a9c5ee2.png",
     "static/media/15_Tarjeta_aleemeow.png": "/c-reto-conexion/static/media/15_Tarjeta_aleemeow.a9d0325277f97a78be0f.png",
     "static/media/sticker2.png": "/c-reto-conexion/static/media/sticker2.b190cc6aacfe8ba0c1ea.png",
     "static/media/25_Tarjeta_nixyrew.png": "/c-reto-conexion/static/media/25_Tarjeta_nixyrew.8c51e9ee9e1078363fa4.png",
-    "static/media/WinnersPage-TitleD.png": "/c-reto-conexion/static/media/WinnersPage-TitleD.87ba0ba2a2d32bb8550e.png",
     "static/media/08_Tarjeta_soythalas.png": "/c-reto-conexion/static/media/08_Tarjeta_soythalas.d5e45e397f3dc2aff83a.png",
     "static/media/21_Tarjeta_alucardv2.png": "/c-reto-conexion/static/media/21_Tarjeta_alucardv2.d3deda9f4a016e0540db.png",
     "static/media/faqs_tornado.png": "/c-reto-conexion/static/media/faqs_tornado.e1636ec9401d92669879.png",
     "static/media/29_Tarjeta_Infinix.png": "/c-reto-conexion/static/media/29_Tarjeta_Infinix.ccf179d99a9415b40215.png",
     "static/media/05_Tarjeta_sheik12ss.png": "/c-reto-conexion/static/media/05_Tarjeta_sheik12ss.7c1eeaf318884c60f009.png",
     "static/media/27_Tarjeta_soyjohnnygames.png": "/c-reto-conexion/static/media/27_Tarjeta_soyjohnnygames.6343e59e32979e2f54e3.png",
+    "static/media/WinnersPage-TitleM.png": "/c-reto-conexion/static/media/WinnersPage-TitleM.99d1669efa09d413e094.png",
     "static/media/embajadores-sticker2.png": "/c-reto-conexion/static/media/embajadores-sticker2.17de0a2aa7cade3326f1.png",
     "static/media/18_Tarjeta_carelygames.png": "/c-reto-conexion/static/media/18_Tarjeta_carelygames.a0b4c79c672aafe34d78.png",
     "static/media/12_Tarjeta_nosoytopher.png": "/c-reto-conexion/static/media/12_Tarjeta_nosoytopher.a1a5860aa5a751d442fd.png",
-    "static/media/WinnersPage-TitleM.png": "/c-reto-conexion/static/media/WinnersPage-TitleM.81387a40dea74cfa4905.png",
     "static/media/M_gradient.png": "/c-reto-conexion/static/media/M_gradient.6646a57770b61f6d3e58.png",
     "static/media/09_Tarjeta_Hisoka9210.png": "/c-reto-conexion/static/media/09_Tarjeta_Hisoka9210.1fed38705e43998dd831.png",
     "static/media/24_Tarjeta_applesitogg.png": "/c-reto-conexion/static/media/24_Tarjeta_applesitogg.5759a57802032dd3c1f7.png",
@@ -154,12 +154,12 @@
     "static/media/embajadores-yt.svg": "/c-reto-conexion/static/media/embajadores-yt.b9a9fe1d75d899c820e86336ee74ad87.svg",
     "static/media/embajadores-fb.svg": "/c-reto-conexion/static/media/embajadores-fb.2d5f9c50a608d369fbebbd99f3e456c4.svg",
     "index.html": "/c-reto-conexion/index.html",
-    "main.268aa8fb.css.map": "/c-reto-conexion/static/css/main.268aa8fb.css.map",
-    "main.dbdf9666.js.map": "/c-reto-conexion/static/js/main.dbdf9666.js.map",
+    "main.3cc6c025.css.map": "/c-reto-conexion/static/css/main.3cc6c025.css.map",
+    "main.0b073d7b.js.map": "/c-reto-conexion/static/js/main.0b073d7b.js.map",
     "453.9d3514db.chunk.js.map": "/c-reto-conexion/static/js/453.9d3514db.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.268aa8fb.css",
-    "static/js/main.dbdf9666.js"
+    "static/css/main.3cc6c025.css",
+    "static/js/main.0b073d7b.js"
   ]
 }
