@@ -116,7 +116,7 @@ const WinnersPage = () => {
             src={image2}
             alt="Regresar"
             className="premios-back-button"
-            onClick={() => goToSection("dudas")}
+            onClick={() => goToSection("inicio")}
           />
         </div>
         <div className="winners-page__hero container">
@@ -129,7 +129,7 @@ const WinnersPage = () => {
         {!isMobile && (
           <>
             {" "}
-            <div className="premios-section__home-girl-container" style={{ top: "100%" }}>
+            <div className="premios-section__home-girl-container" style={{ top: "100%", zIndex: 10 }}>
               <img
                 src={image3}
                 className="premios-section__home-girl"
@@ -141,7 +141,7 @@ const WinnersPage = () => {
             <img
               src={image4}
               className="premios-section__home-ghost"
-              style={{ top: "60%" }}
+              style={{ top: "55%", zIndex: 10 }}
               alt="Home Ghost"
               loading="lazy"
             />

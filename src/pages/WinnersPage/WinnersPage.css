@@ -91,6 +91,7 @@
 .winners-page__search {
   position: relative;
   flex: 1 1 260px;
+  z-index: 10;
 }
 
 .winners-page__search .pi-search {
@@ -114,7 +115,7 @@
 }
 
 .winners-page__rarity-filter {
-  min-width: 180px;
+  min-width: 209px;
   border-radius: 16px;
   font-family: "hitmarker-Bold";
 }
@@ -150,6 +151,8 @@
 .winners-page__table.p-datatable {
   font-family: var(--font-body);
   background: transparent;
+  position: relative;
+  z-index: 10;
 }
 
 .winners-page__table .p-datatable-wrapper {
@@ -179,7 +182,7 @@
 
 .winners-page__table .p-datatable-tbody > tr > td {
   border-color: black;
-  font-size: 14px;
+  font-size: 16px;
   color: black;
   text-align: center;
 }
@@ -193,12 +196,21 @@
 .p-dropdown-panel .p-dropdown-items {
   background: #33067E;
     font-family: "hitmarker-Bold";
-  font-size: 20px;
+  font-size: 16px;
+}
+
+.p-dropdown-panel{
+  z-index: 10 !important;
+}
+
+.p-dropdown.p-dropdown-clearable .p-dropdown-label{
+  font-family: "hitmarker-Bold";
+  font-size: 16px;
 }
 
 .p-paginator .p-dropdown .p-dropdown-label{
   font-family: "hitmarker-Bold";
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .p-dropdown-item.p-highlight.p-focus{
@@ -318,6 +330,13 @@ color: #E1FF00;
   width: 70%;
    max-width: 450px;
   }
+
+  .winners-page__table .p-datatable-tbody > tr > td {
+
+  font-size: 14px;
+
+}
+
 
 
   .winners-page__texture{
